@@ -1,0 +1,171 @@
+{
+  "version": "1.9.0",
+  "build": 14,
+  "date": "2026-09-24",
+  "notes": {
+    "new": {
+      "en": [
+        "The app now speaks 11 languages: Romanian, Belarusian, Kazakh, Kyrgyz, Azerbaijani, Uzbek, Armenian and Georgian have joined Ukrainian, Russian and English",
+        "Each address can have its own currency. If you leave it as is, the address uses the currency from the general settings",
+        "A repeating reminder can be set to any number of days from 1 to 365, not only to a value from the ready-made list",
+        "Analytics now has a comparison with the previous year: you can see in which month and for which service the consumption went up or down",
+        "If a new reading is far from the usual consumption, the app warns that there may be a mistake in the numbers",
+        "A long press on the app icon opens quick actions: \"Enter readings\", \"Photograph a meter\", \"Pay\""
+      ],
+      "ru": [
+        "Приложение теперь говорит на 11 языках: к украинскому, русскому и английскому добавились румынский, белорусский, казахский, киргизский, азербайджанский, узбекский, армянский и грузинский",
+        "Для каждого адреса можно выбрать свою валюту. Если её не менять, адрес считает в валюте из общих настроек",
+        "В повторяющемся напоминании можно задать любое число дней от 1 до 365, а не только выбрать из готового списка",
+        "В аналитике появилось сравнение с прошлым годом: видно, в каком месяце и на какой услуге расход вырос или упал",
+        "Если новое показание сильно отличается от обычного расхода, приложение предупредит, что в цифрах могла быть ошибка",
+        "Долгое нажатие на значок приложения открывает быстрые действия: «Внести показания», «Сфотографировать счётчик», «Оплатить»"
+      ],
+      "uk": [
+        "Застосунок тепер розмовляє 11 мовами: до української, російської та англійської додалися румунська, білоруська, казахська, киргизька, азербайджанська, узбецька, вірменська та грузинська",
+        "Для кожної адреси можна вибрати свою валюту. Якщо її не змінювати, адреса рахує у валюті із загальних налаштувань",
+        "У повторюваному нагадуванні можна задати будь-яку кількість днів від 1 до 365, а не лише вибрати з готового списку",
+        "В аналітиці з'явилося порівняння з минулим роком: видно, в якому місяці і на якій послузі витрата зросла чи зменшилася",
+        "Якщо нове показання сильно відрізняється від звичайної витрати, застосунок попередить, що в цифрах могла бути помилка",
+        "Довге натискання на значок застосунку відкриває швидкі дії: «Внести показання», «Сфотографувати лічильник», «Оплатити»"
+      ],
+      "ro": [
+        "Aplicația vorbește acum 11 limbi: pe lângă ucraineană, rusă și engleză au apărut româna, belarusa, kazaha, kârgâza, azera, uzbeca, armeana și georgiana",
+        "Fiecare adresă poate avea propria monedă. Dacă nu o schimbați, adresa folosește moneda din setările generale",
+        "Într-un memento repetat puteți seta orice număr de zile de la 1 la 365, nu doar o valoare din lista gata făcută",
+        "În analize a apărut comparația cu anul trecut: se vede în ce lună și la ce serviciu consumul a crescut sau a scăzut",
+        "Dacă o citire nouă diferă mult de consumul obișnuit, aplicația vă avertizează că în cifre poate fi o greșeală",
+        "O apăsare lungă pe pictograma aplicației deschide acțiuni rapide: „Introduceți citirile”, „Fotografiați contorul”, „Plătiți”"
+      ],
+      "be": [
+        "Праграма цяпер размаўляе на 11 мовах: да ўкраінскай, рускай і англійскай дадаліся румынская, беларуская, казахская, кіргізская, азербайджанская, узбекская, армянская і грузінская",
+        "Для кожнага адраса можна выбраць сваю валюту. Калі яе не змяняць, адрас лічыць у валюце з агульных налад",
+        "У паўторным напамінку можна задаць любую колькасць дзён ад 1 да 365, а не толькі выбраць з гатовага спіса",
+        "У аналітыцы з'явілася параўнанне з мінулым годам: відаць, у якім месяцы і на якой паслузе расход вырас ці зменшыўся",
+        "Калі новае паказанне моцна адрозніваецца ад звычайнага расходу, праграма папярэдзіць, што ў лічбах магла быць памылка",
+        "Доўгі націск на значок праграмы адкрывае хуткія дзеянні: «Унесці паказанні», «Сфатаграфаваць лічыльнік», «Аплаціць»"
+      ],
+      "kk": [
+        "Қосымша енді 11 тілде сөйлейді: украин, орыс және ағылшын тілдеріне румын, беларусь, қазақ, қырғыз, әзірбайжан, өзбек, армян және грузин тілдері қосылды",
+        "Әр мекенжайға өз валютасын таңдауға болады. Егер оны өзгертпесеңіз, мекенжай жалпы баптаулардағы валютамен есептейді",
+        "Қайталанатын еске салғышта дайын тізімнен таңдаумен қатар, 1-ден 365-ке дейінгі кез келген күн санын беруге болады",
+        "Талдауда өткен жылмен салыстыру пайда болды: қай айда және қай қызмет бойынша шығын өскені немесе азайғаны көрінеді",
+        "Жаңа көрсеткіш әдеттегі шығыннан қатты өзгеше болса, қосымша сандарда қате болуы мүмкін екенін ескертеді",
+        "Қосымша белгішесін ұзақ басқанда жылдам әрекеттер ашылады: «Көрсеткіштерді енгізу», «Есептегішті суретке түсіру», «Төлеу»"
+      ],
+      "ky": [
+        "Колдонмо эми 11 тилде сүйлөйт: украин, орус жана англис тилдерине румын, беларус, казак, кыргыз, азербайжан, өзбек, армян жана грузин тилдери кошулду",
+        "Ар бир дарекке өз валютасын тандоого болот. Эгер аны өзгөртпөсөңүз, дарек жалпы жөндөөлөрдөгү валюта менен эсептейт",
+        "Кайталануучу эскертмеде даяр тизмеден тандоо менен катар 1ден 365ке чейинки каалаган күн санын коюуга болот",
+        "Талдоодо өткөн жыл менен салыштыруу пайда болду: кайсы айда жана кайсы кызмат боюнча чыгым өскөнү же азайганы көрүнөт",
+        "Жаңы көрсөткүч кадимки чыгымдан кескин айырмаланса, колдонмо сандарда ката болушу мүмкүн экенин эскертет",
+        "Колдонмонун белгисин узак басканда тез аракеттер ачылат: «Көрсөткүчтөрдү киргизүү», «Эсептегичти сүрөткө тартуу», «Төлөө»"
+      ],
+      "az": [
+        "Tətbiq indi 11 dildə danışır: ukrayna, rus və ingilis dillərinə rumın, belarus, qazax, qırğız, azərbaycan, özbək, erməni və gürcü dilləri əlavə olundu",
+        "Hər ünvan üçün öz valyutasını seçmək olar. Onu dəyişməsəniz, ünvan ümumi ayarlardakı valyuta ilə hesablayır",
+        "Təkrarlanan xatırlatmada hazır siyahıdan seçməklə yanaşı, 1-dən 365-ə qədər istənilən gün sayını təyin etmək olar",
+        "Analitikada keçən illə müqayisə yarandı: hansı ayda və hansı xidmət üzrə sərfiyyatın artdığı və ya azaldığı görünür",
+        "Yeni göstərici adi sərfiyyatdan xeyli fərqlənirsə, tətbiq rəqəmlərdə səhv ola biləcəyi barədə xəbərdarlıq edir",
+        "Tətbiq nişanına uzun basanda sürətli əməliyyatlar açılır: «Göstəriciləri daxil et», «Sayğacın şəklini çək», «Ödə»"
+      ],
+      "uz": [
+        "Ilova endi 11 tilda gapiradi: ukrain, rus va ingliz tillariga rumin, belarus, qozoq, qirgʻiz, ozarbayjon, oʻzbek, arman va gruzin tillari qoʻshildi",
+        "Har bir manzil uchun oʻz valyutasini tanlash mumkin. Agar uni oʻzgartirmasangiz, manzil umumiy sozlamalardagi valyutada hisoblaydi",
+        "Takrorlanuvchi eslatmada tayyor roʻyxatdan tanlashdan tashqari, 1 dan 365 gacha istalgan kunlar sonini belgilash mumkin",
+        "Tahlilda oʻtgan yil bilan taqqoslash paydo boʻldi: qaysi oyda va qaysi xizmat boʻyicha sarf oshgani yoki kamaygani koʻrinadi",
+        "Yangi koʻrsatkich odatdagi sarfdan keskin farq qilsa, ilova raqamlarda xato boʻlishi mumkinligi haqida ogohlantiradi",
+        "Ilova belgisini uzoq bosganda tezkor amallar ochiladi: «Koʻrsatkichlarni kiritish», «Hisoblagichni suratga olish», «Toʻlash»"
+      ],
+      "hy": [
+        "Հավելվածն այժմ խոսում է 11 լեզվով՝ ուկրաիներենին, ռուսերենին և անգլերենին ավելացել են ռումիներենը, բելառուսերենը, ղազախերենը, ղրղզերենը, ադրբեջաներենը, ուզբեկերենը, հայերենը և վրացերենը",
+        "Յուրաքանչյուր հասցեի համար կարելի է ընտրել իր արժույթը։ Եթե այն չփոխեք, հասցեն հաշվում է ընդհանուր կարգավորումների արժույթով",
+        "Կրկնվող հիշեցման մեջ կարելի է նշել ցանկացած օրերի քանակ 1-ից 365, ոչ միայն ընտրել պատրաստի ցանկից",
+        "Վերլուծության մեջ հայտնվել է համեմատություն նախորդ տարվա հետ՝ երևում է, թե որ ամսին և որ ծառայության գծով է ծախսն աճել կամ նվազել",
+        "Եթե նոր ցուցմունքը խիստ տարբերվում է սովորական ծախսից, հավելվածը կզգուշացնի, որ թվերում կարող է սխալ լինել",
+        "Հավելվածի պատկերակի վրա երկար սեղմելը բացում է արագ գործողություններ՝ «Մուտքագրել ցուցմունքները», «Լուսանկարել հաշվիչը», «Վճարել»"
+      ],
+      "ka": [
+        "აპლიკაცია ახლა 11 ენაზე საუბრობს: უკრაინულს, რუსულსა და ინგლისურს დაემატა რუმინული, ბელარუსული, ყაზახური, ყირგიზული, აზერბაიჯანული, უზბეკური, სომხური და ქართული",
+        "თითოეულ მისამართს შეიძლება ჰქონდეს საკუთარი ვალუტა. თუ მას არ შეცვლით, მისამართი ზოგადი პარამეტრების ვალუტით ითვლის",
+        "განმეორებად შეხსენებაში შეგიძლიათ მიუთითოთ დღეების ნებისმიერი რაოდენობა 1-დან 365-მდე და არა მხოლოდ მზა სიიდან აირჩიოთ",
+        "ანალიტიკაში გაჩნდა შედარება წინა წელთან: ჩანს, რომელ თვეში და რომელ მომსახურებაზე გაიზარდა ან შემცირდა მოხმარება",
+        "თუ ახალი ჩვენება მკვეთრად განსხვავდება ჩვეულებრივი მოხმარებისგან, აპლიკაცია გაგაფრთხილებთ, რომ ციფრებში შეიძლება შეცდომა იყოს",
+        "აპლიკაციის ხატულაზე ხანგრძლივი დაჭერა ხსნის სწრაფ მოქმედებებს: „ჩვენებების შეყვანა“, „მრიცხველის გადაღება“, „გადახდა“"
+      ]
+    },
+    "fix": {
+      "en": [
+        "When you correct a reading, the next month is recalculated automatically",
+        "When you delete a month or a service, the next month is recalculated automatically too",
+        "The \"Regular\" tariff type now has its own clear description",
+        "Many small fixes to the look of the app"
+      ],
+      "ru": [
+        "Если исправить показание, следующий месяц сам пересчитывается",
+        "Если удалить месяц или услугу, следующий месяц тоже сам пересчитывается",
+        "У вида тарификации «Обычная» теперь своё понятное описание",
+        "Много мелких правок внешнего вида"
+      ],
+      "uk": [
+        "Якщо виправити показання, наступний місяць сам перераховується",
+        "Якщо видалити місяць або послугу, наступний місяць теж сам перераховується",
+        "Вид тарифікації «Звичайна» тепер має власний зрозумілий опис",
+        "Багато дрібних правок зовнішнього вигляду"
+      ],
+      "ro": [
+        "Când corectați o citire, luna următoare se recalculează automat",
+        "Când ștergeți o lună sau un serviciu, luna următoare se recalculează tot automat",
+        "Tipul de tarifare „Obișnuită” are acum o descriere proprie, clară",
+        "Multe mici corecturi ale aspectului aplicației"
+      ],
+      "be": [
+        "Калі выправіць паказанне, наступны месяц сам пералічваецца",
+        "Калі выдаліць месяц або паслугу, наступны месяц таксама сам пералічваецца",
+        "Від тарыфікацыі «Звычайная» цяпер мае ўласнае зразумелае апісанне",
+        "Шмат дробных правак знешняга выгляду"
+      ],
+      "kk": [
+        "Көрсеткішті түзеткенде келесі ай өзі қайта есептеледі",
+        "Айды немесе қызметті жойғанда да келесі ай өзі қайта есептеледі",
+        "«Кәдімгі» тарифтеу түрінің енді өз түсінікті сипаттамасы бар",
+        "Сыртқы көрініске көптеген ұсақ түзетулер"
+      ],
+      "ky": [
+        "Көрсөткүчтү оңдогондо кийинки ай өзү кайра эсептелет",
+        "Айды же кызматты өчүргөндө да кийинки ай өзү кайра эсептелет",
+        "«Кадимки» тарифтөө түрүнүн эми өзүнүн түшүнүктүү сүрөттөмөсү бар",
+        "Сырткы көрүнүшкө көптөгөн майда оңдоолор"
+      ],
+      "az": [
+        "Göstəricini düzəltdikdə növbəti ay avtomatik yenidən hesablanır",
+        "Ayı və ya xidməti sildikdə də növbəti ay avtomatik yenidən hesablanır",
+        "«Adi» tarifləşdirmə növünün indi öz aydın təsviri var",
+        "Görünüşdə çoxlu kiçik düzəlişlər"
+      ],
+      "uz": [
+        "Koʻrsatkich tuzatilganda keyingi oy avtomatik qayta hisoblanadi",
+        "Oy yoki xizmat oʻchirilganda ham keyingi oy avtomatik qayta hisoblanadi",
+        "«Oddiy» tariflash turining endi oʻz tushunarli tavsifi bor",
+        "Tashqi koʻrinishga koʻplab mayda tuzatishlar"
+      ],
+      "hy": [
+        "Ցուցմունքն ուղղելիս հաջորդ ամիսն ինքնաբերաբար վերահաշվարկվում է",
+        "Ամիսը կամ ծառայությունը ջնջելիս նույնպես հաջորդ ամիսն ինքնաբերաբար վերահաշվարկվում է",
+        "«Սովորական» սակագնման տեսակն այժմ ունի իր հստակ նկարագրությունը",
+        "Արտաքին տեսքի բազմաթիվ փոքր ուղղումներ"
+      ],
+      "ka": [
+        "ჩვენების შესწორებისას მომდევნო თვე ავტომატურად გადაითვლება",
+        "თვის ან მომსახურების წაშლისას მომდევნო თვეც ავტომატურად გადაითვლება",
+        "ტარიფიკაციის ტიპს „ჩვეულებრივი“ ახლა საკუთარი გასაგები აღწერა აქვს",
+        "გარეგნობის მრავალი მცირე შესწორება"
+      ]
+    }
+  },
+  "file": "kommeter-v1_9_0.apk",
+  "size": 157626106,
+  "sha256": "d8ca6a7f2fe784c68b49c50b069ae340269ae3dc8db26e8780d803b2d8ac35bc",
+  "urls": [
+    "https://github.com/foleksapps/kommeter-releases/releases/download/v1.9.0%2B14/kommeter-v1_9_0.apk"
+  ]
+}
