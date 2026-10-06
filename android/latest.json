@@ -1,217 +1,49 @@
 {
-  "version": "1.11.0",
-  "build": 16,
-  "date": "2026-10-05",
+  "version": "1.11.1",
+  "build": 17,
+  "date": "2026-10-06",
   "notes": {
     "new": {
       "en": [
-        "Bill for the tenant, for those who rent out their home. In \"Operations\" the app builds one PDF: the month's services with readings and amounts, the rent, the total to pay, payment details and photos of the meters. It can be printed, saved or sent",
-        "Payment due date and calendar. A bill can have a day it must be paid by, and the app reminds you in advance. An overdue bill is marked in red. The new calendar (a button at the top of the screen) gathers all the dates: payment deadlines, the end of meter verification and of document validity, reminders. The time of these notifications can be chosen in the settings",
-        "\"Trust in the numbers\". Under the month's amount you can open \"How it was calculated\" — the calculation step by step: consumption, tariff rates, benefits, rounding. When a reading or an amount already entered is changed, the app remembers the old and the new value. After a deletion you can tap \"Undo\"",
-        "Assistant for a new address. Step by step: what the home has (electricity, gas, water, heating, maintenance fee and more), tariffs, starting readings and bills. The result is a ready address",
-        "Address setup for neighbours. Meters, services, tariffs and bill payment details can be sent to a neighbour in one file, and they create their own address from it. Nothing personal goes into the file: readings, amounts, payments, photos, the name and the street",
-        "Directory in one tap: a button at the top of every main tab and a \"Directory\" item when you press and hold the app icon",
-        "Home screen in the \"Tiles\" view: the tiles of meters, services and bills can be reordered, and the ones you do not need can be turned off — just like in \"Overview\"",
-        "The bank fee is shown on its own line in the totals of the month's bills",
-        "Tags with a name in the text of a message and an email: a tag is inserted together with its label, for example \"Cold water, current reading — …\", so the text is clear to the recipient right away"
+        "Directory and documents right in the month. An opened meter or service card ends with the \"Directory\" and \"Documents\" rows: the services that look after this meter and its documents. A tap opens the service card or the document"
       ],
       "ru": [
-        "Счёт жильцу — для тех, кто сдаёт жильё. В «Операциях» собирается один файл PDF: услуги месяца с показаниями и суммами, аренда, итог к оплате, реквизиты и фото счётчиков. Его можно распечатать, сохранить или отправить",
-        "Срок оплаты счёта и календарь. У счёта можно указать, до какого числа его оплатить, и приложение напомнит заранее. Просроченный счёт помечается красным. Новый календарь (кнопка вверху экрана) собирает все даты: сроки оплаты, окончание поверки счётчиков и срока документов, напоминания. В настройках можно выбрать время, когда приходят такие уведомления",
-        "«Доверие к цифрам». Под суммой месяца можно раскрыть «Как посчитано» — расчёт по шагам: расход, ставки тарифа, льготы, округление. Если изменить уже внесённое показание или сумму, приложение запомнит, что было и что стало. После удаления можно нажать «Вернуть»",
-        "Помощник нового адреса. Шаг за шагом: что есть в квартире (свет, газ, вода, отопление, квартплата и другое), тарифы, начальные показания и счета. На выходе — готовый адрес",
-        "Настройка адреса для соседей. Счётчики, услуги, тарифы и реквизиты счетов можно отправить соседу одним файлом, а он создаст из него свой адрес. Личное в файл не попадает: показания, суммы, оплаты, фото, название и улица",
-        "Справочник в одно нажатие: кнопка вверху любой главной вкладки и пункт «Справочник» при долгом нажатии на значок приложения",
-        "Главный экран в виде «Плитки»: плитки счётчиков, услуг и счетов можно менять местами и отключать ненужные — так же, как в «Обзоре»",
-        "Комиссия банка показывается отдельной строкой в итогах по счетам месяца",
-        "Теги с названием в тексте сообщения и письма: тег вставляется вместе с подписью, например «Холодная вода, текущее показание — …», и текст сразу понятен получателю"
+        "Справочник и документы прямо в месяце. В раскрытой карточке счётчика или услуги внизу есть строки «Справочник» и «Документы»: службы, которые обслуживают этот счётчик, и его документы. Нажатие открывает карточку службы или документ"
       ],
       "uk": [
-        "Рахунок мешканцю — для тих, хто здає житло. В «Операціях» збирається один файл PDF: послуги місяця з показаннями й сумами, оренда, підсумок до сплати, реквізити та фото лічильників. Його можна роздрукувати, зберегти або надіслати",
-        "Строк оплати рахунку і календар. Для рахунку можна вказати, до якого числа його сплатити, і застосунок нагадає заздалегідь. Прострочений рахунок позначається червоним. Новий календар (кнопка вгорі екрана) збирає всі дати: строки оплати, закінчення повірки лічильників і терміну документів, нагадування. У налаштуваннях можна вибрати час, коли надходять такі сповіщення",
-        "«Довіра до цифр». Під сумою місяця можна розгорнути «Як пораховано» — розрахунок за кроками: витрата, ставки тарифу, пільги, округлення. Якщо змінити вже внесене показання чи суму, застосунок запам'ятає, що було і що стало. Після видалення можна натиснути «Повернути»",
-        "Помічник нової адреси. Крок за кроком: що є в оселі (світло, газ, вода, опалення, квартплата та інше), тарифи, початкові показання й рахунки. На виході — готова адреса",
-        "Налаштування адреси для сусідів. Лічильники, послуги, тарифи та реквізити рахунків можна надіслати сусідові одним файлом, а він створить із нього свою адресу. Особисте у файл не потрапляє: показання, суми, оплати, фото, назва й вулиця",
-        "Довідник в одне натискання: кнопка вгорі будь-якої головної вкладки та пункт «Довідник» при довгому натисканні на значок застосунку",
-        "Головний екран у вигляді «Плитки»: плитки лічильників, послуг і рахунків можна міняти місцями й вимикати зайві — так само, як в «Огляді»",
-        "Комісія банку показується окремим рядком у підсумках за рахунками місяця",
-        "Теги з назвою в тексті повідомлення та листа: тег вставляється разом із підписом, наприклад «Холодна вода, поточне показання — …», і текст одразу зрозумілий отримувачу"
+        "Довідник і документи просто в місяці. У розгорнутій картці лічильника чи послуги внизу є рядки «Довідник» і «Документи»: служби, які обслуговують цей лічильник, і його документи. Натискання відкриває картку служби або документ"
       ],
       "ro": [
-        "Factură pentru chiriaș — pentru cei care dau locuința în chirie. În „Operațiuni” se alcătuiește un singur fișier PDF: serviciile lunii cu citiri și sume, chiria, totalul de plată, datele de plată și fotografiile contoarelor. Poate fi tipărit, salvat sau trimis",
-        "Termen de plată și calendar. Pentru o factură se poate stabili ziua până la care trebuie plătită, iar aplicația vă amintește din timp. O factură restantă este marcată cu roșu. Noul calendar (butonul din partea de sus a ecranului) adună toate datele: termenele de plată, sfârșitul verificării metrologice a contoarelor și al valabilității documentelor, mementourile. Ora acestor notificări se alege din setări",
-        "„Încredere în cifre”. Sub suma lunii se poate deschide „Cum s-a calculat” — calculul pas cu pas: consumul, tarifele, facilitățile, rotunjirea. Dacă schimbați o citire sau o sumă deja introdusă, aplicația ține minte valoarea veche și pe cea nouă. După o ștergere puteți apăsa „Anulează”",
-        "Asistent pentru o adresă nouă. Pas cu pas: ce există în locuință (electricitate, gaz, apă, încălzire, întreținere și altele), tarifele, citirile inițiale și facturile. La final — o adresă gata de folosit",
-        "Configurarea adresei pentru vecini. Contoarele, serviciile, tarifele și datele de plată ale facturilor pot fi trimise unui vecin într-un singur fișier, iar el își creează din el propria adresă. Nimic personal nu ajunge în fișier: citirile, sumele, plățile, fotografiile, denumirea și strada",
-        "Agenda dintr-o singură atingere: un buton în partea de sus a oricărei file principale și elementul „Agendă” la apăsarea lungă pe pictograma aplicației",
-        "Ecranul principal în modul „Plăci”: plăcile contoarelor, serviciilor și facturilor pot fi mutate, iar cele inutile pot fi dezactivate — la fel ca în „Prezentare”",
-        "Comisionul băncii apare pe un rând separat în totalurile facturilor lunii",
-        "Etichete cu denumire în textul mesajului și al e-mailului: eticheta se inserează împreună cu denumirea, de exemplu „Apă rece, citirea curentă — …”, iar textul este clar pentru destinatar"
+        "Agenda și documentele direct în lună. Fișa deschisă a unui contor sau a unui serviciu are la final rândurile „Agendă” și „Documente”: serviciile care se ocupă de acest contor și documentele lui. O atingere deschide fișa serviciului sau documentul"
       ],
       "be": [
-        "Рахунак жыхару — для тых, хто здае жыллё. У «Аперацыях» збіраецца адзін файл PDF: паслугі месяца з паказаннямі і сумамі, арэнда, вынік да аплаты, рэквізіты і фота лічыльнікаў. Яго можна раздрукаваць, захаваць або адправіць",
-        "Тэрмін аплаты рахунку і каляндар. Для рахунку можна паказаць, да якога чысла яго аплаціць, і праграма нагадае загадзя. Пратэрмінаваны рахунак пазначаецца чырвоным. Новы каляндар (кнопка ўверсе экрана) збірае ўсе даты: тэрміны аплаты, заканчэнне паверкі лічыльнікаў і тэрміну дакументаў, напаміны. У наладах можна выбраць час, калі прыходзяць такія апавяшчэнні",
-        "«Давер да лічбаў». Пад сумай месяца можна разгарнуць «Як падлічана» — разлік па кроках: расход, стаўкі тарыфу, ільготы, акругленне. Калі змяніць ужо ўнесенае паказанне ці суму, праграма запомніць, што было і што стала. Пасля выдалення можна націснуць «Вярнуць»",
-        "Памочнік новага адраса. Крок за крокам: што ёсць у кватэры (святло, газ, вада, ацяпленне, кватэрная плата і іншае), тарыфы, пачатковыя паказанні і рахункі. На выхадзе — гатовы адрас",
-        "Наладка адраса для суседзяў. Лічыльнікі, паслугі, тарыфы і рэквізіты рахункаў можна адправіць суседу адным файлам, а ён створыць з яго свой адрас. Асабістае ў файл не трапляе: паказанні, сумы, аплаты, фота, назва і вуліца",
-        "Даведнік у адно націсканне: кнопка ўверсе любой галоўнай укладкі і пункт «Даведнік» пры доўгім націсканні на значок праграмы",
-        "Галоўны экран у выглядзе «Пліткі»: пліткі лічыльнікаў, паслуг і рахункаў можна мяняць месцамі і адключаць лішнія — гэтак жа, як у «Аглядзе»",
-        "Камісія банка паказваецца асобным радком у выніках па рахунках месяца",
-        "Тэгі з назвай у тэксце паведамлення і ліста: тэг устаўляецца разам з подпісам, напрыклад «Халодная вада, бягучае паказанне — …», і тэкст адразу зразумелы атрымальніку"
+        "Даведнік і дакументы проста ў месяцы. У разгорнутай картцы лічыльніка ці паслугі ўнізе ёсць радкі «Даведнік» і «Дакументы»: службы, якія абслугоўваюць гэты лічыльнік, і яго дакументы. Націсканне адкрывае картку службы або дакумент"
       ],
       "kk": [
-        "Жалға алушыға шот — тұрғын үйді жалға беретіндер үшін. «Операциялар» бөлімінде бір PDF файлы жасалады: айдағы қызметтер көрсеткіштері мен сомаларымен, жалдау ақысы, төлеуге жататын жиынтық, деректемелер және есептегіштердің фотосы. Оны басып шығаруға, сақтауға немесе жіберуге болады",
-        "Шотты төлеу мерзімі және күнтізбе. Шотқа оны айдың қай күніне дейін төлеу керектігін көрсетуге болады, ал қосымша алдын ала еске салады. Мерзімі өткен шот қызылмен белгіленеді. Жаңа күнтізбе (экранның жоғарғы жағындағы түйме) барлық күндерді жинайды: төлеу мерзімдері, есептегіштерді тексеру мерзімінің және құжаттар мерзімінің аяқталуы, еске салғыштар. Мұндай хабарландырулардың уақытын баптауларда таңдауға болады",
-        "«Сандарға сенім». Айдың сомасының астынан «Қалай есептелді» бөлімін ашуға болады — қадамдап есептеу: шығын, тариф мөлшерлемелері, жеңілдіктер, дөңгелектеу. Енгізілген көрсеткішті немесе соманы өзгертсеңіз, қосымша бұрынғы және жаңа мәнін есте сақтайды. Жойғаннан кейін «Қайтару» түймесін басуға болады",
-        "Жаңа мекенжай көмекшісі. Қадамдап: үйде не бар (жарық, газ, су, жылу, пәтер ақысы және басқалар), тарифтер, бастапқы көрсеткіштер мен шоттар. Нәтижесінде — дайын мекенжай",
-        "Көршілерге арналған мекенжай баптауы. Есептегіштерді, қызметтерді, тарифтерді және шоттардың деректемелерін көршіге бір файлмен жіберуге болады, ал ол одан өз мекенжайын жасайды. Файлға жеке ештеңе түспейді: көрсеткіштер, сомалар, төлемдер, фотолар, атауы мен көше",
-        "Анықтамалық бір басумен: кез келген басты қойындының жоғарғы жағындағы түйме және қосымша белгішесін басып тұрғанда «Анықтамалық» тармағы",
-        "«Тақтайшалар» түріндегі басты экран: есептегіштердің, қызметтердің және шоттардың тақтайшаларының орнын ауыстыруға және қажетсіздерін өшіруге болады — «Шолу» түріндегідей",
-        "Банк комиссиясы айдағы шоттар бойынша жиынтықта жеке жолмен көрсетіледі",
-        "Хабарлама мен хат мәтініндегі атауы бар тегтер: тег жазуымен бірге қойылады, мысалы «Суық су, ағымдағы көрсеткіш — …», және мәтін алушыға бірден түсінікті"
+        "Анықтамалық пен құжаттар тікелей айдың ішінде. Есептегіштің немесе қызметтің ашылған карточкасының төменгі жағында «Анықтамалық» және «Құжаттар» жолдары бар: осы есептегішке қызмет көрсететін қызметтер және оның құжаттары. Басу қызмет карточкасын немесе құжатты ашады"
       ],
       "ky": [
-        "Ижарачыга эсеп — турак жайды ижарага бергендер үчүн. «Операциялар» бөлүмүндө бир PDF файл түзүлөт: айдын кызматтары көрсөткүчтөрү жана суммалары менен, ижара акысы, төлөнө турган жыйынтык, реквизиттер жана эсептегичтердин сүрөттөрү. Аны басып чыгарууга, сактоого же жөнөтүүгө болот",
-        "Эсепти төлөө мөөнөтү жана календарь. Эсеп үчүн аны айдын кайсы күнүнө чейин төлөө керектигин көрсөтүүгө болот, ал эми колдонмо алдын ала эскертет. Мөөнөтү өткөн эсеп кызыл менен белгиленет. Жаңы календарь (экрандын жогору жагындагы баскыч) бардык даталарды чогултат: төлөө мөөнөттөрү, эсептегичтерди текшерүүнүн жана документтердин мөөнөтүнүн бүтүшү, эскертмелер. Мындай билдирмелердин убактысын жөндөөлөрдөн тандоого болот",
-        "«Сандарга ишеним». Айдын суммасынын астынан «Кантип эсептелди» бөлүгүн ачууга болот — кадам-кадам эсептөө: чыгым, тарифтин чендери, жеңилдиктер, тегеректөө. Киргизилген көрсөткүчтү же сумманы өзгөртсөңүз, колдонмо мурунку жана жаңы маанисин эстеп калат. Өчүргөндөн кийин «Кайтаруу» баскычын басууга болот",
-        "Жаңы дарек жардамчысы. Кадам-кадам: үйдө эмне бар (жарык, газ, суу, жылытуу, батир акысы жана башкалар), тарифтер, баштапкы көрсөткүчтөр жана эсептер. Натыйжада — даяр дарек",
-        "Кошуналар үчүн даректин жөндөөсү. Эсептегичтерди, кызматтарды, тарифтерди жана эсептердин реквизиттерин кошунага бир файл менен жөнөтүүгө болот, ал андан өзүнүн дарегин түзөт. Файлга жеке эч нерсе кирбейт: көрсөткүчтөр, суммалар, төлөмдөр, сүрөттөр, аталышы жана көчө",
-        "Маалымдама бир басуу менен: ар бир башкы өтмөктүн жогору жагындагы баскыч жана колдонмонун белгисин басып турганда «Маалымдама» пункту",
-        "«Плиткалар» түрүндөгү башкы экран: эсептегичтердин, кызматтардын жана эсептердин плиткаларынын ордун алмаштырууга жана керексиздерин өчүрүүгө болот — «Сереп» түрүндөгүдөй эле",
-        "Банктын комиссиясы айдын эсептери боюнча жыйынтыкта өзүнчө сап менен көрсөтүлөт",
-        "Билдирүүнүн жана каттын текстиндеги аталышы бар тегдер: тег жазуусу менен кошо коюлат, мисалы «Муздак суу, учурдагы көрсөткүч — …», жана текст алуучуга дароо түшүнүктүү"
+        "Маалымдама жана документтер түз эле айдын ичинде. Эсептегичтин же кызматтын ачылган карточкасынын ылдыйында «Маалымдама» жана «Документтер» саптары бар: бул эсептегичти тейлеген кызматтар жана анын документтери. Басканда кызматтын карточкасы же документ ачылат"
       ],
       "az": [
-        "Kirayəçi üçün hesab — mənzili kirayəyə verənlər üçün. «Əməliyyatlar» bölməsində bir PDF faylı yığılır: ayın xidmətləri göstəricilər və məbləğlərlə, kirayə haqqı, ödəniləcək yekun məbləğ, rekvizitlər və sayğacların şəkilləri. Onu çap etmək, saxlamaq və ya göndərmək olar",
-        "Hesabın ödəniş müddəti və təqvim. Hesab üçün onu ayın hansı gününədək ödəmək lazım olduğunu göstərmək olar, tətbiq isə əvvəlcədən xatırladacaq. Vaxtı keçmiş hesab qırmızı ilə qeyd olunur. Yeni təqvim (ekranın yuxarısındakı düymə) bütün tarixləri toplayır: ödəniş müddətləri, sayğacların yoxlanma müddətinin və sənədlərin müddətinin bitməsi, xatırlatmalar. Belə bildirişlərin vaxtını ayarlarda seçmək olar",
-        "«Rəqəmlərə inam». Ayın məbləğinin altında «Necə hesablandı» bölməsini açmaq olar — addım-addım hesablama: sərfiyyat, tarif dərəcələri, güzəştlər, yuvarlaqlaşdırma. Artıq daxil edilmiş göstəricini və ya məbləği dəyişsəniz, tətbiq əvvəlki və yeni dəyəri yadda saxlayır. Sildikdən sonra «Geri qaytar» düyməsini basmaq olar",
-        "Yeni ünvan köməkçisi. Addım-addım: evdə nə var (işıq, qaz, su, istilik, mənzil haqqı və s.), tariflər, ilkin göstəricilər və hesablar. Nəticədə — hazır ünvan",
-        "Qonşular üçün ünvanın qurulması. Sayğacları, xidmətləri, tarifləri və hesabların rekvizitlərini qonşuya bir faylla göndərmək olar, o isə ondan öz ünvanını yaradır. Fayla şəxsi heç nə düşmür: göstəricilər, məbləğlər, ödənişlər, şəkillər, ad və küçə",
-        "Bir toxunuşla məlumat kitabçası: hər əsas tabın yuxarısında düymə və tətbiq ikonasını basıb saxladıqda «Məlumat kitabçası» bəndi",
-        "«Kafellər» görünüşündə əsas ekran: sayğacların, xidmətlərin və hesabların kafellərinin yerini dəyişmək və lazımsızlarını söndürmək olar — «İcmal»da olduğu kimi",
-        "Bank komissiyası ayın hesabları üzrə yekunlarda ayrıca sətirlə göstərilir",
-        "Mesaj və məktub mətnində adı ilə teqlər: teq yazısı ilə birlikdə daxil edilir, məsələn «Soyuq su, cari göstərici — …», və mətn alana dərhal aydın olur"
+        "Məlumat kitabçası və sənədlər birbaşa ayın içində. Sayğacın və ya xidmətin açılmış kartının aşağısında «Məlumat kitabçası» və «Sənədlər» sətirləri var: bu sayğaca xidmət göstərən təşkilatlar və onun sənədləri. Toxunuş xidmətin kartını və ya sənədi açır"
       ],
       "uz": [
-        "Ijarachi uchun hisob — uy-joyni ijaraga beradiganlar uchun. «Amallar» boʻlimida bitta PDF fayl tuziladi: oyning xizmatlari koʻrsatkichlar va summalar bilan, ijara haqi, toʻlanadigan jami summa, rekvizitlar va hisoblagichlar suratlari. Uni chop etish, saqlash yoki yuborish mumkin",
-        "Hisobning toʻlov muddati va kalendar. Hisob uchun uni oyning qaysi kunigacha toʻlash kerakligini koʻrsatish mumkin, ilova esa oldindan eslatadi. Muddati oʻtgan hisob qizil rang bilan belgilanadi. Yangi kalendar (ekran tepasidagi tugma) barcha sanalarni jamlaydi: toʻlov muddatlari, hisoblagichlarni tekshirish va hujjatlar muddatining tugashi, eslatmalar. Bunday bildirishnomalar vaqtini sozlamalarda tanlash mumkin",
-        "«Raqamlarga ishonch». Oy summasi ostida «Qanday hisoblangan» boʻlimini ochish mumkin — bosqichma-bosqich hisob: sarf, tarif stavkalari, imtiyozlar, yaxlitlash. Kiritilgan koʻrsatkich yoki summani oʻzgartirsangiz, ilova avvalgi va yangi qiymatni eslab qoladi. Oʻchirgandan keyin «Qaytarish» tugmasini bosish mumkin",
-        "Yangi manzil yordamchisi. Qadamma-qadam: uyda nima bor (elektr, gaz, suv, isitish, kvartira haqi va boshqalar), tariflar, boshlangʻich koʻrsatkichlar va hisoblar. Natijada — tayyor manzil",
-        "Qoʻshnilar uchun manzil sozlamasi. Hisoblagichlar, xizmatlar, tariflar va hisoblar rekvizitlarini qoʻshniga bitta fayl bilan yuborish mumkin, u esa undan oʻz manzilini yaratadi. Faylga shaxsiy hech narsa tushmaydi: koʻrsatkichlar, summalar, toʻlovlar, suratlar, nom va koʻcha",
-        "Bir bosishda maʼlumotnoma: har bir asosiy boʻlim tepasidagi tugma va ilova belgisini bosib turganda «Maʼlumotnoma» bandi",
-        "«Plitkalar» koʻrinishidagi bosh ekran: hisoblagichlar, xizmatlar va hisoblar plitkalarining oʻrnini almashtirish va keraksizlarini oʻchirish mumkin — xuddi «Umumiy koʻrinish»dagidek",
-        "Bank komissiyasi oy hisoblari boʻyicha jami summalarda alohida qatorda koʻrsatiladi",
-        "Xabar va xat matnida nomli teglar: teg yozuvi bilan birga qoʻyiladi, masalan «Sovuq suv, joriy koʻrsatkich — …», va matn oluvchiga darhol tushunarli boʻladi"
+        "Maʼlumotnoma va hujjatlar toʻgʻridan-toʻgʻri oyning ichida. Hisoblagich yoki xizmatning ochilgan kartochkasi pastida «Maʼlumotnoma» va «Hujjatlar» qatorlari bor: ushbu hisoblagichga xizmat koʻrsatadigan tashkilotlar va uning hujjatlari. Bosish xizmat kartochkasini yoki hujjatni ochadi"
       ],
       "hy": [
-        "Հաշիվ վարձակալին՝ նրանց համար, ովքեր վարձով են տալիս բնակարանը։ «Գործողություններ» բաժնում կազմվում է մեկ PDF ֆայլ՝ ամսվա ծառայությունները ցուցմունքներով և գումարներով, վարձը, վճարման ենթակա ընդհանուր գումարը, վավերապայմանները և հաշվիչների լուսանկարները։ Այն կարելի է տպել, պահպանել կամ ուղարկել",
-        "Հաշվի վճարման ժամկետ և օրացույց։ Հաշվի համար կարելի է նշել, մինչև ամսվա որ օրը այն պետք է վճարել, և հավելվածը նախապես կհիշեցնի։ Ժամկետանց հաշիվը նշվում է կարմիրով։ Նոր օրացույցը (կոճակը էկրանի վերևում) հավաքում է բոլոր ամսաթվերը՝ վճարման ժամկետները, հաշվիչների ստուգաչափման և փաստաթղթերի ժամկետի ավարտը, հիշեցումները։ Այդ ծանուցումների ժամը կարելի է ընտրել կարգավորումներում",
-        "«Վստահություն թվերին»։ Ամսվա գումարի տակ կարելի է բացել «Ինչպես է հաշվարկվել» բաժինը՝ հաշվարկը քայլ առ քայլ. ծախսը, սակագնի դրույքները, արտոնությունները, կլորացումը։ Եթե փոխեք արդեն մուտքագրված ցուցմունքը կամ գումարը, հավելվածը կհիշի նախկին և նոր արժեքը։ Ջնջելուց հետո կարելի է սեղմել «Վերադարձնել»",
-        "Նոր հասցեի օգնական։ Քայլ առ քայլ՝ ինչ կա բնակարանում (էլեկտրականություն, գազ, ջուր, ջեռուցում, բնակվարձ և այլն), սակագները, սկզբնական ցուցմունքները և հաշիվները։ Արդյունքում՝ պատրաստի հասցե",
-        "Հասցեի կարգավորում հարևանների համար։ Հաշվիչները, ծառայությունները, սակագները և հաշիվների վավերապայմանները կարելի է ուղարկել հարևանին մեկ ֆայլով, և նա դրանից կստեղծի իր հասցեն։ Անձնական ոչինչ ֆայլի մեջ չի ընկնում՝ ցուցմունքներ, գումարներ, վճարումներ, լուսանկարներ, անվանում և փողոց",
-        "Տեղեկատուն մեկ հպումով՝ կոճակ ցանկացած գլխավոր ներդիրի վերևում և «Տեղեկատու» կետը, երբ սեղմած եք պահում հավելվածի պատկերակը",
-        "Գլխավոր էկրանը «Սալիկներ» տեսքով՝ հաշվիչների, ծառայությունների և հաշիվների սալիկների տեղերը կարելի է փոխել, իսկ ավելորդներն՝ անջատել, ինչպես «Ակնարկ»-ում",
-        "Բանկի միջնորդավճարը ցույց է տրվում առանձին տողով ամսվա հաշիվների ամփոփումում",
-        "Անվանումով պիտակներ հաղորդագրության և նամակի տեքստում՝ պիտակը տեղադրվում է իր գրության հետ միասին, օրինակ՝ «Սառը ջուր, ընթացիկ ցուցմունք — …», և տեքստը միանգամից հասկանալի է ստացողին"
+        "Տեղեկատուն և փաստաթղթերը հենց ամսվա մեջ։ Հաշվիչի կամ ծառայության բացված քարտի ներքևում կան «Տեղեկատու» և «Փաստաթղթեր» տողերը՝ այս հաշվիչը սպասարկող ծառայությունները և նրա փաստաթղթերը։ Հպումը բացում է ծառայության քարտը կամ փաստաթուղթը"
       ],
       "ka": [
-        "ანგარიში დამქირავებლისთვის — მათთვის, ვინც ბინას აქირავებს. «ოპერაციებში» იქმნება ერთი PDF ფაილი: თვის მომსახურებები ჩვენებებითა და თანხებით, ქირა, გადასახდელი ჯამი, რეკვიზიტები და მრიცხველების ფოტოები. მისი დაბეჭდვა, შენახვა ან გაგზავნა შეიძლება",
-        "ანგარიშის გადახდის ვადა და კალენდარი. ანგარიშისთვის შეიძლება მიუთითოთ, თვის რომელ რიცხვამდე უნდა გადაიხადოთ, და აპლიკაცია წინასწარ შეგახსენებთ. ვადაგადაცილებული ანგარიში წითლად აღინიშნება. ახალი კალენდარი (ღილაკი ეკრანის ზედა ნაწილში) აგროვებს ყველა თარიღს: გადახდის ვადებს, მრიცხველების დამოწმებისა და დოკუმენტების ვადის ამოწურვას, შეხსენებებს. ასეთი შეტყობინებების დროის არჩევა შეიძლება პარამეტრებში",
-        "«ნდობა ციფრებისადმი». თვის თანხის ქვეშ შეიძლება გახსნათ «როგორ დაითვალა» — გაანგარიშება ნაბიჯ-ნაბიჯ: მოხმარება, ტარიფის განაკვეთები, შეღავათები, დამრგვალება. თუ უკვე შეყვანილ ჩვენებას ან თანხას შეცვლით, აპლიკაცია დაიმახსოვრებს წინა და ახალ მნიშვნელობას. წაშლის შემდეგ შეიძლება დააჭიროთ «დაბრუნებას»",
-        "ახალი მისამართის ასისტენტი. ნაბიჯ-ნაბიჯ: რა არის ბინაში (დენი, გაზი, წყალი, გათბობა, ბინის გადასახადი და სხვა), ტარიფები, საწყისი ჩვენებები და ანგარიშები. შედეგად — მზა მისამართი",
-        "მისამართის დაყენება მეზობლებისთვის. მრიცხველები, მომსახურებები, ტარიფები და ანგარიშების რეკვიზიტები შეიძლება მეზობელს ერთი ფაილით გაუგზავნოთ, ის კი მისგან საკუთარ მისამართს შექმნის. პირადი არაფერი ხვდება ფაილში: ჩვენებები, თანხები, გადახდები, ფოტოები, სახელწოდება და ქუჩა",
-        "ცნობარი ერთი შეხებით: ღილაკი ნებისმიერი მთავარი ჩანართის ზედა ნაწილში და პუნქტი «ცნობარი» აპლიკაციის ხატულაზე ხანგრძლივი დაჭერისას",
-        "მთავარი ეკრანი «ფილების» ხედში: მრიცხველების, მომსახურებებისა და ანგარიშების ფილების ადგილების შეცვლა და ზედმეტების გამორთვა შეიძლება — ისევე, როგორც «მიმოხილვაში»",
-        "ბანკის საკომისიო ნაჩვენებია ცალკე სტრიქონად თვის ანგარიშების ჯამებში",
-        "სახელწოდებიანი ტეგები შეტყობინებისა და წერილის ტექსტში: ტეგი ჩაისმება თავის წარწერასთან ერთად, მაგალითად «ცივი წყალი, მიმდინარე ჩვენება — …», და ტექსტი მიმღებისთვის მაშინვე გასაგებია"
+        "ცნობარი და დოკუმენტები პირდაპირ თვეში. მრიცხველის ან მომსახურების გახსნილი ბარათის ბოლოში არის სტრიქონები «ცნობარი» და «დოკუმენტები»: ამ მრიცხველის მომსახურე სამსახურები და მისი დოკუმენტები. შეხება ხსნის სამსახურის ბარათს ან დოკუმენტს"
       ]
     },
-    "fix": {
-      "en": [
-        "Chart column labels were sometimes cut off by the edge",
-        "VAT disappeared from the amount due when the balance was carried over to the next month"
-      ],
-      "ru": [
-        "На графиках подписи столбцов иногда обрезались краем",
-        "НДС пропадал из суммы к оплате при переносе остатка на следующий месяц"
-      ],
-      "uk": [
-        "На графіках підписи стовпців іноді обрізалися краєм",
-        "ПДВ зникав із суми до сплати під час перенесення залишку на наступний місяць"
-      ],
-      "ro": [
-        "Pe grafice, etichetele coloanelor erau uneori tăiate de margine",
-        "TVA dispărea din suma de plată la transferul soldului în luna următoare"
-      ],
-      "be": [
-        "На графіках подпісы слупкоў часам абразаліся краем",
-        "ПДВ знікаў з сумы да аплаты пры пераносе рэшты на наступны месяц"
-      ],
-      "kk": [
-        "Графиктерде бағандардың жазулары кейде шетімен кесіліп қалатын",
-        "Қалдықты келесі айға көшіргенде ҚҚС төлеуге жататын сомадан жоғалып кететін"
-      ],
-      "ky": [
-        "Графиктерде мамычалардын жазуулары кээде чети менен кесилип калчу",
-        "Калдыкты кийинки айга көчүргөндө КНС төлөнө турган суммадан жоголуп кетчү"
-      ],
-      "az": [
-        "Qrafiklərdə sütunların yazıları bəzən kənardan kəsilirdi",
-        "Qalıq növbəti aya keçirildikdə ƏDV ödəniləcək məbləğdən yox olurdu"
-      ],
-      "uz": [
-        "Grafiklarda ustunlar yozuvlari baʼzan chetidan kesilib qolardi",
-        "Qoldiq keyingi oyga oʻtkazilganda QQS toʻlanadigan summadan yoʻqolib qolardi"
-      ],
-      "hy": [
-        "Գրաֆիկներում սյուների գրությունները երբեմն կտրվում էին եզրով",
-        "ԱԱՀ-ն անհետանում էր վճարման ենթակա գումարից, երբ մնացորդը փոխանցվում էր հաջորդ ամիս"
-      ],
-      "ka": [
-        "გრაფიკებზე სვეტების წარწერები ზოგჯერ კიდეზე იჭრებოდა",
-        "დღგ ქრებოდა გადასახდელი თანხიდან ნაშთის მომდევნო თვეზე გადატანისას"
-      ]
-    },
-    "desktop": {
-      "en": [
-        "Transfer of history from your own Excel, LibreOffice or CSV table: readings, amounts and payments for past months are loaded into the address journal"
-      ],
-      "ru": [
-        "Перенос истории из своей таблицы Excel, LibreOffice или CSV: показания, суммы и оплаты за прошлые месяцы загружаются в журнал адреса"
-      ],
-      "uk": [
-        "Перенесення історії зі своєї таблиці Excel, LibreOffice або CSV: показання, суми й оплати за минулі місяці завантажуються в журнал адреси"
-      ],
-      "ro": [
-        "Transferul istoricului din propriul tabel Excel, LibreOffice sau CSV: citirile, sumele și plățile din lunile trecute se încarcă în jurnalul adresei"
-      ],
-      "be": [
-        "Перанос гісторыі са сваёй табліцы Excel, LibreOffice або CSV: паказанні, сумы і аплаты за мінулыя месяцы загружаюцца ў журнал адраса"
-      ],
-      "kk": [
-        "Өз Excel, LibreOffice немесе CSV кестеңізден тарихты көшіру: өткен айлардағы көрсеткіштер, сомалар мен төлемдер мекенжай журналына жүктеледі"
-      ],
-      "ky": [
-        "Өзүңүздүн Excel, LibreOffice же CSV таблицаңыздан тарыхты көчүрүү: өткөн айлардагы көрсөткүчтөр, суммалар жана төлөмдөр даректин журналына жүктөлөт"
-      ],
-      "az": [
-        "Öz Excel, LibreOffice və ya CSV cədvəlinizdən tarixçənin köçürülməsi: keçmiş aylar üzrə göstəricilər, məbləğlər və ödənişlər ünvanın jurnalına yüklənir"
-      ],
-      "uz": [
-        "Oʻz Excel, LibreOffice yoki CSV jadvalingizdan tarixni koʻchirish: oʻtgan oylar boʻyicha koʻrsatkichlar, summalar va toʻlovlar manzil jurnaliga yuklanadi"
-      ],
-      "hy": [
-        "Պատմության տեղափոխում ձեր սեփական Excel, LibreOffice կամ CSV աղյուսակից՝ անցած ամիսների ցուցմունքները, գումարները և վճարումները բեռնվում են հասցեի մատյանում"
-      ],
-      "ka": [
-        "ისტორიის გადატანა საკუთარი Excel, LibreOffice ან CSV ცხრილიდან: გასული თვეების ჩვენებები, თანხები და გადახდები იტვირთება მისამართის ჟურნალში"
-      ]
-    }
+    "fix": {}
   },
-  "file": "kommeter-v1_11_0.apk",
-  "size": 162143217,
-  "sha256": "86efd806cc5faca895bb5c6f844485ac7a62ecf2c3c49597cf5757e1f5bda521",
+  "file": "kommeter-v1_11_1.apk",
+  "size": 162159601,
+  "sha256": "a60f12ca43f485f70418f0a4bfe505929eb77d4c291a347ec601db2c914c2ee8",
   "urls": [
-    "https://github.com/foleksapps/kommeter-releases/releases/download/v1.11.0%2B16/kommeter-v1_11_0.apk"
+    "https://github.com/foleksapps/kommeter-releases/releases/download/v1.11.1%2B17/kommeter-v1_11_1.apk"
   ]
 }
