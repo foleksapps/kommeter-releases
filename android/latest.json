@@ -1,49 +1,204 @@
 {
-  "version": "1.11.1",
-  "build": 17,
-  "date": "2026-10-06",
+  "version": "1.12.0",
+  "build": 18,
+  "date": "2026-10-08",
   "notes": {
     "new": {
       "en": [
-        "Directory and documents right in the month. An opened meter or service card ends with the \"Directory\" and \"Documents\" rows: the services that look after this meter and its documents. A tap opens the service card or the document"
+        "Export of energy to the grid, for those who have a solar power station. It is turned on with the \"I export energy to the grid\" switch in the address properties. The electricity meter then gets an \"Export to the grid\" block: the \"exported\" readings and the price per kWh, taken from the tariff catalog or your own. The app counts the month's surplus and income with the tax taken into account, and the \"Export to the grid\" screen shows the months for which the money has not arrived yet",
+        "All tariff thresholds on the tariff chart. If the price depends on consumption (for example, \"up to 100 kWh\" and \"over 100\"), each price step is drawn with its own line, not just the first one",
+        "Choosing the meter right on the chart. On the consumption and tariff charts, the meter or service is chosen with a button above the chart, not in the settings — handy for comparing, say, water and electricity",
+        "A directory card can be linked to meters and services right in its form, in the \"What it is about\" block — just like a document. Before, this could only be done from the meter properties",
+        "A new service price goes to all addresses at once. After you save a changed price, the app offers to change it in the other addresses too. The same can be done by pressing and holding a service: \"Copy the price to other addresses\"",
+        "\"Erase the reading\" by pressing and holding a meter in the month. The meter stays in the month, the amount is recalculated, and the erasing can be undone within a few seconds",
+        "Active services only. In the menu of the \"Services\" list you can hide the services that are not added to a new month — just like with meters",
+        "\"Consumption sources\" in the month. For a service counted from the sum of several meters (for example, sewerage), the meters can be chosen right in the month's record. The choice applies to this month only"
       ],
       "ru": [
-        "Справочник и документы прямо в месяце. В раскрытой карточке счётчика или услуги внизу есть строки «Справочник» и «Документы»: службы, которые обслуживают этот счётчик, и его документы. Нажатие открывает карточку службы или документ"
+        "Отдача энергии в сеть — для тех, у кого солнечная станция. Включается переключателем «Отдаю энергию в сеть» в свойствах адреса. У счётчика электроэнергии появляется блок «Отдача в сеть»: показания «отдано» и цена за кВт·ч — из справочника тарифов или своя. Приложение считает излишек и доход за месяц с учётом налога, а на экране «Отдача в сеть» видно, за какие месяцы деньги ещё не пришли",
+        "Все пороги тарифа на графике тарифов. Если цена зависит от расхода (например, «до 100 кВт·ч» и «свыше 100»), каждая ступень цены рисуется своей линией, а не только первая",
+        "Выбор счётчика прямо на графике. На графиках расхода и тарифов счётчик или услуга выбирается кнопкой над графиком, а не в настройках — так удобно сравнивать, например, воду и свет",
+        "Карточку справочника можно привязать к счётчикам и услугам прямо в её форме, в блоке «К чему относится» — как у документов. Раньше это делалось только из свойств счётчика",
+        "Новая цена услуги — сразу во всех адресах. После сохранения изменённой цены приложение предложит изменить её и в других адресах. То же самое — долгим нажатием на услугу: «Скопировать цену в другие адреса»",
+        "«Стереть показание» — долгим нажатием на счётчик в месяце. Счётчик остаётся в месяце, сумма пересчитывается, а стирание можно отменить в течение нескольких секунд",
+        "Только активные услуги. В меню списка «Услуги» можно скрыть услуги, которые не добавляются в новый месяц, — так же, как у счётчиков",
+        "«Источники расхода» в месяце. У услуги, которая считается по сумме нескольких счётчиков (например, водоотвод), счётчики можно выбрать прямо в записи месяца. Выбор действует только на этот месяц"
       ],
       "uk": [
-        "Довідник і документи просто в місяці. У розгорнутій картці лічильника чи послуги внизу є рядки «Довідник» і «Документи»: служби, які обслуговують цей лічильник, і його документи. Натискання відкриває картку служби або документ"
+        "Віддача енергії в мережу — для тих, у кого сонячна станція. Вмикається перемикачем «Віддаю енергію в мережу» у властивостях адреси. У лічильника електроенергії з'являється блок «Віддача в мережу»: показання «віддано» і ціна за кВт·год — із довідника тарифів або своя. Застосунок рахує надлишок і дохід за місяць з урахуванням податку, а на екрані «Віддача в мережу» видно, за які місяці гроші ще не надійшли",
+        "Усі пороги тарифу на графіку тарифів. Якщо ціна залежить від витрати (наприклад, «до 100 кВт·год» і «понад 100»), кожен щабель ціни малюється своєю лінією, а не лише перший",
+        "Вибір лічильника просто на графіку. На графіках витрати й тарифів лічильник чи послуга вибирається кнопкою над графіком, а не в налаштуваннях — так зручно порівнювати, наприклад, воду і світло",
+        "Картку довідника можна прив'язати до лічильників і послуг просто в її формі, у блоці «Чого стосується» — як у документів. Раніше це робилося лише з властивостей лічильника",
+        "Нова ціна послуги — одразу в усіх адресах. Після збереження зміненої ціни застосунок запропонує змінити її і в інших адресах. Те саме — довгим натисканням на послугу: «Скопіювати ціну в інші адреси»",
+        "«Стерти показання» — довгим натисканням на лічильник у місяці. Лічильник залишається в місяці, сума перераховується, а стирання можна скасувати протягом кількох секунд",
+        "Лише активні послуги. У меню списку «Послуги» можна сховати послуги, які не додаються в новий місяць, — так само, як у лічильників",
+        "«Джерела витрати» в місяці. У послуги, яка рахується за сумою кількох лічильників (наприклад, водовідведення), лічильники можна вибрати просто в записі місяця. Вибір діє лише на цей місяць"
       ],
       "ro": [
-        "Agenda și documentele direct în lună. Fișa deschisă a unui contor sau a unui serviciu are la final rândurile „Agendă” și „Documente”: serviciile care se ocupă de acest contor și documentele lui. O atingere deschide fișa serviciului sau documentul"
+        "Livrarea energiei în rețea, pentru cei care au o centrală solară. Se activează cu comutatorul „Livrez energie în rețea” din proprietățile adresei. Contorul de energie electrică primește blocul „Livrare în rețea”: citirile „livrat” și prețul pe kWh — din catalogul de tarife sau propriul preț. Aplicația calculează surplusul și venitul lunii ținând cont de impozit, iar ecranul „Livrare în rețea” arată lunile pentru care banii nu au sosit încă",
+        "Toate pragurile tarifului pe graficul tarifelor. Dacă prețul depinde de consum (de exemplu, „până la 100 kWh” și „peste 100”), fiecare treaptă de preț este desenată cu propria linie, nu doar prima",
+        "Alegerea contorului direct pe grafic. Pe graficele de consum și de tarife, contorul sau serviciul se alege cu un buton deasupra graficului, nu în setări — e comod să compari, de exemplu, apa și curentul",
+        "O fișă din agendă poate fi legată de contoare și servicii direct în formularul ei, în blocul „La ce se referă” — ca la documente. Înainte, acest lucru se putea face doar din proprietățile contorului",
+        "Noul preț al serviciului — imediat la toate adresele. După salvarea prețului modificat, aplicația propune să-l schimbe și la celelalte adrese. Același lucru se poate face ținând apăsat pe serviciu: „Copiați prețul la alte adrese”",
+        "„Șterge citirea” — ținând apăsat pe un contor în lună. Contorul rămâne în lună, suma se recalculează, iar ștergerea poate fi anulată în câteva secunde",
+        "Doar serviciile active. În meniul listei „Servicii” se pot ascunde serviciile care nu se adaugă într-o lună nouă — la fel ca la contoare",
+        "„Surse de consum” în lună. La un serviciu calculat din suma mai multor contoare (de exemplu, canalizarea), contoarele pot fi alese direct în înregistrarea lunii. Alegerea se aplică doar acestei luni"
       ],
       "be": [
-        "Даведнік і дакументы проста ў месяцы. У разгорнутай картцы лічыльніка ці паслугі ўнізе ёсць радкі «Даведнік» і «Дакументы»: службы, якія абслугоўваюць гэты лічыльнік, і яго дакументы. Націсканне адкрывае картку службы або дакумент"
+        "Аддача энергіі ў сетку — для тых, у каго сонечная станцыя. Уключаецца пераключальнікам «Аддаю энергію ў сетку» ва ўласцівасцях адраса. У лічыльніка электраэнергіі з'яўляецца блок «Аддача ў сетку»: паказанні «аддадзена» і цана за кВт·гадз — з даведніка тарыфаў або свая. Праграма лічыць лішак і даход за месяц з улікам падатку, а на экране «Аддача ў сетку» відаць, за якія месяцы грошы яшчэ не прыйшлі",
+        "Усе парогі тарыфу на графіку тарыфаў. Калі цана залежыць ад расходу (напрыклад, «да 100 кВт·гадз» і «звыш 100»), кожная ступень цаны малюецца сваёй лініяй, а не толькі першая",
+        "Выбар лічыльніка проста на графіку. На графіках расходу і тарыфаў лічыльнік ці паслуга выбіраецца кнопкай над графікам, а не ў наладах — так зручна параўноўваць, напрыклад, ваду і святло",
+        "Картку даведніка можна прывязаць да лічыльнікаў і паслуг проста ў яе форме, у блоку «Да чаго адносіцца» — як у дакументаў. Раней гэта рабілася толькі з уласцівасцей лічыльніка",
+        "Новая цана паслугі — адразу ва ўсіх адрасах. Пасля захавання змененай цаны праграма прапануе змяніць яе і ў іншых адрасах. Тое самае — доўгім націсканнем на паслугу: «Скапіраваць цану ў іншыя адрасы»",
+        "«Сцерці паказанне» — доўгім націсканнем на лічыльнік у месяцы. Лічыльнік застаецца ў месяцы, сума пералічваецца, а сціранне можна адмяніць на працягу некалькіх секунд",
+        "Толькі актыўныя паслугі. У меню спіса «Паслугі» можна схаваць паслугі, якія не дадаюцца ў новы месяц, — гэтак жа, як у лічыльнікаў",
+        "«Крыніцы расходу» ў месяцы. У паслугі, якая лічыцца па суме некалькіх лічыльнікаў (напрыклад, водаадвядзенне), лічыльнікі можна выбраць проста ў запісе месяца. Выбар дзейнічае толькі на гэты месяц"
       ],
       "kk": [
-        "Анықтамалық пен құжаттар тікелей айдың ішінде. Есептегіштің немесе қызметтің ашылған карточкасының төменгі жағында «Анықтамалық» және «Құжаттар» жолдары бар: осы есептегішке қызмет көрсететін қызметтер және оның құжаттары. Басу қызмет карточкасын немесе құжатты ашады"
+        "Энергияны желіге беру — күн станциясы барларға. Мекенжай қасиеттеріндегі «Энергияны желіге беремін» ауыстырғышымен қосылады. Электр энергиясы есептегішінде «Желіге беру» блогы пайда болады: «берілді» көрсеткіштері және кВт·сағ бағасы — тарифтер анықтамалығынан немесе өзіңіздікі. Қосымша айдағы артық көлем мен табысты салықты ескере отырып есептейді, ал «Желіге беру» экранында қай айлар үшін ақша әлі түспегені көрінеді",
+        "Тарифтер графигінде тарифтің барлық шектері. Баға шығынға байланысты болса (мысалы, «100 кВт·сағ дейін» және «100-ден жоғары»), бағаның әр сатысы тек біріншісі емес, өз сызығымен салынады",
+        "Есептегішті тікелей графикте таңдау. Шығын және тариф графиктерінде есептегіш немесе қызмет баптауларда емес, графиктің үстіндегі батырмамен таңдалады — мысалы, су мен жарықты салыстыру ыңғайлы",
+        "Анықтамалық карточкасын есептегіштер мен қызметтерге тікелей оның пішінінде, «Неге қатысты» блогында байлауға болады — құжаттардағыдай. Бұрын мұны тек есептегіш қасиеттерінен жасауға болатын",
+        "Қызметтің жаңа бағасы — бірден барлық мекенжайларда. Өзгертілген бағаны сақтағаннан кейін қосымша оны басқа мекенжайларда да өзгертуді ұсынады. Дәл солай қызметті ұзақ басу арқылы да болады: «Бағаны басқа мекенжайларға көшіру»",
+        "«Көрсеткішті өшіру» — айдағы есептегішті ұзақ басу арқылы. Есептегіш айда қалады, сома қайта есептеледі, ал өшіруді бірнеше секунд ішінде болдырмауға болады",
+        "Тек белсенді қызметтер. «Қызметтер» тізімінің мәзірінде жаңа айға қосылмайтын қызметтерді жасыруға болады — есептегіштердегідей",
+        "Айдағы «Шығын көздері». Бірнеше есептегіштің қосындысы бойынша есептелетін қызметте (мысалы, су бұру) есептегіштерді тікелей ай жазбасында таңдауға болады. Таңдау тек осы айға қолданылады"
       ],
       "ky": [
-        "Маалымдама жана документтер түз эле айдын ичинде. Эсептегичтин же кызматтын ачылган карточкасынын ылдыйында «Маалымдама» жана «Документтер» саптары бар: бул эсептегичти тейлеген кызматтар жана анын документтери. Басканда кызматтын карточкасы же документ ачылат"
+        "Энергияны тармакка берүү — күн станциясы барлар үчүн. Даректин касиеттериндеги «Энергияны тармакка берем» которгучу менен күйгүзүлөт. Электр энергиясынын эсептегичинде «Тармакка берүү» блогу пайда болот: «берилди» көрсөткүчтөрү жана кВт·саат баасы — тарифтер маалымдамасынан же өзүңүздүкү. Колдонмо айдагы ашыкчаны жана кирешени салыкты эске алуу менен эсептейт, ал эми «Тармакка берүү» экранында кайсы айлар үчүн акча али келе электиги көрүнөт",
+        "Тарифтер графигинде тарифтин бардык чектери. Баа чыгымга жараша болсо (мисалы, «100 кВт·саатка чейин» жана «100дөн жогору»), баанын ар бир тепкичи биринчиси гана эмес, өз сызыгы менен тартылат",
+        "Эсептегичти түз эле графикте тандоо. Чыгым жана тариф графиктеринде эсептегич же кызмат жөндөөлөрдө эмес, графиктин үстүндөгү баскыч менен тандалат — мисалы, суу менен жарыкты салыштыруу ыңгайлуу",
+        "Маалымдаманын карточкасын эсептегичтерге жана кызматтарга түз эле анын формасында, «Эмнеге тиешелүү» блогунда байлоого болот — документтердегидей. Мурда муну эсептегичтин касиеттеринен гана жасоого болчу",
+        "Кызматтын жаңы баасы — дароо бардык даректерде. Өзгөртүлгөн бааны сактагандан кийин колдонмо аны башка даректерде да өзгөртүүнү сунуштайт. Ошону эле кызматты узак басуу менен жасоого болот: «Бааны башка даректерге көчүрүү»",
+        "«Көрсөткүчтү өчүрүү» — айдагы эсептегичти узак басуу менен. Эсептегич айда калат, сумма кайра эсептелет, ал эми өчүрүүнү бир нече секунданын ичинде жокко чыгарууга болот",
+        "Активдүү кызматтар гана. «Кызматтар» тизмесинин менюсунда жаңы айга кошулбаган кызматтарды жашырууга болот — эсептегичтердегидей",
+        "Айдагы «Чыгымдын булактары». Бир нече эсептегичтин суммасы боюнча эсептелген кызматта (мисалы, саркынды суу) эсептегичтерди түз эле айдын жазуусунда тандоого болот. Тандоо ушул айга гана таасир этет"
       ],
       "az": [
-        "Məlumat kitabçası və sənədlər birbaşa ayın içində. Sayğacın və ya xidmətin açılmış kartının aşağısında «Məlumat kitabçası» və «Sənədlər» sətirləri var: bu sayğaca xidmət göstərən təşkilatlar və onun sənədləri. Toxunuş xidmətin kartını və ya sənədi açır"
+        "Enerjinin şəbəkəyə ötürülməsi — günəş stansiyası olanlar üçün. Ünvanın xassələrindəki «Enerjini şəbəkəyə ötürürəm» açarı ilə yandırılır. Elektrik enerjisi sayğacında «Şəbəkəyə ötürmə» bloku yaranır: «ötürülüb» göstəriciləri və kVt·saat üçün qiymət — tariflər məlumat kitabçasından və ya özünüzünkü. Tətbiq ay üzrə artığı və gəliri vergini nəzərə alaraq hesablayır, «Şəbəkəyə ötürmə» ekranında isə hansı aylar üçün pulun hələ gəlmədiyi görünür",
+        "Tariflər qrafikində tarifin bütün hədləri. Qiymət sərfiyyatdan asılıdırsa (məsələn, «100 kVt·saata qədər» və «100-dən yuxarı»), qiymətin hər pilləsi yalnız birincisi deyil, öz xətti ilə çəkilir",
+        "Sayğacı birbaşa qrafikdə seçmək. Sərfiyyat və tarif qrafiklərində sayğac və ya xidmət ayarlarda deyil, qrafikin üstündəki düymə ilə seçilir — məsələn, suyu və işığı müqayisə etmək rahatdır",
+        "Məlumat kitabçasının kartını sayğaclara və xidmətlərə birbaşa onun formasında, «Nəyə aiddir» blokunda bağlamaq olar — sənədlərdə olduğu kimi. Əvvəllər bunu yalnız sayğacın xassələrindən etmək olurdu",
+        "Xidmətin yeni qiyməti — dərhal bütün ünvanlarda. Dəyişdirilmiş qiyməti yadda saxladıqdan sonra tətbiq onu digər ünvanlarda da dəyişməyi təklif edir. Eyni şeyi xidmətə uzun toxunuşla etmək olar: «Qiyməti digər ünvanlara köçür»",
+        "«Göstəricini sil» — ayda sayğaca uzun toxunuşla. Sayğac ayda qalır, məbləğ yenidən hesablanır, silməni isə bir neçə saniyə ərzində ləğv etmək olar",
+        "Yalnız aktiv xidmətlər. «Xidmətlər» siyahısının menyusunda yeni aya əlavə olunmayan xidmətləri gizlətmək olar — sayğaclarda olduğu kimi",
+        "Ayda «Sərfiyyat mənbələri». Bir neçə sayğacın cəmi ilə hesablanan xidmətdə (məsələn, kanalizasiya) sayğacları birbaşa ayın qeydində seçmək olar. Seçim yalnız bu aya aiddir"
       ],
       "uz": [
-        "Maʼlumotnoma va hujjatlar toʻgʻridan-toʻgʻri oyning ichida. Hisoblagich yoki xizmatning ochilgan kartochkasi pastida «Maʼlumotnoma» va «Hujjatlar» qatorlari bor: ushbu hisoblagichga xizmat koʻrsatadigan tashkilotlar va uning hujjatlari. Bosish xizmat kartochkasini yoki hujjatni ochadi"
+        "Energiyani tarmoqqa berish — quyosh stansiyasi borlar uchun. Manzil xususiyatlaridagi «Energiyani tarmoqqa beraman» almashtirgichi bilan yoqiladi. Elektr energiyasi hisoblagichida «Tarmoqqa berish» bloki paydo boʻladi: «berildi» koʻrsatkichlari va kVt·soat narxi — tariflar maʼlumotnomasidan yoki oʻzingizniki. Ilova oydagi ortiqcha hajm va daromadni soliqni hisobga olib hisoblaydi, «Tarmoqqa berish» ekranida esa qaysi oylar uchun pul hali kelmagani koʻrinadi",
+        "Tariflar grafigida tarifning barcha chegaralari. Narx sarfga bogʻliq boʻlsa (masalan, «100 kVt·soatgacha» va «100 dan yuqori»), narxning har bir pogʻonasi faqat birinchisi emas, oʻz chizigʻi bilan chiziladi",
+        "Hisoblagichni toʻgʻridan-toʻgʻri grafikda tanlash. Sarf va tarif grafiklarida hisoblagich yoki xizmat sozlamalarda emas, grafik ustidagi tugma bilan tanlanadi — masalan, suv va elektrni solishtirish qulay",
+        "Maʼlumotnoma kartochkasini hisoblagichlar va xizmatlarga toʻgʻridan-toʻgʻri uning shaklida, «Nimaga tegishli» blokida bogʻlash mumkin — hujjatlardagidek. Avval buni faqat hisoblagich xususiyatlaridan qilish mumkin edi",
+        "Xizmatning yangi narxi — darhol barcha manzillarda. Oʻzgartirilgan narxni saqlagandan keyin ilova uni boshqa manzillarda ham oʻzgartirishni taklif qiladi. Xuddi shuni xizmatni uzoq bosib ham qilish mumkin: «Narxni boshqa manzillarga nusxalash»",
+        "«Koʻrsatkichni oʻchirish» — oydagi hisoblagichni uzoq bosib. Hisoblagich oyda qoladi, summa qayta hisoblanadi, oʻchirishni esa bir necha soniya ichida bekor qilish mumkin",
+        "Faqat faol xizmatlar. «Xizmatlar» roʻyxati menyusida yangi oyga qoʻshilmaydigan xizmatlarni yashirish mumkin — hisoblagichlardagidek",
+        "Oydagi «Sarf manbalari». Bir nechta hisoblagich yigʻindisi boʻyicha hisoblanadigan xizmatda (masalan, kanalizatsiya) hisoblagichlarni toʻgʻridan-toʻgʻri oy yozuvida tanlash mumkin. Tanlov faqat shu oyga taalluqli"
       ],
       "hy": [
-        "Տեղեկատուն և փաստաթղթերը հենց ամսվա մեջ։ Հաշվիչի կամ ծառայության բացված քարտի ներքևում կան «Տեղեկատու» և «Փաստաթղթեր» տողերը՝ այս հաշվիչը սպասարկող ծառայությունները և նրա փաստաթղթերը։ Հպումը բացում է ծառայության քարտը կամ փաստաթուղթը"
+        "Էներգիայի հանձնում ցանցին՝ արևային կայան ունեցողների համար։ Միացվում է հասցեի հատկություններում «Էներգիա եմ հանձնում ցանցին» փոխարկիչով։ Էլեկտրաէներգիայի հաշվիչում հայտնվում է «Ցանց հանձնում» բլոկը՝ «հանձնված» ցուցմունքները և մեկ կՎտ·ժ-ի գինը՝ սակագների տեղեկատուից կամ ձեր սեփականը։ Հավելվածը հաշվում է ամսվա ավելցուկը և եկամուտը՝ հաշվի առնելով հարկը, իսկ «Ցանց հանձնում» էկրանին երևում է, թե որ ամիսների համար գումարը դեռ չի եկել",
+        "Սակագնի բոլոր շեմերը սակագների գրաֆիկում։ Եթե գինը կախված է ծախսից (օրինակ՝ «մինչև 100 կՎտ·ժ» և «100-ից ավելի»), գնի յուրաքանչյուր աստիճան գծվում է իր գծով, ոչ միայն առաջինը",
+        "Հաշվիչի ընտրություն հենց գրաֆիկում։ Ծախսի և սակագների գրաֆիկներում հաշվիչը կամ ծառայությունը ընտրվում է գրաֆիկի վերևի կոճակով, ոչ թե կարգավորումներում, այնպես որ հարմար է համեմատել, օրինակ, ջուրը և լույսը",
+        "Տեղեկատուի քարտը կարելի է կապել հաշվիչների և ծառայությունների հետ հենց դրա ձևում՝ «Ինչին է վերաբերում» բլոկում, ինչպես փաստաթղթերի դեպքում։ Նախկինում դա հնարավոր էր անել միայն հաշվիչի հատկություններից",
+        "Ծառայության նոր գինը՝ միանգամից բոլոր հասցեներում։ Փոփոխված գինը պահպանելուց հետո հավելվածը կառաջարկի փոխել այն նաև մյուս հասցեներում։ Նույնը կարելի է անել ծառայության վրա երկար սեղմելով՝ «Պատճենել գինը այլ հասցեներ»",
+        "«Ջնջել ցուցմունքը»՝ ամսում հաշվիչի վրա երկար սեղմելով։ Հաշվիչը մնում է ամսում, գումարը վերահաշվարկվում է, իսկ ջնջումը կարելի է չեղարկել մի քանի վայրկյանի ընթացքում",
+        "Միայն ակտիվ ծառայությունները։ «Ծառայություններ» ցուցակի ընտրացանկում կարելի է թաքցնել այն ծառայությունները, որոնք չեն ավելացվում նոր ամսում, ինչպես հաշվիչների դեպքում",
+        "«Ծախսի աղբյուրներ» ամսում։ Մի քանի հաշվիչների գումարով հաշվարկվող ծառայության դեպքում (օրինակ՝ ջրահեռացում) հաշվիչները կարելի է ընտրել հենց ամսվա գրառման մեջ։ Ընտրությունը գործում է միայն այս ամսվա համար"
       ],
       "ka": [
-        "ცნობარი და დოკუმენტები პირდაპირ თვეში. მრიცხველის ან მომსახურების გახსნილი ბარათის ბოლოში არის სტრიქონები «ცნობარი» და «დოკუმენტები»: ამ მრიცხველის მომსახურე სამსახურები და მისი დოკუმენტები. შეხება ხსნის სამსახურის ბარათს ან დოკუმენტს"
+        "ენერგიის ქსელში გაცემა — მათთვის, ვისაც მზის სადგური აქვს. ირთვება მისამართის თვისებებში გადამრთველით «ენერგიას ვაძლევ ქსელს». ელექტროენერგიის მრიცხველს უჩნდება ბლოკი «ქსელში გაცემა»: «გაცემულის» ჩვენებები და ფასი კვტ·სთ-ზე — ტარიფების ცნობარიდან ან საკუთარი. აპლიკაცია ითვლის თვის ჭარბს და შემოსავალს გადასახადის გათვალისწინებით, ხოლო ეკრანზე «ქსელში გაცემა» ჩანს, რომელი თვეებისთვის არ შემოსულა ჯერ თანხა",
+        "ტარიფის ყველა ზღვარი ტარიფების გრაფიკზე. თუ ფასი მოხმარებაზეა დამოკიდებული (მაგალითად, «100 კვტ·სთ-მდე» და «100-ზე მეტი»), ფასის თითოეული საფეხური საკუთარი ხაზით იხატება და არა მხოლოდ პირველი",
+        "მრიცხველის არჩევა პირდაპირ გრაფიკზე. მოხმარებისა და ტარიფების გრაფიკებზე მრიცხველი ან მომსახურება აირჩევა ღილაკით გრაფიკის ზემოთ და არა პარამეტრებში — მოსახერხებელია, მაგალითად, წყლისა და შუქის შედარება",
+        "ცნობარის ბარათის მიბმა მრიცხველებსა და მომსახურებებზე შეიძლება პირდაპირ მის ფორმაში, ბლოკში «რას ეხება» — როგორც დოკუმენტებთან. ადრე ეს მხოლოდ მრიცხველის თვისებებიდან შეიძლებოდა",
+        "მომსახურების ახალი ფასი — მაშინვე ყველა მისამართზე. შეცვლილი ფასის შენახვის შემდეგ აპლიკაცია შემოგთავაზებთ მის შეცვლას სხვა მისამართებზეც. იგივე შეიძლება მომსახურებაზე ხანგრძლივი შეხებით: «ფასის კოპირება სხვა მისამართებზე»",
+        "«ჩვენების წაშლა» — თვეში მრიცხველზე ხანგრძლივი შეხებით. მრიცხველი თვეში რჩება, თანხა ხელახლა ითვლება, წაშლის გაუქმება კი რამდენიმე წამის განმავლობაში შეიძლება",
+        "მხოლოდ აქტიური მომსახურებები. სიის «მომსახურებები» მენიუში შეიძლება დაიმალოს მომსახურებები, რომლებიც ახალ თვეს არ ემატება — ისევე, როგორც მრიცხველებთან",
+        "«მოხმარების წყაროები» თვეში. მომსახურებისთვის, რომელიც რამდენიმე მრიცხველის ჯამით ითვლება (მაგალითად, წყალარინება), მრიცხველების არჩევა პირდაპირ თვის ჩანაწერში შეიძლება. არჩევანი მხოლოდ ამ თვეზე მოქმედებს"
       ]
     },
-    "fix": {}
+    "fix": {
+      "en": [
+        "Month labels at the bottom of the charts overlapped each other with a large phone font",
+        "With a tariff that has thresholds, the reading entry screen showed only the first threshold's price, and \"consumption × tariff\" did not match the amount. Now it shows \"Average price\"",
+        "A changed fixed amount of a service appeared only from the next month. Now it also goes into the current month if it has not been paid yet",
+        "Replacing a meter lost its directory cards",
+        "Saving the address properties reset the tenant bill settings and brought the address back from the archive"
+      ],
+      "ru": [
+        "Подписи месяцев внизу графиков налезали друг на друга при крупном шрифте телефона",
+        "При тарифе с порогами экран ввода показаний показывал цену только первого порога, и «расход × тариф» не совпадало с суммой. Теперь там «Средняя цена»",
+        "Изменённая постоянная сумма услуги появлялась только со следующего месяца. Теперь она попадает и в текущий, если он ещё не оплачен",
+        "При замене счётчика терялись его карточки справочника",
+        "Сохранение свойств адреса сбрасывало настройки счёта жильцу и возвращало адрес из архива"
+      ],
+      "uk": [
+        "Підписи місяців унизу графіків налазили один на одного за великого шрифту телефона",
+        "За тарифу з порогами екран введення показань показував ціну лише першого порога, і «витрата × тариф» не збігалося із сумою. Тепер там «Середня ціна»",
+        "Змінена постійна сума послуги з'являлася лише з наступного місяця. Тепер вона потрапляє і в поточний, якщо його ще не сплачено",
+        "Під час заміни лічильника губилися його картки довідника",
+        "Збереження властивостей адреси скидало налаштування рахунку мешканцю й повертало адресу з архіву"
+      ],
+      "ro": [
+        "Etichetele lunilor din partea de jos a graficelor se suprapuneau la un font mare al telefonului",
+        "La un tarif cu praguri, ecranul de introducere a citirilor arăta doar prețul primului prag, iar „consum × tarif” nu coincidea cu suma. Acum acolo este „Preț mediu”",
+        "Suma fixă modificată a unui serviciu apărea doar din luna următoare. Acum ajunge și în luna curentă, dacă aceasta nu a fost încă plătită",
+        "La înlocuirea unui contor se pierdeau fișele lui din agendă",
+        "Salvarea proprietăților adresei reseta setările facturii pentru chiriaș și scotea adresa din arhivă"
+      ],
+      "be": [
+        "Подпісы месяцаў унізе графікаў налазілі адзін на адзін пры буйным шрыфце тэлефона",
+        "Пры тарыфе з парогамі экран уводу паказанняў паказваў цану толькі першага парога, і «расход × тарыф» не супадаў з сумай. Цяпер там «Сярэдняя цана»",
+        "Змененая сталая сума паслугі з'яўлялася толькі з наступнага месяца. Цяпер яна трапляе і ў бягучы, калі ён яшчэ не аплачаны",
+        "Пры замене лічыльніка губляліся яго карткі даведніка",
+        "Захаванне ўласцівасцей адраса скідала налады рахунку жыхару і вяртала адрас з архіва"
+      ],
+      "kk": [
+        "Телефонның қаріпі үлкен болғанда графиктердің төменгі жағындағы ай жазулары бір-біріне шығып кететін",
+        "Шектері бар тарифте көрсеткіштерді енгізу экраны тек бірінші шектің бағасын көрсететін, ал «шығын × тариф» сомаға сәйкес келмейтін. Енді онда «Орташа баға»",
+        "Қызметтің өзгертілген тұрақты сомасы тек келесі айдан бастап пайда болатын. Енді ол ағымдағы айға да түседі, егер ол әлі төленбесе",
+        "Есептегішті ауыстырғанда оның анықтамалық карточкалары жоғалатын",
+        "Мекенжай қасиеттерін сақтау жалға алушыға шот баптауларын тастап, мекенжайды мұрағаттан қайтаратын"
+      ],
+      "ky": [
+        "Телефондун арибы чоң болгондо графиктердин ылдыйындагы айлардын жазуулары бири-бирине кирип кетчү",
+        "Чектери бар тарифте көрсөткүчтөрдү киргизүү экраны биринчи чектин баасын гана көрсөтчү, ал эми «чыгым × тариф» суммага дал келчү эмес. Эми ал жерде «Орточо баа»",
+        "Кызматтын өзгөртүлгөн туруктуу суммасы кийинки айдан гана пайда болчу. Эми ал учурдагы айга да түшөт, эгер ал али төлөнө элек болсо",
+        "Эсептегичти алмаштырганда анын маалымдама карточкалары жоголчу",
+        "Даректин касиеттерин сактоо ижарачыга эсептин жөндөөлөрүн жокко чыгарып, даректи архивден кайтарчу"
+      ],
+      "az": [
+        "Telefonun şrifti iri olduqda qrafiklərin aşağısındakı ayların yazıları bir-birinin üstünə düşürdü",
+        "Hədləri olan tarifdə göstəricilərin daxil edilməsi ekranı yalnız birinci həddin qiymətini göstərirdi və «sərfiyyat × tarif» məbləğlə üst-üstə düşmürdü. İndi orada «Orta qiymət» var",
+        "Xidmətin dəyişdirilmiş sabit məbləği yalnız növbəti aydan görünürdü. İndi o, hələ ödənilməyibsə, cari aya da düşür",
+        "Sayğac dəyişdirildikdə onun məlumat kitabçası kartları itib gedirdi",
+        "Ünvanın xassələrinin yadda saxlanması kirayəçiyə hesabın ayarlarını sıfırlayır və ünvanı arxivdən qaytarırdı"
+      ],
+      "uz": [
+        "Telefon shrifti katta boʻlganda grafiklar pastidagi oylar yozuvlari bir-birining ustiga chiqib ketardi",
+        "Chegaralari bor tarifda koʻrsatkichlarni kiritish ekrani faqat birinchi chegaraning narxini koʻrsatardi va «sarf × tarif» summaga mos kelmasdi. Endi u yerda «Oʻrtacha narx»",
+        "Xizmatning oʻzgartirilgan doimiy summasi faqat keyingi oydan paydo boʻlardi. Endi u joriy oyga ham tushadi, agar u hali toʻlanmagan boʻlsa",
+        "Hisoblagich almashtirilganda uning maʼlumotnoma kartochkalari yoʻqolib qolardi",
+        "Manzil xususiyatlarini saqlash ijarachiga hisob sozlamalarini tashlab yuborar va manzilni arxivdan qaytarardi"
+      ],
+      "hy": [
+        "Հեռախոսի խոշոր տառատեսակի դեպքում գրաֆիկների ներքևի ամիսների գրությունները իրար վրա էին ընկնում",
+        "Շեմերով սակագնի դեպքում ցուցմունքների մուտքագրման էկրանը ցույց էր տալիս միայն առաջին շեմի գինը, և «ծախս × սակագին»-ը չէր համընկնում գումարի հետ։ Այժմ այնտեղ «Միջին գին» է",
+        "Ծառայության փոփոխված հաստատուն գումարը հայտնվում էր միայն հաջորդ ամսից։ Այժմ այն ընկնում է նաև ընթացիկ ամիս, եթե այն դեռ վճարված չէ",
+        "Հաշվիչը փոխարինելիս կորչում էին նրա տեղեկատուի քարտերը",
+        "Հասցեի հատկությունների պահպանումը զրոյացնում էր վարձակալի հաշվի կարգավորումները և հասցեն վերադարձնում արխիվից"
+      ],
+      "ka": [
+        "ტელეფონის დიდი შრიფტის დროს გრაფიკების ქვედა ნაწილში თვეების წარწერები ერთმანეთს ეფარებოდა",
+        "ზღვრებიანი ტარიფის დროს ჩვენებების შეყვანის ეკრანი მხოლოდ პირველი ზღვრის ფასს აჩვენებდა და «მოხმარება × ტარიფი» თანხას არ ემთხვეოდა. ახლა იქ არის «საშუალო ფასი»",
+        "მომსახურების შეცვლილი მუდმივი თანხა მხოლოდ მომდევნო თვიდან ჩნდებოდა. ახლა ის მიმდინარე თვეშიც ხვდება, თუ ჯერ არ არის გადახდილი",
+        "მრიცხველის შეცვლისას იკარგებოდა მისი ცნობარის ბარათები",
+        "მისამართის თვისებების შენახვა აუქმებდა დამქირავებლის ანგარიშის პარამეტრებს და მისამართს არქივიდან აბრუნებდა"
+      ]
+    }
   },
-  "file": "kommeter-v1_11_1.apk",
-  "size": 162159601,
-  "sha256": "a60f12ca43f485f70418f0a4bfe505929eb77d4c291a347ec601db2c914c2ee8",
+  "file": "kommeter-v1_12_0.apk",
+  "size": 163176593,
+  "sha256": "d390284b75aaf377cf6a570261ddf76be2092aec585517b3d06fe09021be5731",
   "urls": [
-    "https://github.com/foleksapps/kommeter-releases/releases/download/v1.11.1%2B17/kommeter-v1_11_1.apk"
+    "https://github.com/foleksapps/kommeter-releases/releases/download/v1.12.0%2B18/kommeter-v1_12_0.apk"
   ]
 }
