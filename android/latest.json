@@ -1,83 +1,217 @@
 {
-  "version": "1.12.1",
-  "build": 19,
-  "date": "2026-10-09",
+  "version": "1.14.0",
+  "build": 20,
+  "date": "2026-10-12",
   "notes": {
     "new": {
       "en": [
-        "\"End of month\" in a monthly reminder: \"Last day only\" or \"Last 2–10 days\". The days are counted from the real end of each month, and below the choice you can see the dates the reminders will come on"
+        "In the address properties you can now set whether it is a flat or a house, the number of residents, the total and heated area, and for a house also the land plot area. For a private house you can keep track of land tax: charge it or get a reminder of the payment deadline",
+        "\"Pay all\" button on the month's \"Bills\" tab",
+        "Breakdown on the payments chart: tap a bar, and the amounts by category for that month appear below the chart",
+        "More reminder settings, \"Done\" and \"Remind me later\" buttons",
+        "Filter and sorting on the \"Bills\" screen",
+        "Each bill can have its own color label",
+        "New long-press items in the journal and in the month",
+        "On the \"Tariffs\" screen, identical meters of the same kind are now shown in one row",
+        "You can see how much has already been paid: on the main screen and in the journal"
       ],
       "ru": [
-        "«Конец месяца» в ежемесячном напоминании: «Только последний день» или «Последние 2–10 дней». Дни считаются от настоящего конца каждого месяца, а под выбором видно, в какие даты придут напоминания"
+        "В свойствах адреса можно указать, квартира это или дом, сколько жильцов, общую и отапливаемую площадь, а у дома ещё площадь участка. Для частного дома можно вести налог на землю: начислять его или напоминать о сроке оплаты",
+        "Кнопка «Оплатить всё» на вкладке «Счета» месяца",
+        "Расшифровка на графике платежей: нажмите на столбец, и под графиком появятся суммы по категориям за этот месяц",
+        "Больше настроек напоминаний, кнопки «Сделано» и «Напомнить позже»",
+        "Фильтр и сортировка на экране «Счета»",
+        "У каждого счёта может быть свой цветной ярлык",
+        "Новые пункты по долгому нажатию в журнале и в месяце",
+        "На экране «Тарифы» одинаковые счётчики одного вида теперь в одной строке",
+        "Видно, сколько уже оплачено: на главном экране и в журнале"
       ],
       "uk": [
-        "«Кінець місяця» у щомісячному нагадуванні: «Лише останній день» або «Останні 2–10 днів». Дні рахуються від справжнього кінця кожного місяця, а під вибором видно, в які дати прийдуть нагадування"
+        "У властивостях адреси можна вказати, квартира це чи будинок, кількість мешканців, загальну й опалювальну площу, а в будинку ще й площу ділянки. Для приватного будинку можна вести податок на землю: нараховувати його або нагадувати про строк сплати",
+        "Кнопка «Оплатити все» на вкладці «Рахунки» місяця",
+        "Розшифровка на графіку платежів: натисніть на стовпчик, і під графіком з'являться суми за категоріями за цей місяць",
+        "Більше налаштувань нагадувань, кнопки «Виконано» і «Нагадати пізніше»",
+        "Фільтр і сортування на екрані «Рахунки»",
+        "Кожен рахунок може мати свою кольорову мітку",
+        "Нові пункти довгого натискання в журналі та в місяці",
+        "На екрані «Тарифи» однакові лічильники одного виду тепер в одному рядку",
+        "Видно, скільки вже сплачено: на головному екрані та в журналі"
       ],
       "ro": [
-        "„Sfârșitul lunii” într-un memento lunar: „Doar ultima zi” sau „Ultimele 2–10 zile”. Zilele se numără de la sfârșitul real al fiecărei luni, iar sub alegere se văd datele la care vor veni mementourile"
+        "În proprietățile adresei puteți indica dacă este apartament sau casă, numărul de locatari, suprafața totală și cea încălzită, iar la casă și suprafața terenului. Pentru o casă particulară puteți ține evidența impozitului pe teren: să-l calculați sau să primiți un memento despre termenul de plată",
+        "Butonul „Plătește tot” în fila „Facturi” a lunii",
+        "Detalierea pe graficul plăților: atingeți o coloană, iar sub grafic apar sumele pe categorii pentru acea lună",
+        "Mai multe setări pentru mementouri, butoanele „Gata” și „Amintește-mi mai târziu”",
+        "Filtru și sortare în ecranul „Facturi”",
+        "Fiecare factură poate avea propria etichetă colorată",
+        "Puncte noi la apăsarea lungă în jurnal și în lună",
+        "În ecranul „Tarife”, contoarele identice de același tip sunt acum pe un singur rând",
+        "Se vede cât s-a achitat deja: pe ecranul principal și în jurnal"
       ],
       "be": [
-        "«Канец месяца» ў штомесячным напамінку: «Толькі апошні дзень» або «Апошнія 2–10 дзён». Дні лічацца ад сапраўднага канца кожнага месяца, а пад выбарам відаць, у якія даты прыйдуць напамінкі"
+        "У ўласцівасцях адраса можна пазначыць, кватэра гэта ці дом, колькасць жыхароў, агульную і ацяпляльную плошчу, а ў дома яшчэ і плошчу ўчастка. Для прыватнага дома можна весці падатак на зямлю: налічваць яго або нагадваць пра тэрмін аплаты",
+        "Кнопка «Аплаціць усё» на ўкладцы «Рахункі» месяца",
+        "Расшыфроўка на графіку плацяжоў: націсніце на слупок, і пад графікам з'явяцца сумы па катэгорыях за гэты месяц",
+        "Больш налад напамінкаў, кнопкі «Зроблена» і «Нагадаць пазней»",
+        "Фільтр і сартаванне на экране «Рахункі»",
+        "Кожны рахунак можа мець сваю каляровую метку",
+        "Новыя пункты доўгага націскання ў журнале і ў месяцы",
+        "На экране «Тарыфы» аднолькавыя лічыльнікі аднаго віду цяпер у адным радку",
+        "Відаць, колькі ўжо аплачана: на галоўным экране і ў журнале"
       ],
       "kk": [
-        "Ай сайынғы еске салғышта «Ай соңы»: «Тек соңғы күн» немесе «Соңғы 2–10 күн». Күндер әр айдың нақты соңынан саналады, ал таңдаудың астында еске салғыштар қай күндері келетіні көрінеді"
+        "Мекенжай қасиеттерінде пәтер ме, үй ме, тұрғындар санын, жалпы және жылытылатын ауданды, ал үйде жер телімінің ауданын да көрсетуге болады. Жеке үй үшін жер салығын жүргізуге болады: оны есептеу немесе төлеу мерзімі туралы еске салу",
+        "Айдың «Шоттар» қойындысында «Бәрін төлеу» батырмасы",
+        "Төлемдер графигінде толық жіктеу: бағанды басыңыз, сонда графиктің астында осы айдың санаттар бойынша сомалары шығады",
+        "Еске салғыштардың баптаулары көбейді, «Орындалды» және «Кейінірек еске салу» батырмалары",
+        "«Шоттар» экранында сүзгі және сұрыптау",
+        "Әр шоттың өз түсті белгісі болуы мүмкін",
+        "Журналда және айда ұзақ басудың жаңа тармақтары",
+        "«Тарифтер» экранында бір түрдегі бірдей есептегіштер енді бір жолда",
+        "Қанша төленгені көрінеді: басты экранда және журналда"
       ],
       "ky": [
-        "Ай сайынкы эскертмеде «Айдын аягы»: «Акыркы күн гана» же «Акыркы 2–10 күн». Күндөр ар бир айдын чыныгы аягынан саналат, ал эми тандоонун астында эскертмелер кайсы күндөрү келери көрүнөт"
+        "Даректин касиеттеринде батирби же үйбү, жашоочулардын санын, жалпы жана жылытылуучу аянтты, ал үйдө жер тилкесинин аянтын да көрсөтүүгө болот. Жеке үй үчүн жер салыгын жүргүзүүгө болот: аны эсептөө же төлөө мөөнөтү жөнүндө эскертүү",
+        "Айдын «Эсептер» өтмөгүндө «Баарын төлөө» баскычы",
+        "Төлөмдөр графигинде чечмелөө: мамычаны басыңыз, ошондо графиктин астында ушул айдын категориялар боюнча суммалары чыгат",
+        "Эскертмелердин жөндөөлөрү көбөйдү, «Аткарылды» жана «Кийинчерээк эскертүү» баскычтары",
+        "«Эсептер» экранында чыпка жана иреттөө",
+        "Ар бир эсептин өз түстүү белгиси болушу мүмкүн",
+        "Журналда жана айда узак басуунун жаңы пункттары",
+        "«Тарифтер» экранында бир түрдөгү бирдей эсептегичтер эми бир сапта",
+        "Канча төлөнгөнү көрүнөт: башкы экранда жана журналда"
       ],
       "az": [
-        "Aylıq xatırlatmada «Ayın sonu»: «Yalnız son gün» və ya «Son 2–10 gün». Günlər hər ayın həqiqi sonundan sayılır, seçimin altında isə xatırlatmaların hansı tarixlərdə gələcəyi görünür"
+        "Ünvanın xassələrində mənzil və ya ev olduğunu, sakinlərin sayını, ümumi və isidilən sahəni, evdə isə həm də torpaq sahəsinin ölçüsünü göstərmək olar. Fərdi ev üçün torpaq vergisini aparmaq olar: onu hesablamaq və ya ödəniş müddətini xatırlatmaq",
+        "Ayın «Hesablar» bölməsində «Hamısını ödə» düyməsi",
+        "Ödənişlər qrafikində təfsilat: sütuna toxunun, qrafikin altında həmin ay üzrə kateqoriyalara görə məbləğlər görünəcək",
+        "Xatırlatmaların daha çox ayarı, «Edildi» və «Sonra xatırlat» düymələri",
+        "«Hesablar» ekranında filtr və çeşidləmə",
+        "Hər hesabın öz rəngli nişanı ola bilər",
+        "Jurnalda və ayda uzun toxunuşun yeni bəndləri",
+        "«Tariflər» ekranında eyni növdən olan eyni sayğaclar indi bir sətirdədir",
+        "Nə qədər ödənildiyi görünür: əsas ekranda və jurnalda"
       ],
       "uz": [
-        "Oylik eslatmada «Oy oxiri»: «Faqat oxirgi kun» yoki «Oxirgi 2–10 kun». Kunlar har oyning haqiqiy oxiridan hisoblanadi, tanlov ostida esa eslatmalar qaysi sanalarda kelishi koʻrinadi"
+        "Manzil xususiyatlarida bu kvartira yoki uy ekanini, yashovchilar sonini, umumiy va isitiladigan maydonni, uyda esa yer uchastkasi maydonini ham koʻrsatish mumkin. Xususiy uy uchun yer soligʻini yuritish mumkin: uni hisoblash yoki toʻlov muddatini eslatish",
+        "Oyning «Hisoblar» varagʻida «Hammasini toʻlash» tugmasi",
+        "Toʻlovlar grafigida tafsilot: ustunni bosing, grafik ostida shu oyning toifalar boʻyicha summalari paydo boʻladi",
+        "Eslatmalarning koʻproq sozlamalari, «Bajarildi» va «Keyinroq eslatish» tugmalari",
+        "«Hisoblar» ekranida filtr va saralash",
+        "Har bir hisobning oʻz rangli belgisi boʻlishi mumkin",
+        "Jurnalda va oyda uzoq bosishning yangi bandlari",
+        "«Tariflar» ekranida bir turdagi bir xil hisoblagichlar endi bitta qatorda",
+        "Qancha toʻlangani koʻrinadi: bosh ekranda va jurnalda"
       ],
       "hy": [
-        "«Ամսվա վերջ» ամենամսյա հիշեցման մեջ՝ «Միայն վերջին օրը» կամ «Վերջին 2–10 օրը»: Օրերը հաշվվում են յուրաքանչյուր ամսվա իրական վերջից, իսկ ընտրության տակ երևում է, թե որ ամսաթվերին կգան հիշեցումները"
+        "Հասցեի հատկություններում կարելի է նշել՝ բնակարան է, թե տուն, բնակիչների թիվը, ընդհանուր և ջեռուցվող մակերեսը, իսկ տան դեպքում նաև հողամասի մակերեսը։ Առանձնատան համար կարելի է վարել հողի հարկը՝ հաշվարկել այն կամ հիշեցնել վճարման ժամկետի մասին",
+        "«Վճարել բոլորը» կոճակ ամսվա «Հաշիվներ» ներդիրում",
+        "Մանրամասնում վճարումների գրաֆիկում՝ սեղմեք սյունակի վրա, և գրաֆիկի տակ կհայտնվեն այդ ամսվա գումարներն ըստ կատեգորիաների",
+        "Հիշեցումների ավելի շատ կարգավորումներ, «Արված է» և «Հիշեցնել ավելի ուշ» կոճակներ",
+        "Ֆիլտր և տեսակավորում «Հաշիվներ» էկրանին",
+        "Յուրաքանչյուր հաշիվ կարող է ունենալ իր գունավոր պիտակը",
+        "Երկար սեղմման նոր կետեր մատյանում և ամսում",
+        "«Սակագներ» էկրանին նույն տեսակի միանման հաշվիչներն այժմ մեկ տողում են",
+        "Երևում է, թե որքան է արդեն վճարված՝ գլխավոր էկրանին և մատյանում"
       ],
       "ka": [
-        "«თვის ბოლო» ყოველთვიურ შეხსენებაში: «მხოლოდ ბოლო დღე» ან «ბოლო 2–10 დღე». დღეები ითვლება ყოველი თვის ნამდვილი ბოლოდან, არჩევანის ქვემოთ კი ჩანს, რა თარიღებში მოვა შეხსენებები"
+        "მისამართის თვისებებში შეიძლება მიუთითოთ, ეს ბინაა თუ სახლი, მცხოვრებთა რაოდენობა, საერთო და გასათბობი ფართი, სახლისთვის კი ნაკვეთის ფართიც. კერძო სახლისთვის შეიძლება მიწის გადასახადის აღრიცხვა: მისი დარიცხვა ან გადახდის ვადის შეხსენება",
+        "ღილაკი «ყველას გადახდა» თვის ჩანართზე «ანგარიშები»",
+        "გაშიფვრა გადახდების გრაფიკზე: შეეხეთ სვეტს და გრაფიკის ქვემოთ გამოჩნდება ამ თვის თანხები კატეგორიების მიხედვით",
+        "შეხსენებების მეტი პარამეტრი, ღილაკები «შესრულდა» და «მოგვიანებით შემახსენე»",
+        "ფილტრი და დალაგება ეკრანზე «ანგარიშები»",
+        "თითოეულ ანგარიშს შეიძლება ჰქონდეს საკუთარი ფერადი იარლიყი",
+        "ხანგრძლივი შეხების ახალი პუნქტები ჟურნალსა და თვეში",
+        "ეკრანზე «ტარიფები» ერთი სახეობის ერთნაირი მრიცხველები ახლა ერთ სტრიქონშია",
+        "ჩანს, რამდენია უკვე გადახდილი: მთავარ ეკრანზე და ჟურნალში"
       ]
     },
     "fix": {
       "en": [
-        "On the month's \"Bills\" tab, the \"Paid\" amount of the bills at the bottom of the list was not saved"
+        "The button that chooses what to show on the chart is now below the chart",
+        "In the month, the service's description is now shown under its name instead of the calculation method"
       ],
       "ru": [
-        "На вкладке «Счета» месяца не сохранялась сумма «Оплачено» у счетов внизу списка"
+        "Кнопка, которая выбирает, что показывать на графике, теперь стоит под графиком",
+        "В месяце под названием услуги теперь видно её описание, а не способ расчёта"
       ],
       "uk": [
-        "На вкладці «Рахунки» місяця не зберігалася сума «Оплачено» в рахунків унизу списку"
+        "Кнопка, яка вибирає, що показувати на графіку, тепер стоїть під графіком",
+        "У місяці під назвою послуги тепер видно її опис, а не спосіб розрахунку"
       ],
       "ro": [
-        "În fila „Facturi” a lunii nu se salva suma „Achitat” la facturile din partea de jos a listei"
+        "Butonul care alege ce se afișează pe grafic este acum sub grafic",
+        "În lună, sub numele serviciului se vede acum descrierea lui, nu metoda de calcul"
       ],
       "be": [
-        "На ўкладцы «Рахункі» месяца не захоўвалася сума «Аплачана» ў рахункаў унізе спіса"
+        "Кнопка, якая выбірае, што паказваць на графіку, цяпер стаіць пад графікам",
+        "У месяцы пад назвай паслугі цяпер відаць яе апісанне, а не спосаб разліку"
       ],
       "kk": [
-        "Айдың «Шоттар» қойындысында тізімнің төменгі жағындағы шоттардың «Төленді» сомасы сақталмайтын"
+        "Графикте нені көрсетуді таңдайтын батырма енді графиктің астында",
+        "Айда қызмет атауының астында енді есептеу тәсілі емес, оның сипаттамасы көрінеді"
       ],
       "ky": [
-        "Айдын «Эсептер» өтмөгүндө тизменин ылдый жагындагы эсептердин «Төлөндү» суммасы сакталчу эмес"
+        "Графикте эмнени көрсөтүүнү тандаган баскыч эми графиктин астында",
+        "Айда кызматтын аталышынын астында эми эсептөө ыкмасы эмес, анын сүрөттөмөсү көрүнөт"
       ],
       "az": [
-        "Ayın «Hesablar» bölməsində siyahının aşağısındakı hesabların «Ödənilib» məbləği yadda saxlanmırdı"
+        "Qrafikdə nəyin göstəriləcəyini seçən düymə indi qrafikin altındadır",
+        "Ayda xidmətin adının altında indi hesablama üsulu deyil, onun təsviri görünür"
       ],
       "uz": [
-        "Oyning «Hisoblar» varagʻida roʻyxat pastidagi hisoblarning «Toʻlangan» summasi saqlanmasdi"
+        "Grafikda nimani koʻrsatishni tanlaydigan tugma endi grafik ostida",
+        "Oyda xizmat nomi ostida endi hisoblash usuli emas, uning tavsifi koʻrinadi"
       ],
       "hy": [
-        "Ամսվա «Հաշիվներ» ներդիրում ցանկի ներքևի հաշիվների «Վճարված է» գումարը չէր պահպանվում"
+        "Կոճակը, որով ընտրվում է, թե ինչ ցույց տալ գրաֆիկում, այժմ գրաֆիկի տակ է",
+        "Ամսում ծառայության անվան տակ այժմ երևում է դրա նկարագրությունը, ոչ թե հաշվարկի եղանակը"
       ],
       "ka": [
-        "თვის ჩანართზე «ანგარიშები» სიის ბოლოში მყოფი ანგარიშების თანხა «გადახდილია» არ ინახებოდა"
+        "ღილაკი, რომლითაც ირჩევა, რა გამოჩნდეს გრაფიკზე, ახლა გრაფიკის ქვემოთაა",
+        "თვეში მომსახურების სახელის ქვემოთ ახლა ჩანს მისი აღწერა და არა გაანგარიშების მეთოდი"
+      ]
+    },
+    "desktop": {
+      "en": [
+        "The \"Residents\" section: permanent residents and tenants, their details, passports, lease agreement and other documents"
+      ],
+      "ru": [
+        "Раздел «Жильцы»: постоянные жильцы и квартиранты, их данные, паспорта, договор и другие документы"
+      ],
+      "uk": [
+        "Розділ «Мешканці»: постійні мешканці й квартиранти, їхні дані, паспорти, договір та інші документи"
+      ],
+      "ro": [
+        "Secțiunea „Locatari”: locatarii permanenți și chiriașii, datele lor, pașapoartele, contractul și alte documente"
+      ],
+      "be": [
+        "Раздзел «Жыхары»: пастаянныя жыхары і кватаранты, іх даныя, пашпарты, дагавор і іншыя дакументы"
+      ],
+      "kk": [
+        "«Тұрғындар» бөлімі: тұрақты тұрғындар мен жалға алушылар, олардың деректері, төлқұжаттары, шарты және басқа құжаттары"
+      ],
+      "ky": [
+        "«Жашоочулар» бөлүмү: туруктуу жашоочулар жана ижарачылар, алардын маалыматтары, паспорттору, келишими жана башка документтери"
+      ],
+      "az": [
+        "«Sakinlər» bölməsi: daimi sakinlər və kirayəçilər, onların məlumatları, pasportları, müqavilə və digər sənədlər"
+      ],
+      "uz": [
+        "«Yashovchilar» boʻlimi: doimiy yashovchilar va ijarachilar, ularning maʼlumotlari, pasportlari, shartnoma va boshqa hujjatlar"
+      ],
+      "hy": [
+        "«Բնակիչներ» բաժին՝ մշտական բնակիչներ և վարձակալներ, նրանց տվյալները, անձնագրերը, պայմանագիրը և այլ փաստաթղթեր"
+      ],
+      "ka": [
+        "განყოფილება «მაცხოვრებლები»: მუდმივი მაცხოვრებლები და დამქირავებლები, მათი მონაცემები, პასპორტები, ხელშეკრულება და სხვა დოკუმენტები"
       ]
     }
   },
-  "file": "kommeter-v1_12_1.apk",
-  "size": 163209361,
-  "sha256": "f85f774544f07f81af60298b59bf699500310157556e7f3e0355efbfd6e9044f",
+  "file": "kommeter-v1_14_0.apk",
+  "size": 165454721,
+  "sha256": "494b58ba9923da6a887b51993333b8a6df18416f5e8a0220fbaf6d5bf152b4fd",
   "urls": [
-    "https://github.com/foleksapps/kommeter-releases/releases/download/v1.12.1%2B19/kommeter-v1_12_1.apk"
+    "https://github.com/foleksapps/kommeter-releases/releases/download/v1.14.0%2B20/kommeter-v1_14_0.apk"
   ]
 }
