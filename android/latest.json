@@ -1,217 +1,217 @@
 {
-  "version": "1.14.0",
-  "build": 20,
-  "date": "2026-10-12",
+  "version": "1.15.0",
+  "build": 21,
+  "date": "2026-10-16",
   "notes": {
     "new": {
       "en": [
-        "In the address properties you can now set whether it is a flat or a house, the number of residents, the total and heated area, and for a house also the land plot area. For a private house you can keep track of land tax: charge it or get a reminder of the payment deadline",
-        "\"Pay all\" button on the month's \"Bills\" tab",
-        "Breakdown on the payments chart: tap a bar, and the amounts by category for that month appear below the chart",
-        "More reminder settings, \"Done\" and \"Remind me later\" buttons",
-        "Filter and sorting on the \"Bills\" screen",
-        "Each bill can have its own color label",
-        "New long-press items in the journal and in the month",
-        "On the \"Tariffs\" screen, identical meters of the same kind are now shown in one row",
-        "You can see how much has already been paid: on the main screen and in the journal"
+        "The address now has two resident counts: \"People living there\" and \"People registered\". Per-resident services are charged by the registered count, which can be 0",
+        "Besides a flat and a house, an address can now be \"Other\" — a garage, a shop and the like. A house and \"Other\" can keep a list of other buildings (garage, shed, sauna and so on) with their area, for example for taxes",
+        "Formulas can use the address data: the number of registered and living residents, the total and heated area, the land plot and buildings area. Changing the address does not change past months",
+        "New service type \"Rent\". In the \"Bill for the tenant\" its amount goes into the \"Rent\" line by itself",
+        "In a grouped bill, resources of one type or one group are shown in one line with the total amount, and below it each meter with its own amount",
+        "The payment deadline can fall in the next month (by default) or in the same month — for paying in advance, such as rent",
+        "A document can be moved to the archive instead of being deleted. An archived document does not remind of its deadline and is not shown in the calendar. It can be restored or deleted for good"
       ],
       "ru": [
-        "В свойствах адреса можно указать, квартира это или дом, сколько жильцов, общую и отапливаемую площадь, а у дома ещё площадь участка. Для частного дома можно вести налог на землю: начислять его или напоминать о сроке оплаты",
-        "Кнопка «Оплатить всё» на вкладке «Счета» месяца",
-        "Расшифровка на графике платежей: нажмите на столбец, и под графиком появятся суммы по категориям за этот месяц",
-        "Больше настроек напоминаний, кнопки «Сделано» и «Напомнить позже»",
-        "Фильтр и сортировка на экране «Счета»",
-        "У каждого счёта может быть свой цветной ярлык",
-        "Новые пункты по долгому нажатию в журнале и в месяце",
-        "На экране «Тарифы» одинаковые счётчики одного вида теперь в одной строке",
-        "Видно, сколько уже оплачено: на главном экране и в журнале"
+        "В адресе теперь два числа жильцов: «Проживает» и «Прописано». Услуги «по жильцам» считаются по прописанным, и их число может быть 0",
+        "Кроме квартиры и дома, у адреса появился тип «Другое» — для гаража, магазина и подобного. У дома и у «Другого» можно вести список других построек (гараж, сарай, баня и так далее) с их площадью, например для учёта налогов",
+        "В формулах можно использовать данные адреса: число прописанных и проживающих, общую и отапливаемую площадь, площадь участка и построек. Если адрес изменится, прошлые месяцы останутся прежними",
+        "Новый вид услуги «Аренда». В «Счёте жильцу» её сумма сама попадает в строку «Аренда»",
+        "В составе счёта с группировкой ресурсы одного типа или одной группы показываются одной строкой с общей суммой, а под ней — каждый счётчик со своей суммой",
+        "Срок оплаты можно отнести к следующему месяцу (так по умолчанию) или к тому же — для оплаты вперёд, например аренды",
+        "Документ можно убрать в архив, а не удалять. Архивный документ не напоминает о сроке и не показывается в календаре. Его можно вернуть или удалить совсем"
       ],
       "uk": [
-        "У властивостях адреси можна вказати, квартира це чи будинок, кількість мешканців, загальну й опалювальну площу, а в будинку ще й площу ділянки. Для приватного будинку можна вести податок на землю: нараховувати його або нагадувати про строк сплати",
-        "Кнопка «Оплатити все» на вкладці «Рахунки» місяця",
-        "Розшифровка на графіку платежів: натисніть на стовпчик, і під графіком з'являться суми за категоріями за цей місяць",
-        "Більше налаштувань нагадувань, кнопки «Виконано» і «Нагадати пізніше»",
-        "Фільтр і сортування на екрані «Рахунки»",
-        "Кожен рахунок може мати свою кольорову мітку",
-        "Нові пункти довгого натискання в журналі та в місяці",
-        "На екрані «Тарифи» однакові лічильники одного виду тепер в одному рядку",
-        "Видно, скільки вже сплачено: на головному екрані та в журналі"
+        "В адресі тепер два числа мешканців: «Проживає» і «Зареєстровано». Послуги «за мешканцями» рахуються за зареєстрованими, і їх може бути 0",
+        "Окрім квартири й будинку, в адреси з'явився тип «Інше» — для гаража, магазину тощо. У будинку та в «Іншого» можна вести список інших споруд (гараж, сарай, лазня тощо) з їхньою площею, наприклад для обліку податків",
+        "У формулах можна використовувати дані адреси: кількість зареєстрованих і тих, хто проживає, загальну й опалювальну площу, площу ділянки та споруд. Якщо адреса зміниться, минулі місяці залишаться без змін",
+        "Новий вид послуги «Оренда». У «Рахунку мешканцю» її сума сама потрапляє в рядок «Оренда»",
+        "У складі рахунку з групуванням ресурси одного типу чи однієї групи показуються одним рядком із загальною сумою, а під ним — кожен лічильник зі своєю сумою",
+        "Строк оплати можна віднести до наступного місяця (так за замовчуванням) або до того самого — для оплати наперед, наприклад оренди",
+        "Документ можна перенести в архів, а не видаляти. Архівний документ не нагадує про строк і не показується в календарі. Його можна повернути або видалити остаточно"
       ],
       "ro": [
-        "În proprietățile adresei puteți indica dacă este apartament sau casă, numărul de locatari, suprafața totală și cea încălzită, iar la casă și suprafața terenului. Pentru o casă particulară puteți ține evidența impozitului pe teren: să-l calculați sau să primiți un memento despre termenul de plată",
-        "Butonul „Plătește tot” în fila „Facturi” a lunii",
-        "Detalierea pe graficul plăților: atingeți o coloană, iar sub grafic apar sumele pe categorii pentru acea lună",
-        "Mai multe setări pentru mementouri, butoanele „Gata” și „Amintește-mi mai târziu”",
-        "Filtru și sortare în ecranul „Facturi”",
-        "Fiecare factură poate avea propria etichetă colorată",
-        "Puncte noi la apăsarea lungă în jurnal și în lună",
-        "În ecranul „Tarife”, contoarele identice de același tip sunt acum pe un singur rând",
-        "Se vede cât s-a achitat deja: pe ecranul principal și în jurnal"
+        "Adresa are acum două numere de locatari: „Persoane care locuiesc” și „Persoane înregistrate”. Serviciile pe locatar se calculează după persoanele înregistrate, iar numărul lor poate fi 0",
+        "Pe lângă apartament și casă, adresa poate fi acum de tipul „Altceva” — garaj, magazin și altele asemenea. La casă și la „Altceva” se poate ține lista altor construcții (garaj, șopron, saună etc.) cu suprafața lor, de exemplu pentru impozite",
+        "În formule se pot folosi datele adresei: numărul persoanelor înregistrate și al celor care locuiesc, suprafața totală și cea încălzită, suprafața terenului și a construcțiilor. Dacă adresa se schimbă, lunile trecute rămân neschimbate",
+        "Tip nou de serviciu „Chirie”. În „Factură pentru chiriaș” suma lui intră singură în rândul „Chirie”",
+        "Într-o factură cu grupare, resursele de același tip sau din aceeași grupă apar pe un singur rând cu suma totală, iar dedesubt — fiecare contor cu suma lui",
+        "Termenul de plată poate cădea în luna următoare (implicit) sau în aceeași lună — pentru plata în avans, de exemplu a chiriei",
+        "Un document poate fi mutat în arhivă în loc să fie șters. Documentul arhivat nu mai amintește de termen și nu apare în calendar. Poate fi readus sau șters definitiv"
       ],
       "be": [
-        "У ўласцівасцях адраса можна пазначыць, кватэра гэта ці дом, колькасць жыхароў, агульную і ацяпляльную плошчу, а ў дома яшчэ і плошчу ўчастка. Для прыватнага дома можна весці падатак на зямлю: налічваць яго або нагадваць пра тэрмін аплаты",
-        "Кнопка «Аплаціць усё» на ўкладцы «Рахункі» месяца",
-        "Расшыфроўка на графіку плацяжоў: націсніце на слупок, і пад графікам з'явяцца сумы па катэгорыях за гэты месяц",
-        "Больш налад напамінкаў, кнопкі «Зроблена» і «Нагадаць пазней»",
-        "Фільтр і сартаванне на экране «Рахункі»",
-        "Кожны рахунак можа мець сваю каляровую метку",
-        "Новыя пункты доўгага націскання ў журнале і ў месяцы",
-        "На экране «Тарыфы» аднолькавыя лічыльнікі аднаго віду цяпер у адным радку",
-        "Відаць, колькі ўжо аплачана: на галоўным экране і ў журнале"
+        "У адрасе цяпер два лікі жыхароў: «Пражывае» і «Прапісана». Паслугі «па жыхарах» лічацца па прапісаных, і іх можа быць 0",
+        "Акрамя кватэры і дома, у адраса з'явіўся тып «Іншае» — для гаража, крамы і падобнага. У дома і ў «Іншага» можна весці спіс іншых пабудоў (гараж, хлеў, лазня і г. д.) з іх плошчай, напрыклад для ўліку падаткаў",
+        "У формулах можна выкарыстоўваць даныя адраса: колькасць прапісаных і тых, хто пражывае, агульную і ацяпляльную плошчу, плошчу ўчастка і пабудоў. Калі адрас зменіцца, мінулыя месяцы застануцца ранейшымі",
+        "Новы від паслугі «Арэнда». У «Рахунку жыхару» яе сума сама трапляе ў радок «Арэнда»",
+        "У складзе рахунку з групаваннем рэсурсы аднаго тыпу ці адной групы паказваюцца адным радком з агульнай сумай, а пад ім — кожны лічыльнік са сваёй сумай",
+        "Тэрмін аплаты можна аднесці да наступнага месяца (так па змаўчанні) або да таго самага — для аплаты наперад, напрыклад арэнды",
+        "Дакумент можна перанесці ў архіў, а не выдаляць. Архіўны дакумент не нагадвае пра тэрмін і не паказваецца ў календары. Яго можна вярнуць або выдаліць канчаткова"
       ],
       "kk": [
-        "Мекенжай қасиеттерінде пәтер ме, үй ме, тұрғындар санын, жалпы және жылытылатын ауданды, ал үйде жер телімінің ауданын да көрсетуге болады. Жеке үй үшін жер салығын жүргізуге болады: оны есептеу немесе төлеу мерзімі туралы еске салу",
-        "Айдың «Шоттар» қойындысында «Бәрін төлеу» батырмасы",
-        "Төлемдер графигінде толық жіктеу: бағанды басыңыз, сонда графиктің астында осы айдың санаттар бойынша сомалары шығады",
-        "Еске салғыштардың баптаулары көбейді, «Орындалды» және «Кейінірек еске салу» батырмалары",
-        "«Шоттар» экранында сүзгі және сұрыптау",
-        "Әр шоттың өз түсті белгісі болуы мүмкін",
-        "Журналда және айда ұзақ басудың жаңа тармақтары",
-        "«Тарифтер» экранында бір түрдегі бірдей есептегіштер енді бір жолда",
-        "Қанша төленгені көрінеді: басты экранда және журналда"
+        "Мекенжайда енді тұрғындардың екі саны бар: «Тұратындар» және «Тіркелгендер». «Тұрғындар бойынша» қызметтер тіркелгендер бойынша есептеледі, олардың саны 0 болуы мүмкін",
+        "Пәтер мен үйден басқа, мекенжайдың «Басқа» түрі пайда болды — гараж, дүкен және сол сияқтылар үшін. Үйде және «Басқада» басқа құрылыстардың тізімін (гараж, қора, монша және т. б.) олардың ауданымен жүргізуге болады, мысалы салықтарды есепке алу үшін",
+        "Формулаларда мекенжай деректерін пайдалануға болады: тіркелгендер мен тұратындардың саны, жалпы және жылытылатын аудан, жер телімі мен құрылыстардың ауданы. Мекенжай өзгерсе, өткен айлар өзгермейді",
+        "Қызметтің жаңа түрі «Жалдау ақысы». «Жалға алушыға шот» ішінде оның сомасы «Жалдау ақысы» жолына өзі түседі",
+        "Топтастырылған шоттың құрамында бір түрдегі немесе бір топтағы ресурстар жалпы сомасымен бір жолда көрсетіледі, ал оның астында — әр есептегіш өз сомасымен",
+        "Төлеу мерзімін келесі айға (әдепкі бойынша) немесе сол айға жатқызуға болады — алдын ала төлеу үшін, мысалы жалдау ақысын",
+        "Құжатты жоюдың орнына мұрағатқа жіберуге болады. Мұрағаттағы құжат мерзім туралы еске салмайды және күнтізбеде көрсетілмейді. Оны қайтаруға немесе біржола жоюға болады"
       ],
       "ky": [
-        "Даректин касиеттеринде батирби же үйбү, жашоочулардын санын, жалпы жана жылытылуучу аянтты, ал үйдө жер тилкесинин аянтын да көрсөтүүгө болот. Жеке үй үчүн жер салыгын жүргүзүүгө болот: аны эсептөө же төлөө мөөнөтү жөнүндө эскертүү",
-        "Айдын «Эсептер» өтмөгүндө «Баарын төлөө» баскычы",
-        "Төлөмдөр графигинде чечмелөө: мамычаны басыңыз, ошондо графиктин астында ушул айдын категориялар боюнча суммалары чыгат",
-        "Эскертмелердин жөндөөлөрү көбөйдү, «Аткарылды» жана «Кийинчерээк эскертүү» баскычтары",
-        "«Эсептер» экранында чыпка жана иреттөө",
-        "Ар бир эсептин өз түстүү белгиси болушу мүмкүн",
-        "Журналда жана айда узак басуунун жаңы пункттары",
-        "«Тарифтер» экранында бир түрдөгү бирдей эсептегичтер эми бир сапта",
-        "Канча төлөнгөнү көрүнөт: башкы экранда жана журналда"
+        "Даректе эми жашоочулардын эки саны бар: «Жашагандар» жана «Катталгандар». «Жашоочулар боюнча» кызматтар катталгандар боюнча эсептелет, алардын саны 0 болушу мүмкүн",
+        "Батир менен үйдөн тышкары, даректин «Башка» түрү пайда болду — гараж, дүкөн жана ушул сыяктуулар үчүн. Үйдө жана «Башкада» башка курулуштардын тизмесин (гараж, сарай, мончо ж. б.) алардын аянты менен жүргүзүүгө болот, мисалы салыктарды эсепке алуу үчүн",
+        "Формулаларда даректин маалыматтарын колдонууга болот: катталгандардын жана жашагандардын саны, жалпы жана жылытылуучу аянт, жер тилкесинин жана курулуштардын аянты. Дарек өзгөрсө, өткөн айлар өзгөрбөйт",
+        "Кызматтын жаңы түрү «Ижара акысы». «Ижарачыга эсеп» ичинде анын суммасы «Ижара акысы» сабына өзү түшөт",
+        "Топтоштурулган эсептин курамында бир түрдөгү же бир топтогу ресурстар жалпы суммасы менен бир сапта көрсөтүлөт, ал эми анын астында — ар бир эсептегич өз суммасы менен",
+        "Төлөө мөөнөтүн кийинки айга (демейки боюнча) же ошол эле айга таандык кылууга болот — алдын ала төлөө үчүн, мисалы ижара акысын",
+        "Документти өчүрүүнүн ордуна архивге жылдырууга болот. Архивдеги документ мөөнөт тууралуу эскертпейт жана календарда көрсөтүлбөйт. Аны кайтарууга же биротоло өчүрүүгө болот"
       ],
       "az": [
-        "Ünvanın xassələrində mənzil və ya ev olduğunu, sakinlərin sayını, ümumi və isidilən sahəni, evdə isə həm də torpaq sahəsinin ölçüsünü göstərmək olar. Fərdi ev üçün torpaq vergisini aparmaq olar: onu hesablamaq və ya ödəniş müddətini xatırlatmaq",
-        "Ayın «Hesablar» bölməsində «Hamısını ödə» düyməsi",
-        "Ödənişlər qrafikində təfsilat: sütuna toxunun, qrafikin altında həmin ay üzrə kateqoriyalara görə məbləğlər görünəcək",
-        "Xatırlatmaların daha çox ayarı, «Edildi» və «Sonra xatırlat» düymələri",
-        "«Hesablar» ekranında filtr və çeşidləmə",
-        "Hər hesabın öz rəngli nişanı ola bilər",
-        "Jurnalda və ayda uzun toxunuşun yeni bəndləri",
-        "«Tariflər» ekranında eyni növdən olan eyni sayğaclar indi bir sətirdədir",
-        "Nə qədər ödənildiyi görünür: əsas ekranda və jurnalda"
+        "Ünvanda indi sakinlərin iki sayı var: «Yaşayanlar» və «Qeydiyyatda olanlar». Sakinlərə görə xidmətlər qeydiyyatda olanlara görə hesablanır və onların sayı 0 ola bilər",
+        "Mənzil və evdən başqa, ünvan indi «Digər» növündə ola bilər — qaraj, mağaza və bu kimi. Evdə və «Digər»də digər tikililərin siyahısını (qaraj, anbar, hamam və s.) onların sahəsi ilə aparmaq olar, məsələn vergilərin uçotu üçün",
+        "Düsturlarda ünvanın məlumatlarından istifadə etmək olar: qeydiyyatda olanların və yaşayanların sayı, ümumi və isidilən sahə, torpaq sahəsi və tikililərin sahəsi. Ünvan dəyişsə, keçmiş aylar dəyişməz qalır",
+        "Yeni xidmət növü «İcarə haqqı». «Kirayəçi üçün hesab»da onun məbləği özü «Kirayə haqqı» sətrinə düşür",
+        "Qruplaşdırılmış hesabın tərkibində eyni növdən və ya eyni qrupdan olan resurslar ümumi məbləğlə bir sətirdə, altında isə hər sayğac öz məbləği ilə göstərilir",
+        "Ödəniş müddətini növbəti aya (defolt olaraq) və ya həmin aya aid etmək olar — qabaqcadan ödəniş üçün, məsələn icarə haqqı",
+        "Sənədi silmək əvəzinə arxivə köçürmək olar. Arxivdəki sənəd müddət barədə xatırlatmır və təqvimdə göstərilmir. Onu geri qaytarmaq və ya birdəfəlik silmək olar"
       ],
       "uz": [
-        "Manzil xususiyatlarida bu kvartira yoki uy ekanini, yashovchilar sonini, umumiy va isitiladigan maydonni, uyda esa yer uchastkasi maydonini ham koʻrsatish mumkin. Xususiy uy uchun yer soligʻini yuritish mumkin: uni hisoblash yoki toʻlov muddatini eslatish",
-        "Oyning «Hisoblar» varagʻida «Hammasini toʻlash» tugmasi",
-        "Toʻlovlar grafigida tafsilot: ustunni bosing, grafik ostida shu oyning toifalar boʻyicha summalari paydo boʻladi",
-        "Eslatmalarning koʻproq sozlamalari, «Bajarildi» va «Keyinroq eslatish» tugmalari",
-        "«Hisoblar» ekranida filtr va saralash",
-        "Har bir hisobning oʻz rangli belgisi boʻlishi mumkin",
-        "Jurnalda va oyda uzoq bosishning yangi bandlari",
-        "«Tariflar» ekranida bir turdagi bir xil hisoblagichlar endi bitta qatorda",
-        "Qancha toʻlangani koʻrinadi: bosh ekranda va jurnalda"
+        "Manzilda endi yashovchilarning ikki soni bor: «Yashayotganlar» va «Roʻyxatda turganlar». Yashovchilar boʻyicha xizmatlar roʻyxatda turganlar boʻyicha hisoblanadi, ularning soni 0 boʻlishi mumkin",
+        "Kvartira va uydan tashqari, manzilning «Boshqa» turi paydo boʻldi — garaj, doʻkon va shu kabilar uchun. Uyda va «Boshqa»da boshqa imoratlar roʻyxatini (garaj, ombor, hammom va h. k.) ularning maydoni bilan yuritish mumkin, masalan soliqlarni hisobga olish uchun",
+        "Formulalarda manzil maʼlumotlaridan foydalanish mumkin: roʻyxatda turganlar va yashayotganlar soni, umumiy va isitiladigan maydon, yer uchastkasi va imoratlar maydoni. Manzil oʻzgarsa, oʻtgan oylar oʻzgarmaydi",
+        "Yangi xizmat turi «Ijara haqi». «Ijarachi uchun hisob»da uning summasi «Ijara haqi» qatoriga oʻzi tushadi",
+        "Guruhlangan hisob tarkibida bir turdagi yoki bir guruhdagi resurslar umumiy summa bilan bitta qatorda, uning ostida esa har bir hisoblagich oʻz summasi bilan koʻrsatiladi",
+        "Toʻlov muddatini keyingi oyga (odatiy holatda) yoki oʻsha oyga qoʻyish mumkin — oldindan toʻlash uchun, masalan ijara haqini",
+        "Hujjatni oʻchirish oʻrniga arxivga koʻchirish mumkin. Arxivdagi hujjat muddat haqida eslatmaydi va taqvimda koʻrsatilmaydi. Uni qaytarish yoki butunlay oʻchirish mumkin"
       ],
       "hy": [
-        "Հասցեի հատկություններում կարելի է նշել՝ բնակարան է, թե տուն, բնակիչների թիվը, ընդհանուր և ջեռուցվող մակերեսը, իսկ տան դեպքում նաև հողամասի մակերեսը։ Առանձնատան համար կարելի է վարել հողի հարկը՝ հաշվարկել այն կամ հիշեցնել վճարման ժամկետի մասին",
-        "«Վճարել բոլորը» կոճակ ամսվա «Հաշիվներ» ներդիրում",
-        "Մանրամասնում վճարումների գրաֆիկում՝ սեղմեք սյունակի վրա, և գրաֆիկի տակ կհայտնվեն այդ ամսվա գումարներն ըստ կատեգորիաների",
-        "Հիշեցումների ավելի շատ կարգավորումներ, «Արված է» և «Հիշեցնել ավելի ուշ» կոճակներ",
-        "Ֆիլտր և տեսակավորում «Հաշիվներ» էկրանին",
-        "Յուրաքանչյուր հաշիվ կարող է ունենալ իր գունավոր պիտակը",
-        "Երկար սեղմման նոր կետեր մատյանում և ամսում",
-        "«Սակագներ» էկրանին նույն տեսակի միանման հաշվիչներն այժմ մեկ տողում են",
-        "Երևում է, թե որքան է արդեն վճարված՝ գլխավոր էկրանին և մատյանում"
+        "Հասցեում այժմ բնակիչների երկու թիվ կա՝ «Բնակվողներ» և «Գրանցվածներ»։ Ըստ բնակիչների ծառայությունները հաշվարկվում են ըստ գրանցվածների, և նրանց թիվը կարող է լինել 0",
+        "Բնակարանից և տնից բացի, հասցեն այժմ կարող է լինել «Այլ» տեսակի՝ ավտոտնակ, խանութ և նմանատիպ։ Տան և «Այլ»-ի համար կարելի է վարել այլ շինությունների ցանկը (ավտոտնակ, պահեստ, բաղնիք և այլն) դրանց մակերեսով, օրինակ՝ հարկերի հաշվառման համար",
+        "Բանաձևերում կարելի է օգտագործել հասցեի տվյալները՝ գրանցվածների և բնակվողների թիվը, ընդհանուր և ջեռուցվող մակերեսը, հողամասի և շինությունների մակերեսը։ Եթե հասցեն փոխվի, անցած ամիսները չեն փոխվի",
+        "Ծառայության նոր տեսակ «Վարձակալություն»։ «Հաշիվ վարձակալին»-ում դրա գումարն ինքնաբերաբար ընկնում է «Վարձավճար» տողում",
+        "Խմբավորված հաշվի կազմում միևնույն տեսակի կամ խմբի ռեսուրսները ցույց են տրվում մեկ տողով՝ ընդհանուր գումարով, իսկ դրա տակ՝ յուրաքանչյուր հաշվիչ իր գումարով",
+        "Վճարման ժամկետը կարելի է վերագրել հաջորդ ամսին (լռելյայն) կամ նույն ամսին՝ նախապես վճարելու համար, օրինակ՝ վարձը",
+        "Փաստաթուղթը կարելի է տեղափոխել արխիվ՝ ջնջելու փոխարեն։ Արխիվային փաստաթուղթը չի հիշեցնում ժամկետի մասին և չի երևում օրացույցում։ Այն կարելի է վերադարձնել կամ ջնջել ընդմիշտ"
       ],
       "ka": [
-        "მისამართის თვისებებში შეიძლება მიუთითოთ, ეს ბინაა თუ სახლი, მცხოვრებთა რაოდენობა, საერთო და გასათბობი ფართი, სახლისთვის კი ნაკვეთის ფართიც. კერძო სახლისთვის შეიძლება მიწის გადასახადის აღრიცხვა: მისი დარიცხვა ან გადახდის ვადის შეხსენება",
-        "ღილაკი «ყველას გადახდა» თვის ჩანართზე «ანგარიშები»",
-        "გაშიფვრა გადახდების გრაფიკზე: შეეხეთ სვეტს და გრაფიკის ქვემოთ გამოჩნდება ამ თვის თანხები კატეგორიების მიხედვით",
-        "შეხსენებების მეტი პარამეტრი, ღილაკები «შესრულდა» და «მოგვიანებით შემახსენე»",
-        "ფილტრი და დალაგება ეკრანზე «ანგარიშები»",
-        "თითოეულ ანგარიშს შეიძლება ჰქონდეს საკუთარი ფერადი იარლიყი",
-        "ხანგრძლივი შეხების ახალი პუნქტები ჟურნალსა და თვეში",
-        "ეკრანზე «ტარიფები» ერთი სახეობის ერთნაირი მრიცხველები ახლა ერთ სტრიქონშია",
-        "ჩანს, რამდენია უკვე გადახდილი: მთავარ ეკრანზე და ჟურნალში"
+        "მისამართში ახლა მცხოვრებთა ორი რიცხვია: «მცხოვრები» და «რეგისტრირებული». მცხოვრებთა მიხედვით მომსახურებები რეგისტრირებულთა მიხედვით ითვლება და მათი რაოდენობა შეიძლება 0 იყოს",
+        "ბინისა და სახლის გარდა, მისამართს ახლა შეიძლება ჰქონდეს ტიპი «სხვა» — ავტოფარეხი, მაღაზია და მსგავსი. სახლსა და «სხვას» შეიძლება ჰქონდეს სხვა ნაგებობების სია (ავტოფარეხი, ფარდული, აბანო და ა. შ.) მათი ფართით, მაგალითად გადასახადების აღრიცხვისთვის",
+        "ფორმულებში შეიძლება მისამართის მონაცემების გამოყენება: რეგისტრირებულთა და მცხოვრებთა რაოდენობა, საერთო და გასათბობი ფართი, ნაკვეთისა და ნაგებობების ფართი. თუ მისამართი შეიცვლება, წინა თვეები უცვლელი დარჩება",
+        "მომსახურების ახალი სახეობა «ქირა». «ანგარიში დამქირავებლისთვის»-ში მისი თანხა თავად ხვდება სტრიქონში «ქირა»",
+        "დაჯგუფებული ანგარიშის შემადგენლობაში ერთი ტიპის ან ერთი ჯგუფის რესურსები ერთ სტრიქონში ჩანს საერთო თანხით, მის ქვემოთ კი — თითოეული მრიცხველი თავისი თანხით",
+        "გადახდის ვადა შეიძლება მიეკუთვნოს მომდევნო თვეს (ნაგულისხმევად) ან იმავე თვეს — წინასწარ გადახდისთვის, მაგალითად ქირის",
+        "დოკუმენტის წაშლის ნაცვლად შეიძლება მისი არქივში გადატანა. არქივში მყოფი დოკუმენტი ვადას არ შეახსენებს და კალენდარში არ ჩანს. მისი დაბრუნება ან სამუდამოდ წაშლა შეიძლება"
       ]
     },
     "fix": {
       "en": [
-        "The button that chooses what to show on the chart is now below the chart",
-        "In the month, the service's description is now shown under its name instead of the calculation method"
+        "A date in the date picker can be typed with digits only, for example 20102026, without dots",
+        "A September bill due \"on the 20th\" used to count as overdue already after September 20. Now the deadline is October 20",
+        "The print sheet showed two different totals. Now there is one — \"Total due\" for the bills",
+        "Minor interface fixes"
       ],
       "ru": [
-        "Кнопка, которая выбирает, что показывать на графике, теперь стоит под графиком",
-        "В месяце под названием услуги теперь видно её описание, а не способ расчёта"
+        "Дату в окне выбора можно набрать одними цифрами, например 20102026, без точек",
+        "Раньше счёт за сентябрь со сроком «20 числа» считался просроченным уже после 20 сентября. Теперь срок — 20 октября",
+        "На листе для печати стояли два разных итога. Теперь он один — «Всего к оплате» по счетам",
+        "Мелкие правки интерфейса"
       ],
       "uk": [
-        "Кнопка, яка вибирає, що показувати на графіку, тепер стоїть під графіком",
-        "У місяці під назвою послуги тепер видно її опис, а не спосіб розрахунку"
+        "Дату у вікні вибору можна набрати самими цифрами, наприклад 20102026, без крапок",
+        "Раніше рахунок за вересень зі строком «20 числа» вважався простроченим уже після 20 вересня. Тепер строк — 20 жовтня",
+        "На аркуші для друку стояли два різні підсумки. Тепер він один — «Всього до сплати» за рахунками",
+        "Дрібні виправлення інтерфейсу"
       ],
       "ro": [
-        "Butonul care alege ce se afișează pe grafic este acum sub grafic",
-        "În lună, sub numele serviciului se vede acum descrierea lui, nu metoda de calcul"
+        "Data din fereastra de alegere se poate tasta doar din cifre, de exemplu 20102026, fără puncte",
+        "Înainte, factura pentru septembrie cu termenul „pe 20” era considerată restantă deja după 20 septembrie. Acum termenul este 20 octombrie",
+        "Foaia de tipărit avea două totaluri diferite. Acum este unul singur — „Total de plată” pentru facturi",
+        "Mici corecturi ale interfeței"
       ],
       "be": [
-        "Кнопка, якая выбірае, што паказваць на графіку, цяпер стаіць пад графікам",
-        "У месяцы пад назвай паслугі цяпер відаць яе апісанне, а не спосаб разліку"
+        "Дату ў акне выбару можна набраць адными лічбамі, напрыклад 20102026, без кропак",
+        "Раней рахунак за верасень з тэрмінам «20 чысла» лічыўся пратэрмінаваным ужо пасля 20 верасня. Цяпер тэрмін — 20 кастрычніка",
+        "На аркушы для друку стаялі два розныя вынікі. Цяпер ён адзін — «Усяго да аплаты» па рахунках",
+        "Дробныя праўкі інтэрфейсу"
       ],
       "kk": [
-        "Графикте нені көрсетуді таңдайтын батырма енді графиктің астында",
-        "Айда қызмет атауының астында енді есептеу тәсілі емес, оның сипаттамасы көрінеді"
+        "Күнді таңдау терезесінде күнді тек сандармен теруге болады, мысалы 20102026, нүктелерсіз",
+        "Бұрын қыркүйек айының «20-сы» мерзімі бар шоты 20 қыркүйектен кейін-ақ мерзімі өткен деп саналатын. Енді мерзім — 20 қазан",
+        "Басып шығару парағында екі түрлі қорытынды тұрды. Енді біреу ғана — шоттар бойынша «Барлығы төлеуге»",
+        "Интерфейстегі ұсақ түзетулер"
       ],
       "ky": [
-        "Графикте эмнени көрсөтүүнү тандаган баскыч эми графиктин астында",
-        "Айда кызматтын аталышынын астында эми эсептөө ыкмасы эмес, анын сүрөттөмөсү көрүнөт"
+        "Күн тандоо терезесинде күндү сандар менен гана терүүгө болот, мисалы 20102026, чекитсиз",
+        "Мурда сентябрь айынын «20-күнү» мөөнөтү бар эсеби 20-сентябрдан кийин эле мөөнөтү өткөн деп эсептелчү. Эми мөөнөт — 20-октябрь",
+        "Басып чыгаруу барагында эки башка жыйынтык турчу. Эми бирөө гана — эсептер боюнча «Бардыгы төлөөгө»",
+        "Интерфейстеги майда оңдоолор"
       ],
       "az": [
-        "Qrafikdə nəyin göstəriləcəyini seçən düymə indi qrafikin altındadır",
-        "Ayda xidmətin adının altında indi hesablama üsulu deyil, onun təsviri görünür"
+        "Tarix seçimi pəncərəsində tarixi yalnız rəqəmlərlə yazmaq olar, məsələn 20102026, nöqtəsiz",
+        "Əvvəllər müddəti «ayın 20-si» olan sentyabr hesabı artıq 20 sentyabrdan sonra gecikmiş sayılırdı. İndi müddət 20 oktyabrdır",
+        "Çap vərəqində iki fərqli yekun var idi. İndi bir yekun var — hesablar üzrə «Cəmi ödənilməli»",
+        "İnterfeysdə kiçik düzəlişlər"
       ],
       "uz": [
-        "Grafikda nimani koʻrsatishni tanlaydigan tugma endi grafik ostida",
-        "Oyda xizmat nomi ostida endi hisoblash usuli emas, uning tavsifi koʻrinadi"
+        "Sana tanlash oynasida sanani faqat raqamlar bilan terish mumkin, masalan 20102026, nuqtalarsiz",
+        "Avval muddati «20-sana» boʻlgan sentyabr hisobi 20-sentyabrdan keyinoq muddati oʻtgan hisoblanardi. Endi muddat — 20-oktyabr",
+        "Chop etish varagʻida ikki xil yakun turardi. Endi bittasi — hisoblar boʻyicha «Jami toʻlanadi»",
+        "Interfeysdagi mayda tuzatishlar"
       ],
       "hy": [
-        "Կոճակը, որով ընտրվում է, թե ինչ ցույց տալ գրաֆիկում, այժմ գրաֆիկի տակ է",
-        "Ամսում ծառայության անվան տակ այժմ երևում է դրա նկարագրությունը, ոչ թե հաշվարկի եղանակը"
+        "Ամսաթվի ընտրության պատուհանում ամսաթիվը կարելի է հավաքել միայն թվերով, օրինակ՝ 20102026, առանց կետերի",
+        "Նախկինում «20-ին» ժամկետով սեպտեմբերի հաշիվը համարվում էր ժամկետանց արդեն սեպտեմբերի 20-ից հետո։ Այժմ ժամկետը հոկտեմբերի 20-ն է",
+        "Տպման թերթում երկու տարբեր հանրագումար կար։ Այժմ մեկն է՝ «Ընդամենը վճարման ենթակա» ըստ հաշիվների",
+        "Ինտերֆեյսի մանր ուղղումներ"
       ],
       "ka": [
-        "ღილაკი, რომლითაც ირჩევა, რა გამოჩნდეს გრაფიკზე, ახლა გრაფიკის ქვემოთაა",
-        "თვეში მომსახურების სახელის ქვემოთ ახლა ჩანს მისი აღწერა და არა გაანგარიშების მეთოდი"
+        "თარიღის არჩევის ფანჯარაში თარიღის აკრეფა შეიძლება მხოლოდ ციფრებით, მაგალითად 20102026, წერტილების გარეშე",
+        "ადრე სექტემბრის ანგარიში ვადით «20 რიცხვში» ვადაგადაცილებულად ითვლებოდა უკვე 20 სექტემბრის შემდეგ. ახლა ვადაა 20 ოქტომბერი",
+        "ბეჭდვის ფურცელზე ორი სხვადასხვა ჯამი იყო. ახლა ერთია — «სულ გადასახდელი» ანგარიშების მიხედვით",
+        "ინტერფეისის მცირე შესწორებები"
       ]
     },
     "desktop": {
       "en": [
-        "The \"Residents\" section: permanent residents and tenants, their details, passports, lease agreement and other documents"
+        "Window zoom: Ctrl and \"+\" / \"−\", Ctrl and the mouse wheel. The text size can also be enlarged separately in the settings"
       ],
       "ru": [
-        "Раздел «Жильцы»: постоянные жильцы и квартиранты, их данные, паспорта, договор и другие документы"
+        "Масштаб окна: Ctrl и «+» / «−», Ctrl и колёсико мыши. Отдельно в настройках можно увеличить размер текста"
       ],
       "uk": [
-        "Розділ «Мешканці»: постійні мешканці й квартиранти, їхні дані, паспорти, договір та інші документи"
+        "Масштаб вікна: Ctrl і «+» / «−», Ctrl і коліщатко миші. Окремо в налаштуваннях можна збільшити розмір тексту"
       ],
       "ro": [
-        "Secțiunea „Locatari”: locatarii permanenți și chiriașii, datele lor, pașapoartele, contractul și alte documente"
+        "Scara ferestrei: Ctrl și „+” / „−”, Ctrl și rotița mouse-ului. Separat, în setări se poate mări textul"
       ],
       "be": [
-        "Раздзел «Жыхары»: пастаянныя жыхары і кватаранты, іх даныя, пашпарты, дагавор і іншыя дакументы"
+        "Маштаб акна: Ctrl і «+» / «−», Ctrl і колца мышы. Асобна ў наладах можна павялічыць памер тэксту"
       ],
       "kk": [
-        "«Тұрғындар» бөлімі: тұрақты тұрғындар мен жалға алушылар, олардың деректері, төлқұжаттары, шарты және басқа құжаттары"
+        "Терезе масштабы: Ctrl және «+» / «−», Ctrl және тінтуір дөңгелегі. Баптауларда мәтін өлшемін бөлек үлкейтуге болады"
       ],
       "ky": [
-        "«Жашоочулар» бөлүмү: туруктуу жашоочулар жана ижарачылар, алардын маалыматтары, паспорттору, келишими жана башка документтери"
+        "Терезенин масштабы: Ctrl жана «+» / «−», Ctrl жана чычкандын дөңгөлөгү. Жөндөөлөрдө тексттин өлчөмүн өзүнчө чоңойтууга болот"
       ],
       "az": [
-        "«Sakinlər» bölməsi: daimi sakinlər və kirayəçilər, onların məlumatları, pasportları, müqavilə və digər sənədlər"
+        "Pəncərənin miqyası: Ctrl və «+» / «−», Ctrl və siçanın təkəri. Ayarlarda mətnin ölçüsünü ayrıca böyütmək olar"
       ],
       "uz": [
-        "«Yashovchilar» boʻlimi: doimiy yashovchilar va ijarachilar, ularning maʼlumotlari, pasportlari, shartnoma va boshqa hujjatlar"
+        "Oyna masshtabi: Ctrl va «+» / «−», Ctrl va sichqoncha gʻildiragi. Sozlamalarda matn oʻlchamini alohida kattalashtirish mumkin"
       ],
       "hy": [
-        "«Բնակիչներ» բաժին՝ մշտական բնակիչներ և վարձակալներ, նրանց տվյալները, անձնագրերը, պայմանագիրը և այլ փաստաթղթեր"
+        "Պատուհանի մասշտաբ՝ Ctrl և «+» / «−», Ctrl և մկնիկի անիվը։ Կարգավորումներում առանձին կարելի է մեծացնել տեքստի չափը"
       ],
       "ka": [
-        "განყოფილება «მაცხოვრებლები»: მუდმივი მაცხოვრებლები და დამქირავებლები, მათი მონაცემები, პასპორტები, ხელშეკრულება და სხვა დოკუმენტები"
+        "ფანჯრის მასშტაბი: Ctrl და «+» / «−», Ctrl და თაგვის ბორბალი. პარამეტრებში ცალკე შეიძლება ტექსტის ზომის გაზრდა"
       ]
     }
   },
-  "file": "kommeter-v1_14_0.apk",
-  "size": 165454721,
-  "sha256": "494b58ba9923da6a887b51993333b8a6df18416f5e8a0220fbaf6d5bf152b4fd",
+  "file": "kommeter-v1_15_0.apk",
+  "size": 165979097,
+  "sha256": "defe9aab1cf58948a083f51cfb1f5b7c8d8960c8f0f2bdc63eec8c1e6951e80d",
   "urls": [
-    "https://github.com/foleksapps/kommeter-releases/releases/download/v1.14.0%2B20/kommeter-v1_14_0.apk"
+    "https://github.com/foleksapps/kommeter-releases/releases/download/v1.15.0%2B21/kommeter-v1_15_0.apk"
   ]
 }
