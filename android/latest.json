@@ -1,105 +1,160 @@
 {
-  "version": "1.15.1",
-  "build": 22,
-  "date": "2026-10-19",
+  "version": "1.16.0",
+  "build": 23,
+  "date": "2026-11-01",
   "notes": {
     "new": {
       "en": [
-        "The \"Bill for the tenant\" takes into account the debt or credit from the previous month",
-        "Bill labels: five new colours and \"Own colour\", where any shade can be picked",
-        "The \"From a neighbour’s file\" windows now explain what happens to an address you already have"
+        "A service charged by the number of residents can now count either the people registered or the people living there",
+        "A bill's due date can be set in the previous month — for what is paid in advance: internet, phone, rent. The due date reminder comes even if the next month has not been created in the journal yet",
+        "The bill details now have a \"Payment purpose\" field",
+        "\"My information\": you can add your own notes with any text to an address, a bill, bill details and a meter. Notes can be copied and, if you wish, printed",
+        "The \"Readings with leading zeros\" switch (013485 instead of 13485) in messages, printing, export and the bill for the tenant"
       ],
       "ru": [
-        "«Счёт жильцу» учитывает долг или переплату с прошлого месяца",
-        "Ярлыки счёта: пять новых цветов и «Свой цвет», где можно выбрать любой оттенок",
-        "В окнах «Из файла соседа» появились подсказки: что станет с уже заведённым адресом"
+        "Для услуги, которая считается по числу жильцов, теперь можно выбрать, кого считать: прописанных или проживающих",
+        "Срок оплаты счёта можно поставить на предыдущий месяц — для того, что оплачивают наперёд: интернет, связь, аренда. Напоминание о сроке приходит, даже если следующий месяц в журнале ещё не создан",
+        "В реквизитах счёта появилось поле «Назначение платежа»",
+        "«Моя информация»: к адресу, счёту, реквизитам и счётчику можно добавлять свои записи с любым текстом. Записи можно скопировать, а при желании — вывести на печать",
+        "Переключатель «Показания с ведущими нулями» (013485 вместо 13485) в сообщениях, печати, выгрузке и счёте жильцу"
       ],
       "uk": [
-        "«Рахунок мешканцю» враховує борг або переплату з минулого місяця",
-        "Ярлики рахунку: п'ять нових кольорів і «Свій колір», де можна вибрати будь-який відтінок",
-        "У вікнах «З файлу сусіда» з'явилися підказки: що станеться з уже заведеною адресою"
+        "Для послуги, яка рахується за кількістю мешканців, тепер можна вибрати, кого рахувати: зареєстрованих або тих, хто проживає",
+        "Термін оплати рахунку можна поставити на попередній місяць — для того, що оплачують наперед: інтернет, зв'язок, оренда. Нагадування про термін приходить, навіть якщо наступний місяць у журналі ще не створено",
+        "У реквізитах рахунку з'явилося поле «Призначення платежу»",
+        "«Моя інформація»: до адреси, рахунку, реквізитів і лічильника можна додавати свої записи з будь-яким текстом. Записи можна скопіювати, а за бажанням — вивести на друк",
+        "Перемикач «Показники з нулями попереду» (013485 замість 13485) у повідомленнях, друці, вивантаженні та рахунку мешканцю"
       ],
       "ro": [
-        "„Factură pentru chiriaș” ține cont de datoria sau plata în plus din luna trecută",
-        "Etichetele facturii: cinci culori noi și „Culoare proprie”, unde se poate alege orice nuanță",
-        "În ferestrele „Din fișierul unui vecin” au apărut explicații: ce se întâmplă cu adresa deja creată"
+        "Pentru un serviciu calculat după numărul de locatari se poate alege acum pe cine să numere: persoanele înregistrate sau cele care locuiesc",
+        "Termenul de plată al facturii poate fi pus în luna precedentă — pentru ce se plătește în avans: internet, telefon, chirie. Memento-ul despre termen vine chiar dacă luna următoare nu a fost încă creată în jurnal",
+        "În detaliile facturii a apărut câmpul „Destinația plății”",
+        "„Informațiile mele”: la adresă, factură, detaliile facturii și contor se pot adăuga note proprii cu orice text. Notele se pot copia și, la dorință, tipări",
+        "Comutatorul „Indicii cu zerouri în față” (013485 în loc de 13485) în mesaje, tipărire, export și în „Factură pentru chiriaș”"
       ],
       "be": [
-        "«Рахунак жыхару» ўлічвае доўг або пераплату з мінулага месяца",
-        "Ярлыкі рахунку: пяць новых колераў і «Свой колер», дзе можна выбраць любое адценне",
-        "У вокнах «З файла суседа» з'явіліся падказкі: што стане з ужо заведзеным адрасам"
+        "Для паслугі, якая лічыцца па колькасці жыхароў, цяпер можна выбраць, каго лічыць: прапісаных або тых, хто пражывае",
+        "Тэрмін аплаты рахунку можна паставіць на папярэдні месяц — для таго, што аплачваюць наперад: інтэрнэт, сувязь, арэнда. Напамін пра тэрмін прыходзіць, нават калі наступны месяц у журнале яшчэ не створаны",
+        "У рэквізітах рахунку з'явілася поле «Прызначэнне плацяжу»",
+        "«Мая інфармацыя»: да адраса, рахунку, рэквізітаў і лічыльніка можна дадаваць свае запісы з любым тэкстам. Запісы можна скапіяваць, а пры жаданні — вывесці на друк",
+        "Пераключальнік «Паказанні з нулямі наперадзе» (013485 замест 13485) у паведамленнях, друку, выгрузцы і рахунку жыхару"
       ],
       "kk": [
-        "«Жалға алушыға шот» өткен айдағы қарызды немесе артық төлемді ескереді",
-        "Шот белгілері: бес жаңа түс және кез келген реңкті таңдауға болатын «Өз түсі»",
-        "«Көршінің файлынан» терезелерінде түсініктемелер пайда болды: бұрыннан бар мекенжайға не болатыны"
+        "Тұрғындар саны бойынша есептелетін қызмет үшін енді кімді санау керегін таңдауға болады: тіркелгендерді немесе тұратындарды",
+        "Шотты төлеу мерзімін алдыңғы айға қоюға болады — алдын ала төленетін нәрселер үшін: интернет, байланыс, жалдау. Мерзім туралы еске салу журналда келесі ай әлі құрылмаса да келеді",
+        "Шот деректемелерінде «Төлем мақсаты» өрісі пайда болды",
+        "«Менің ақпаратым»: мекенжайға, шотқа, деректемелерге және есептегішке кез келген мәтінмен өз жазбаларыңызды қосуға болады. Жазбаларды көшіруге және қаласаңыз, басып шығаруға болады",
+        "«Көрсеткіштер алдыңғы нөлдермен» ауыстырғышы (13485 орнына 013485) хабарламаларда, басып шығаруда, экспортта және «Жалға алушыға шот» ішінде"
       ],
       "ky": [
-        "«Ижарачыга эсеп» өткөн айдагы карызды же ашыкча төлөмдү эсепке алат",
-        "Эсептин белгилери: беш жаңы түс жана каалаган өңдү тандоого боло турган «Өз түсү»",
-        "«Кошунанын файлынан» терезелеринде түшүндүрмөлөр пайда болду: мурунтан бар дарекке эмне болору"
+        "Жашоочулардын саны боюнча эсептелген кызмат үчүн эми кимди эсептөөнү тандоого болот: катталгандарды же жашагандарды",
+        "Эсепти төлөө мөөнөтүн мурунку айга коюуга болот — алдын ала төлөнгөн нерселер үчүн: интернет, байланыш, ижара. Мөөнөт тууралуу эскертүү журналда кийинки ай али түзүлбөсө да келет",
+        "Эсептин реквизиттеринде «Төлөмдүн максаты» талаасы пайда болду",
+        "«Менин маалыматым»: дарекке, эсепке, реквизиттерге жана эсептегичке каалаган текст менен өз жазууларыңызды кошууга болот. Жазууларды көчүрүүгө жана кааласаңыз, басып чыгарууга болот",
+        "«Көрсөткүчтөр алдыңкы нөлдөр менен» которгучу (13485 ордуна 013485) билдирүүлөрдө, басып чыгарууда, экспортто жана «Ижарачыга эсеп» ичинде"
       ],
       "az": [
-        "«Kirayəçi üçün hesab» keçən aydan qalan borcu və ya artıq ödənişi nəzərə alır",
-        "Hesab etiketləri: beş yeni rəng və istənilən çaları seçmək olan «Öz rəngi»",
-        "«Qonşunun faylından» pəncərələrində izahlar əlavə olundu: artıq yaradılmış ünvanla nə olacaq"
+        "Sakinlərin sayına görə hesablanan xidmət üçün indi kimin sayılacağını seçmək olar: qeydiyyatda olanlar və ya yaşayanlar",
+        "Hesabın ödəniş müddətini əvvəlki aya qoymaq olar — əvvəlcədən ödənilənlər üçün: internet, rabitə, icarə. Müddət barədə xatırlatma jurnalda növbəti ay hələ yaradılmasa da gəlir",
+        "Hesabın rekvizitlərində «Ödənişin təyinatı» sahəsi əlavə olundu",
+        "«Mənim məlumatım»: ünvana, hesaba, rekvizitlərə və sayğaca istənilən mətnlə öz qeydlərinizi əlavə etmək olar. Qeydləri kopyalamaq və istəsəniz, çap etmək olar",
+        "«Göstəricilər öndəki sıfırlarla» açarı (13485 əvəzinə 013485) mesajlarda, çapda, ixracda və «Kirayəçi üçün hesab»da"
       ],
       "uz": [
-        "«Ijarachi uchun hisob» oʻtgan oydagi qarz yoki ortiqcha toʻlovni hisobga oladi",
-        "Hisob yorliqlari: beshta yangi rang va istalgan tusni tanlash mumkin boʻlgan «Oʻz rangi»",
-        "«Qoʻshnining faylidan» oynalarida izohlar paydo boʻldi: avval yaratilgan manzil bilan nima boʻlishi"
+        "Yashovchilar soni boʻyicha hisoblanadigan xizmat uchun endi kimni sanashni tanlash mumkin: roʻyxatda turganlarni yoki yashayotganlarni",
+        "Hisobni toʻlash muddatini oldingi oyga qoʻyish mumkin — oldindan toʻlanadigan narsalar uchun: internet, aloqa, ijara. Muddat haqidagi eslatma jurnalda keyingi oy hali yaratilmagan boʻlsa ham keladi",
+        "Hisob rekvizitlarida «Toʻlov maqsadi» maydoni paydo boʻldi",
+        "«Mening maʼlumotim»: manzil, hisob, rekvizitlar va hisoblagichga istalgan matnli oʻz yozuvlaringizni qoʻshish mumkin. Yozuvlarni nusxalash va xohlasangiz, chop etish mumkin",
+        "«Koʻrsatkichlar boshidagi nollar bilan» almashtirgichi (13485 oʻrniga 013485) xabarlarda, chop etishda, eksportda va «Ijarachi uchun hisob»da"
       ],
       "hy": [
-        "«Հաշիվ վարձակալին»-ը հաշվի է առնում անցյալ ամսվա պարտքը կամ գերավճարը",
-        "Հաշվի պիտակներ՝ հինգ նոր գույն և «Իմ գույնը», որտեղ կարելի է ընտրել ցանկացած երանգ",
-        "«Հարևանի ֆայլից» պատուհաններում հայտնվել են հուշումներ՝ ինչ կլինի արդեն ստեղծված հասցեի հետ"
+        "Բնակիչների թվով հաշվարկվող ծառայության համար այժմ կարելի է ընտրել՝ ում հաշվել՝ գրանցվածներին, թե բնակվողներին",
+        "Հաշվի վճարման ժամկետը կարելի է դնել նախորդ ամսում՝ այն ամենի համար, ինչ վճարում են նախապես՝ ինտերնետ, կապ, վարձակալություն։ Ժամկետի հիշեցումը գալիս է, նույնիսկ եթե հաջորդ ամիսը մատյանում դեռ ստեղծված չէ",
+        "Հաշվի վավերապայմաններում հայտնվել է «Վճարման նպատակը» դաշտը",
+        "«Իմ տեղեկությունները»՝ հասցեին, հաշվին, վավերապայմաններին և հաշվիչին կարելի է ավելացնել սեփական գրառումներ ցանկացած տեքստով։ Գրառումները կարելի է պատճենել և, ցանկության դեպքում, տպել",
+        "«Ցուցմունքները սկզբի զրոներով» փոխարկիչը (013485՝ 13485-ի փոխարեն) հաղորդագրություններում, տպման, արտահանման մեջ և «Հաշիվ վարձակալին»-ում"
       ],
       "ka": [
-        "«ანგარიში დამქირავებლისთვის» ითვალისწინებს წინა თვის ვალს ან ზედმეტ გადახდას",
-        "ანგარიშის იარლიყები: ხუთი ახალი ფერი და «საკუთარი ფერი», სადაც ნებისმიერი ელფერის არჩევა შეიძლება",
-        "ფანჯრებში «მეზობლის ფაილიდან» გაჩნდა მინიშნებები: რა მოუვა უკვე შექმნილ მისამართს"
+        "მცხოვრებთა რაოდენობით დათვლილი მომსახურებისთვის ახლა შეიძლება აირჩიოთ, ვინ ჩაითვალოს: რეგისტრირებული თუ მცხოვრები",
+        "ანგარიშის გადახდის ვადა შეიძლება დაყენდეს წინა თვეში — იმისთვის, რასაც წინასწარ იხდიან: ინტერნეტი, კავშირი, ქირა. შეხსენება ვადის შესახებ მოდის მაშინაც, როცა შემდეგი თვე ჟურნალში ჯერ არ არის შექმნილი",
+        "ანგარიშის რეკვიზიტებში გაჩნდა ველი «გადახდის დანიშნულება»",
+        "«ჩემი ინფორმაცია»: მისამართს, ანგარიშს, რეკვიზიტებს და მრიცხველს შეგიძლიათ დაუმატოთ საკუთარი ჩანაწერები ნებისმიერი ტექსტით. ჩანაწერების კოპირება და, სურვილისამებრ, დაბეჭდვა შეიძლება",
+        "გადამრთველი «ჩვენებები წინა ნულებით» (013485 13485-ის ნაცვლად) შეტყობინებებში, ბეჭდვაში, ექსპორტსა და «ანგარიშში დამქირავებლისთვის»"
       ]
     },
     "fix": {
       "en": [
-        "Printing: long words are no longer broken letter by letter, Georgian and Armenian text wraps correctly, Uzbek and Armenian characters no longer print as empty squares"
+        "In the list of services the description no longer replaces the calculation method. Next to it is the monthly sum, when it can be known in advance",
+        "Photos and documents of a payment show the file name. The ⋮ menu lets you rename a file, show it first, share or delete it",
+        "Saving readings entered by scanning",
+        "A reminder postponed until tomorrow no longer comes twice"
       ],
       "ru": [
-        "Печать: длинные слова больше не рвутся по одной букве, на грузинском и армянском текст переносится правильно, узбекские и армянские знаки не печатаются пустым квадратиком"
+        "В списке услуг описание больше не заменяет способ расчёта. Рядом видна сумма в месяц, если её можно узнать заранее",
+        "Под фото и документами в платеже видно имя файла. Через меню ⋮ файл можно переименовать, показать первым, отправить или удалить",
+        "Запись показаний при вводе сканированием",
+        "Напоминание, отложенное на завтра, больше не приходит дважды"
       ],
       "uk": [
-        "Друк: довгі слова більше не розриваються по одній літері, грузинською та вірменською текст переноситься правильно, узбецькі й вірменські знаки не друкуються порожнім квадратиком"
+        "У списку послуг опис більше не замінює спосіб розрахунку. Поруч видно суму на місяць, якщо її можна дізнатися заздалегідь",
+        "Під фото й документами в платежі видно ім'я файлу. Через меню ⋮ файл можна перейменувати, показати першим, надіслати або видалити",
+        "Запис показників під час введення скануванням",
+        "Нагадування, відкладене на завтра, більше не приходить двічі"
       ],
       "ro": [
-        "Tipărire: cuvintele lungi nu se mai rup literă cu literă, textul în georgiană și armeană se desparte corect, caracterele uzbece și armene nu se mai tipăresc ca pătrățele goale"
+        "În lista de servicii descrierea nu mai înlocuiește modul de calcul. Alături se vede suma pe lună, dacă poate fi aflată dinainte",
+        "Sub fotografiile și documentele plății se vede numele fișierului. Din meniul ⋮ fișierul poate fi redenumit, afișat primul, trimis sau șters",
+        "Salvarea indicilor introduși prin scanare",
+        "Un memento amânat pe mâine nu mai vine de două ori"
       ],
       "be": [
-        "Друк: доўгія словы больш не рвуцца па адной літары, на грузінскай і армянскай тэкст пераносіцца правільна, узбекскія і армянскія знакі не друкуюцца пустым квадрацікам"
+        "У спісе паслуг апісанне больш не замяняе спосаб разліку. Побач відаць суму ў месяц, калі яе можна даведацца загадзя",
+        "Пад фота і дакументамі ў плацяжы відаць імя файла. Праз меню ⋮ файл можна перайменаваць, паказаць першым, адправіць або выдаліць",
+        "Запіс паказанняў пры ўводзе сканаваннем",
+        "Напамін, адкладзены на заўтра, больш не прыходзіць двойчы"
       ],
       "kk": [
-        "Басып шығару: ұзын сөздер енді әріп-әрібімен бөлінбейді, грузин және армян тіліндегі мәтін дұрыс тасымалданады, өзбек және армян таңбалары бос шаршы болып басылмайды"
+        "Қызметтер тізімінде сипаттама енді есептеу тәсілін алмастырмайды. Қасында айлық сома көрінеді, егер оны алдын ала білуге болса",
+        "Төлемдегі фото мен құжаттардың астында файл аты көрінеді. ⋮ мәзірі арқылы файлдың атын өзгертуге, бірінші көрсетуге, жіберуге немесе жоюға болады",
+        "Сканерлеу арқылы енгізілген көрсеткіштерді жазу",
+        "Ертеңге қалдырылған еске салу енді екі рет келмейді"
       ],
       "ky": [
-        "Басып чыгаруу: узун сөздөр эми тамга-тамгага бөлүнбөйт, грузин жана армян тилиндеги текст туура которулат, өзбек жана армян белгилери бош чарчы болуп басылбайт"
+        "Кызматтардын тизмесинде сүрөттөмө эми эсептөө ыкмасын алмаштырбайт. Жанында айлык сумма көрүнөт, эгер аны алдын ала билүүгө мүмкүн болсо",
+        "Төлөмдөгү сүрөттөрдүн жана документтердин астында файлдын аты көрүнөт. ⋮ менюсу аркылуу файлдын атын өзгөртүүгө, биринчи көрсөтүүгө, жөнөтүүгө же өчүрүүгө болот",
+        "Сканерлөө менен киргизилген көрсөткүчтөрдү жазуу",
+        "Эртеңге калтырылган эскертүү эми эки жолу келбейт"
       ],
       "az": [
-        "Çap: uzun sözlər artıq hərf-hərf bölünmür, gürcü və erməni dilində mətn düzgün keçirilir, özbək və erməni işarələri boş kvadrat kimi çap olunmur"
+        "Xidmətlər siyahısında təsvir artıq hesablama üsulunu əvəz etmir. Yanında aylıq məbləğ görünür, əgər onu əvvəlcədən bilmək mümkündürsə",
+        "Ödənişdəki foto və sənədlərin altında faylın adı görünür. ⋮ menyusu ilə faylın adını dəyişmək, birinci göstərmək, göndərmək və ya silmək olar",
+        "Skanlama ilə daxil edilən göstəricilərin yazılması",
+        "Sabaha təxirə salınmış xatırlatma artıq iki dəfə gəlmir"
       ],
       "uz": [
-        "Chop etish: uzun soʻzlar endi harfma-harf boʻlinmaydi, gruzin va arman tilidagi matn toʻgʻri koʻchiriladi, oʻzbek va arman belgilari boʻsh kvadrat boʻlib chiqmaydi"
+        "Xizmatlar roʻyxatida tavsif endi hisoblash usulining oʻrnini egallamaydi. Yonida oylik summa koʻrinadi, agar uni oldindan bilish mumkin boʻlsa",
+        "Toʻlovdagi rasm va hujjatlar ostida fayl nomi koʻrinadi. ⋮ menyusi orqali faylni qayta nomlash, birinchi koʻrsatish, yuborish yoki oʻchirish mumkin",
+        "Skanerlash orqali kiritilgan koʻrsatkichlarni yozish",
+        "Ertaga qoldirilgan eslatma endi ikki marta kelmaydi"
       ],
       "hy": [
-        "Տպում՝ երկար բառերն այլևս տառ առ տառ չեն կտրվում, վրացերեն և հայերեն տեքստը ճիշտ է տեղափոխվում, ուզբեկական և հայկական նշանները դատարկ քառակուսի չեն տպվում"
+        "Ծառայությունների ցանկում նկարագրությունն այլևս չի փոխարինում հաշվարկի եղանակը։ Կողքին երևում է ամսական գումարը, եթե այն կարելի է նախապես իմանալ",
+        "Վճարման լուսանկարների և փաստաթղթերի տակ երևում է ֆայլի անունը։ ⋮ ընտրացանկով ֆայլը կարելի է վերանվանել, ցույց տալ առաջինը, ուղարկել կամ ջնջել",
+        "Սկանավորմամբ մուտքագրված ցուցմունքների գրանցումը",
+        "Վաղվան հետաձգված հիշեցումն այլևս երկու անգամ չի գալիս"
       ],
       "ka": [
-        "ბეჭდვა: გრძელი სიტყვები აღარ იყოფა ასო-ასოდ, ქართული და სომხური ტექსტი სწორად გადადის, უზბეკური და სომხური ნიშნები ცარიელ კვადრატად აღარ იბეჭდება"
+        "მომსახურებების სიაში აღწერა აღარ ცვლის გაანგარიშების ხერხს. გვერდით ჩანს თვიური თანხა, თუ მისი წინასწარ გაგება შეიძლება",
+        "გადახდის ფოტოებსა და დოკუმენტებს ქვემოთ ჩანს ფაილის სახელი. ⋮ მენიუდან ფაილის გადარქმევა, პირველად ჩვენება, გაგზავნა ან წაშლა შეიძლება",
+        "სკანირებით შეყვანილი ჩვენებების ჩაწერა",
+        "ხვალისთვის გადადებული შეხსენება აღარ მოდის ორჯერ"
       ]
     }
   },
-  "file": "kommeter-v1_15_1.apk",
-  "size": 166831065,
-  "sha256": "06a35ba76705a01398eaa7e54c55c525ec6c05b0f3a4504b31621b1d8586f302",
+  "file": "kommeter-v1_16_0.apk",
+  "size": 167404629,
+  "sha256": "e089ea31c60edcabe1619aff30f64a60d0d8b2ae1ecb0460667195ebce70f0c3",
   "urls": [
-    "https://github.com/foleksapps/kommeter-releases/releases/download/v1.15.1%2B22/kommeter-v1_15_1.apk"
+    "https://github.com/foleksapps/kommeter-releases/releases/download/v1.16.0%2B23/kommeter-v1_16_0.apk"
   ]
 }
