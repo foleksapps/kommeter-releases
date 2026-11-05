@@ -1,160 +1,83 @@
 {
-  "version": "1.16.0",
-  "build": 23,
-  "date": "2026-11-01",
+  "version": "1.16.1",
+  "build": 24,
+  "date": "2026-11-03",
   "notes": {
     "new": {
       "en": [
-        "A service charged by the number of residents can now count either the people registered or the people living there",
-        "A bill's due date can be set in the previous month — for what is paid in advance: internet, phone, rent. The due date reminder comes even if the next month has not been created in the journal yet",
-        "The bill details now have a \"Payment purpose\" field",
-        "\"My information\": you can add your own notes with any text to an address, a bill, bill details and a meter. Notes can be copied and, if you wish, printed",
-        "The \"Readings with leading zeros\" switch (013485 instead of 13485) in messages, printing, export and the bill for the tenant"
+        "\"Readings only, no amount\": a meter can now have its amount switched off. The meter then counts only the consumption, and the money is counted by a service charged by \"Total consumption\". Handy when the sum for a resource is calculated separately"
       ],
       "ru": [
-        "Для услуги, которая считается по числу жильцов, теперь можно выбрать, кого считать: прописанных или проживающих",
-        "Срок оплаты счёта можно поставить на предыдущий месяц — для того, что оплачивают наперёд: интернет, связь, аренда. Напоминание о сроке приходит, даже если следующий месяц в журнале ещё не создан",
-        "В реквизитах счёта появилось поле «Назначение платежа»",
-        "«Моя информация»: к адресу, счёту, реквизитам и счётчику можно добавлять свои записи с любым текстом. Записи можно скопировать, а при желании — вывести на печать",
-        "Переключатель «Показания с ведущими нулями» (013485 вместо 13485) в сообщениях, печати, выгрузке и счёте жильцу"
+        "«Только показания, без суммы»: теперь у счётчика можно отключить подсчёт суммы. Счётчик учитывает только расход, а деньги считает услуга со способом «Суммарный расход». Удобно, когда сумму за ресурс считают отдельно"
       ],
       "uk": [
-        "Для послуги, яка рахується за кількістю мешканців, тепер можна вибрати, кого рахувати: зареєстрованих або тих, хто проживає",
-        "Термін оплати рахунку можна поставити на попередній місяць — для того, що оплачують наперед: інтернет, зв'язок, оренда. Нагадування про термін приходить, навіть якщо наступний місяць у журналі ще не створено",
-        "У реквізитах рахунку з'явилося поле «Призначення платежу»",
-        "«Моя інформація»: до адреси, рахунку, реквізитів і лічильника можна додавати свої записи з будь-яким текстом. Записи можна скопіювати, а за бажанням — вивести на друк",
-        "Перемикач «Показники з нулями попереду» (013485 замість 13485) у повідомленнях, друці, вивантаженні та рахунку мешканцю"
+        "«Лише показники, без суми»: тепер у лічильника можна вимкнути підрахунок суми. Лічильник враховує лише витрату, а гроші рахує послуга зі способом «Сумарна витрата». Зручно, коли суму за ресурс рахують окремо"
       ],
       "ro": [
-        "Pentru un serviciu calculat după numărul de locatari se poate alege acum pe cine să numere: persoanele înregistrate sau cele care locuiesc",
-        "Termenul de plată al facturii poate fi pus în luna precedentă — pentru ce se plătește în avans: internet, telefon, chirie. Memento-ul despre termen vine chiar dacă luna următoare nu a fost încă creată în jurnal",
-        "În detaliile facturii a apărut câmpul „Destinația plății”",
-        "„Informațiile mele”: la adresă, factură, detaliile facturii și contor se pot adăuga note proprii cu orice text. Notele se pot copia și, la dorință, tipări",
-        "Comutatorul „Indicii cu zerouri în față” (013485 în loc de 13485) în mesaje, tipărire, export și în „Factură pentru chiriaș”"
+        "„Doar indicații, fără sumă”: acum se poate dezactiva calculul sumei la un contor. Contorul ține doar consumul, iar banii îi calculează un serviciu cu metoda „Consum total”. Util când suma pentru o resursă se calculează separat"
       ],
       "be": [
-        "Для паслугі, якая лічыцца па колькасці жыхароў, цяпер можна выбраць, каго лічыць: прапісаных або тых, хто пражывае",
-        "Тэрмін аплаты рахунку можна паставіць на папярэдні месяц — для таго, што аплачваюць наперад: інтэрнэт, сувязь, арэнда. Напамін пра тэрмін прыходзіць, нават калі наступны месяц у журнале яшчэ не створаны",
-        "У рэквізітах рахунку з'явілася поле «Прызначэнне плацяжу»",
-        "«Мая інфармацыя»: да адраса, рахунку, рэквізітаў і лічыльніка можна дадаваць свае запісы з любым тэкстам. Запісы можна скапіяваць, а пры жаданні — вывесці на друк",
-        "Пераключальнік «Паказанні з нулямі наперадзе» (013485 замест 13485) у паведамленнях, друку, выгрузцы і рахунку жыхару"
+        "«Толькі паказанні, без сумы»: цяпер у лічыльніка можна адключыць падлік сумы. Лічыльнік улічвае толькі расход, а грошы лічыць паслуга са спосабам «Сумарны расход». Зручна, калі суму за рэсурс лічаць асобна"
       ],
       "kk": [
-        "Тұрғындар саны бойынша есептелетін қызмет үшін енді кімді санау керегін таңдауға болады: тіркелгендерді немесе тұратындарды",
-        "Шотты төлеу мерзімін алдыңғы айға қоюға болады — алдын ала төленетін нәрселер үшін: интернет, байланыс, жалдау. Мерзім туралы еске салу журналда келесі ай әлі құрылмаса да келеді",
-        "Шот деректемелерінде «Төлем мақсаты» өрісі пайда болды",
-        "«Менің ақпаратым»: мекенжайға, шотқа, деректемелерге және есептегішке кез келген мәтінмен өз жазбаларыңызды қосуға болады. Жазбаларды көшіруге және қаласаңыз, басып шығаруға болады",
-        "«Көрсеткіштер алдыңғы нөлдермен» ауыстырғышы (13485 орнына 013485) хабарламаларда, басып шығаруда, экспортта және «Жалға алушыға шот» ішінде"
+        "«Тек көрсеткіштер, сомасыз»: енді есептегіште соманы есептеуді өшіруге болады. Есептегіш тек шығынды есепке алады, ал ақшаны «Жиынтық шығын» тәсілі бар қызмет есептейді. Ресурс сомасы бөлек есептелетін кезде ыңғайлы"
       ],
       "ky": [
-        "Жашоочулардын саны боюнча эсептелген кызмат үчүн эми кимди эсептөөнү тандоого болот: катталгандарды же жашагандарды",
-        "Эсепти төлөө мөөнөтүн мурунку айга коюуга болот — алдын ала төлөнгөн нерселер үчүн: интернет, байланыш, ижара. Мөөнөт тууралуу эскертүү журналда кийинки ай али түзүлбөсө да келет",
-        "Эсептин реквизиттеринде «Төлөмдүн максаты» талаасы пайда болду",
-        "«Менин маалыматым»: дарекке, эсепке, реквизиттерге жана эсептегичке каалаган текст менен өз жазууларыңызды кошууга болот. Жазууларды көчүрүүгө жана кааласаңыз, басып чыгарууга болот",
-        "«Көрсөткүчтөр алдыңкы нөлдөр менен» которгучу (13485 ордуна 013485) билдирүүлөрдө, басып чыгарууда, экспортто жана «Ижарачыга эсеп» ичинде"
+        "«Көрсөткүчтөр гана, суммасыз»: эми эсептегичте сумманы эсептөөнү өчүрүүгө болот. Эсептегич чыгымды гана эсепке алат, ал эми акчаны «Жалпы чыгым» ыкмасы бар кызмат эсептейт. Ресурстун суммасы өзүнчө эсептелгенде ыңгайлуу"
       ],
       "az": [
-        "Sakinlərin sayına görə hesablanan xidmət üçün indi kimin sayılacağını seçmək olar: qeydiyyatda olanlar və ya yaşayanlar",
-        "Hesabın ödəniş müddətini əvvəlki aya qoymaq olar — əvvəlcədən ödənilənlər üçün: internet, rabitə, icarə. Müddət barədə xatırlatma jurnalda növbəti ay hələ yaradılmasa da gəlir",
-        "Hesabın rekvizitlərində «Ödənişin təyinatı» sahəsi əlavə olundu",
-        "«Mənim məlumatım»: ünvana, hesaba, rekvizitlərə və sayğaca istənilən mətnlə öz qeydlərinizi əlavə etmək olar. Qeydləri kopyalamaq və istəsəniz, çap etmək olar",
-        "«Göstəricilər öndəki sıfırlarla» açarı (13485 əvəzinə 013485) mesajlarda, çapda, ixracda və «Kirayəçi üçün hesab»da"
+        "«Yalnız göstəricilər, məbləğsiz»: indi sayğacda məbləğin hesablanmasını söndürmək olar. Sayğac yalnız sərfiyyatı nəzərə alır, pulu isə «Ümumi sərfiyyat» üsulu olan xidmət hesablayır. Resursun məbləği ayrıca hesablananda rahatdır"
       ],
       "uz": [
-        "Yashovchilar soni boʻyicha hisoblanadigan xizmat uchun endi kimni sanashni tanlash mumkin: roʻyxatda turganlarni yoki yashayotganlarni",
-        "Hisobni toʻlash muddatini oldingi oyga qoʻyish mumkin — oldindan toʻlanadigan narsalar uchun: internet, aloqa, ijara. Muddat haqidagi eslatma jurnalda keyingi oy hali yaratilmagan boʻlsa ham keladi",
-        "Hisob rekvizitlarida «Toʻlov maqsadi» maydoni paydo boʻldi",
-        "«Mening maʼlumotim»: manzil, hisob, rekvizitlar va hisoblagichga istalgan matnli oʻz yozuvlaringizni qoʻshish mumkin. Yozuvlarni nusxalash va xohlasangiz, chop etish mumkin",
-        "«Koʻrsatkichlar boshidagi nollar bilan» almashtirgichi (13485 oʻrniga 013485) xabarlarda, chop etishda, eksportda va «Ijarachi uchun hisob»da"
+        "«Faqat koʻrsatkichlar, summasiz»: endi hisoblagichda summani hisoblashni oʻchirish mumkin. Hisoblagich faqat sarfni hisobga oladi, pulni esa «Umumiy sarf» usulidagi xizmat hisoblaydi. Resurs summasi alohida hisoblanganda qulay"
       ],
       "hy": [
-        "Բնակիչների թվով հաշվարկվող ծառայության համար այժմ կարելի է ընտրել՝ ում հաշվել՝ գրանցվածներին, թե բնակվողներին",
-        "Հաշվի վճարման ժամկետը կարելի է դնել նախորդ ամսում՝ այն ամենի համար, ինչ վճարում են նախապես՝ ինտերնետ, կապ, վարձակալություն։ Ժամկետի հիշեցումը գալիս է, նույնիսկ եթե հաջորդ ամիսը մատյանում դեռ ստեղծված չէ",
-        "Հաշվի վավերապայմաններում հայտնվել է «Վճարման նպատակը» դաշտը",
-        "«Իմ տեղեկությունները»՝ հասցեին, հաշվին, վավերապայմաններին և հաշվիչին կարելի է ավելացնել սեփական գրառումներ ցանկացած տեքստով։ Գրառումները կարելի է պատճենել և, ցանկության դեպքում, տպել",
-        "«Ցուցմունքները սկզբի զրոներով» փոխարկիչը (013485՝ 13485-ի փոխարեն) հաղորդագրություններում, տպման, արտահանման մեջ և «Հաշիվ վարձակալին»-ում"
+        "«Միայն ցուցմունքներ, առանց գումարի»՝ այժմ հաշվիչի մոտ կարելի է անջատել գումարի հաշվարկը։ Հաշվիչը հաշվում է միայն ծախսը, իսկ գումարը հաշվում է «Ընդհանուր ծախս» եղանակով ծառայությունը։ Հարմար է, երբ ռեսուրսի գումարը հաշվում են առանձին"
       ],
       "ka": [
-        "მცხოვრებთა რაოდენობით დათვლილი მომსახურებისთვის ახლა შეიძლება აირჩიოთ, ვინ ჩაითვალოს: რეგისტრირებული თუ მცხოვრები",
-        "ანგარიშის გადახდის ვადა შეიძლება დაყენდეს წინა თვეში — იმისთვის, რასაც წინასწარ იხდიან: ინტერნეტი, კავშირი, ქირა. შეხსენება ვადის შესახებ მოდის მაშინაც, როცა შემდეგი თვე ჟურნალში ჯერ არ არის შექმნილი",
-        "ანგარიშის რეკვიზიტებში გაჩნდა ველი «გადახდის დანიშნულება»",
-        "«ჩემი ინფორმაცია»: მისამართს, ანგარიშს, რეკვიზიტებს და მრიცხველს შეგიძლიათ დაუმატოთ საკუთარი ჩანაწერები ნებისმიერი ტექსტით. ჩანაწერების კოპირება და, სურვილისამებრ, დაბეჭდვა შეიძლება",
-        "გადამრთველი «ჩვენებები წინა ნულებით» (013485 13485-ის ნაცვლად) შეტყობინებებში, ბეჭდვაში, ექსპორტსა და «ანგარიშში დამქირავებლისთვის»"
+        "«მხოლოდ ჩვენებები, თანხის გარეშე»: ახლა მრიცხველზე შეიძლება თანხის დათვლის გამორთვა. მრიცხველი მხოლოდ მოხმარებას ითვალისწინებს, ფულს კი ითვლის მომსახურება მეთოდით «ჯამური მოხმარება». მოსახერხებელია, როცა რესურსის თანხას ცალკე ითვლიან"
       ]
     },
     "fix": {
       "en": [
-        "In the list of services the description no longer replaces the calculation method. Next to it is the monthly sum, when it can be known in advance",
-        "Photos and documents of a payment show the file name. The ⋮ menu lets you rename a file, show it first, share or delete it",
-        "Saving readings entered by scanning",
-        "A reminder postponed until tomorrow no longer comes twice"
+        "Electricity meter with several tariffs: the collapsed card in the journal now shows the reading of each zone (day, night, peak), and the month's sum has moved to the line under the name"
       ],
       "ru": [
-        "В списке услуг описание больше не заменяет способ расчёта. Рядом видна сумма в месяц, если её можно узнать заранее",
-        "Под фото и документами в платеже видно имя файла. Через меню ⋮ файл можно переименовать, показать первым, отправить или удалить",
-        "Запись показаний при вводе сканированием",
-        "Напоминание, отложенное на завтра, больше не приходит дважды"
+        "Счётчик электроэнергии с несколькими тарифами: на свёрнутой карточке в журнале теперь видно показание каждой зоны (день, ночь, пик), а сумма за месяц перенесена в строку под названием"
       ],
       "uk": [
-        "У списку послуг опис більше не замінює спосіб розрахунку. Поруч видно суму на місяць, якщо її можна дізнатися заздалегідь",
-        "Під фото й документами в платежі видно ім'я файлу. Через меню ⋮ файл можна перейменувати, показати першим, надіслати або видалити",
-        "Запис показників під час введення скануванням",
-        "Нагадування, відкладене на завтра, більше не приходить двічі"
+        "Лічильник електроенергії з кількома тарифами: на згорнутій картці в журналі тепер видно показник кожної зони (день, ніч, пік), а суму за місяць перенесено в рядок під назвою"
       ],
       "ro": [
-        "În lista de servicii descrierea nu mai înlocuiește modul de calcul. Alături se vede suma pe lună, dacă poate fi aflată dinainte",
-        "Sub fotografiile și documentele plății se vede numele fișierului. Din meniul ⋮ fișierul poate fi redenumit, afișat primul, trimis sau șters",
-        "Salvarea indicilor introduși prin scanare",
-        "Un memento amânat pe mâine nu mai vine de două ori"
+        "Contor de energie electrică cu mai multe tarife: cardul restrâns din jurnal arată acum indicația fiecărei zone (zi, noapte, vârf), iar suma pe lună a trecut pe rândul de sub nume"
       ],
       "be": [
-        "У спісе паслуг апісанне больш не замяняе спосаб разліку. Побач відаць суму ў месяц, калі яе можна даведацца загадзя",
-        "Пад фота і дакументамі ў плацяжы відаць імя файла. Праз меню ⋮ файл можна перайменаваць, паказаць першым, адправіць або выдаліць",
-        "Запіс паказанняў пры ўводзе сканаваннем",
-        "Напамін, адкладзены на заўтра, больш не прыходзіць двойчы"
+        "Лічыльнік электраэнергіі з некалькімі тарыфамі: на згорнутай картцы ў журнале цяпер відаць паказанне кожнай зоны (дзень, ноч, пік), а сума за месяц перанесена ў радок пад назвай"
       ],
       "kk": [
-        "Қызметтер тізімінде сипаттама енді есептеу тәсілін алмастырмайды. Қасында айлық сома көрінеді, егер оны алдын ала білуге болса",
-        "Төлемдегі фото мен құжаттардың астында файл аты көрінеді. ⋮ мәзірі арқылы файлдың атын өзгертуге, бірінші көрсетуге, жіберуге немесе жоюға болады",
-        "Сканерлеу арқылы енгізілген көрсеткіштерді жазу",
-        "Ертеңге қалдырылған еске салу енді екі рет келмейді"
+        "Бірнеше тарифті электр есептегіші: журналдағы жиналған карточкада енді әр аймақтың көрсеткіші көрінеді (күн, түн, шың), ал айлық сома атауының астындағы жолға ауыстырылды"
       ],
       "ky": [
-        "Кызматтардын тизмесинде сүрөттөмө эми эсептөө ыкмасын алмаштырбайт. Жанында айлык сумма көрүнөт, эгер аны алдын ала билүүгө мүмкүн болсо",
-        "Төлөмдөгү сүрөттөрдүн жана документтердин астында файлдын аты көрүнөт. ⋮ менюсу аркылуу файлдын атын өзгөртүүгө, биринчи көрсөтүүгө, жөнөтүүгө же өчүрүүгө болот",
-        "Сканерлөө менен киргизилген көрсөткүчтөрдү жазуу",
-        "Эртеңге калтырылган эскертүү эми эки жолу келбейт"
+        "Бир нече тарифтүү электр эсептегичи: журналдагы жыйналган карточкада эми ар бир зонанын көрсөткүчү көрүнөт (күн, түн, чоку), ал эми айлык сумма аталышынын астындагы сапка которулду"
       ],
       "az": [
-        "Xidmətlər siyahısında təsvir artıq hesablama üsulunu əvəz etmir. Yanında aylıq məbləğ görünür, əgər onu əvvəlcədən bilmək mümkündürsə",
-        "Ödənişdəki foto və sənədlərin altında faylın adı görünür. ⋮ menyusu ilə faylın adını dəyişmək, birinci göstərmək, göndərmək və ya silmək olar",
-        "Skanlama ilə daxil edilən göstəricilərin yazılması",
-        "Sabaha təxirə salınmış xatırlatma artıq iki dəfə gəlmir"
+        "Bir neçə tarifli elektrik sayğacı: jurnaldakı yığılmış kartda indi hər zonanın göstəricisi görünür (gündüz, gecə, pik), ayın məbləği isə adın altındakı sətirə keçib"
       ],
       "uz": [
-        "Xizmatlar roʻyxatida tavsif endi hisoblash usulining oʻrnini egallamaydi. Yonida oylik summa koʻrinadi, agar uni oldindan bilish mumkin boʻlsa",
-        "Toʻlovdagi rasm va hujjatlar ostida fayl nomi koʻrinadi. ⋮ menyusi orqali faylni qayta nomlash, birinchi koʻrsatish, yuborish yoki oʻchirish mumkin",
-        "Skanerlash orqali kiritilgan koʻrsatkichlarni yozish",
-        "Ertaga qoldirilgan eslatma endi ikki marta kelmaydi"
+        "Bir necha tarifli elektr hisoblagichi: jurnaldagi yigʻilgan kartochkada endi har bir zonaning koʻrsatkichi koʻrinadi (kun, tun, choʻqqi), oylik summa esa nomi ostidagi qatorga koʻchirildi"
       ],
       "hy": [
-        "Ծառայությունների ցանկում նկարագրությունն այլևս չի փոխարինում հաշվարկի եղանակը։ Կողքին երևում է ամսական գումարը, եթե այն կարելի է նախապես իմանալ",
-        "Վճարման լուսանկարների և փաստաթղթերի տակ երևում է ֆայլի անունը։ ⋮ ընտրացանկով ֆայլը կարելի է վերանվանել, ցույց տալ առաջինը, ուղարկել կամ ջնջել",
-        "Սկանավորմամբ մուտքագրված ցուցմունքների գրանցումը",
-        "Վաղվան հետաձգված հիշեցումն այլևս երկու անգամ չի գալիս"
+        "Մի քանի սակագնով էլեկտրահաշվիչ՝ մատյանի ծալված քարտի վրա այժմ երևում է յուրաքանչյուր գոտու ցուցմունքը (ցերեկ, գիշեր, գագաթ), իսկ ամսվա գումարը տեղափոխվել է անվան տակի տող"
       ],
       "ka": [
-        "მომსახურებების სიაში აღწერა აღარ ცვლის გაანგარიშების ხერხს. გვერდით ჩანს თვიური თანხა, თუ მისი წინასწარ გაგება შეიძლება",
-        "გადახდის ფოტოებსა და დოკუმენტებს ქვემოთ ჩანს ფაილის სახელი. ⋮ მენიუდან ფაილის გადარქმევა, პირველად ჩვენება, გაგზავნა ან წაშლა შეიძლება",
-        "სკანირებით შეყვანილი ჩვენებების ჩაწერა",
-        "ხვალისთვის გადადებული შეხსენება აღარ მოდის ორჯერ"
+        "ელექტრომრიცხველი რამდენიმე ტარიფით: ჟურნალში ჩაკეცილ ბარათზე ახლა ჩანს თითოეული ზონის ჩვენება (დღე, ღამე, პიკი), თვის თანხა კი სახელის ქვემოთ ხაზზე გადავიდა"
       ]
     }
   },
-  "file": "kommeter-v1_16_0.apk",
-  "size": 167404629,
-  "sha256": "e089ea31c60edcabe1619aff30f64a60d0d8b2ae1ecb0460667195ebce70f0c3",
+  "file": "kommeter-v1_16_1.apk",
+  "size": 169616465,
+  "sha256": "a03b56f8f68c77e2b0e1b556134786242ecbaca5bbb28c0e7e652544da2b9956",
   "urls": [
-    "https://github.com/foleksapps/kommeter-releases/releases/download/v1.16.0%2B23/kommeter-v1_16_0.apk"
+    "https://github.com/foleksapps/kommeter-releases/releases/download/v1.16.1%2B24/kommeter-v1_16_1.apk"
   ]
 }
