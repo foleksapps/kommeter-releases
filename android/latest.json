@@ -1,83 +1,71 @@
 {
-  "version": "1.16.1",
-  "build": 24,
-  "date": "2026-11-03",
+  "version": "1.16.2",
+  "build": 25,
+  "date": "2026-11-08",
   "notes": {
-    "new": {
-      "en": [
-        "\"Readings only, no amount\": a meter can now have its amount switched off. The meter then counts only the consumption, and the money is counted by a service charged by \"Total consumption\". Handy when the sum for a resource is calculated separately"
-      ],
-      "ru": [
-        "«Только показания, без суммы»: теперь у счётчика можно отключить подсчёт суммы. Счётчик учитывает только расход, а деньги считает услуга со способом «Суммарный расход». Удобно, когда сумму за ресурс считают отдельно"
-      ],
-      "uk": [
-        "«Лише показники, без суми»: тепер у лічильника можна вимкнути підрахунок суми. Лічильник враховує лише витрату, а гроші рахує послуга зі способом «Сумарна витрата». Зручно, коли суму за ресурс рахують окремо"
-      ],
-      "ro": [
-        "„Doar indicații, fără sumă”: acum se poate dezactiva calculul sumei la un contor. Contorul ține doar consumul, iar banii îi calculează un serviciu cu metoda „Consum total”. Util când suma pentru o resursă se calculează separat"
-      ],
-      "be": [
-        "«Толькі паказанні, без сумы»: цяпер у лічыльніка можна адключыць падлік сумы. Лічыльнік улічвае толькі расход, а грошы лічыць паслуга са спосабам «Сумарны расход». Зручна, калі суму за рэсурс лічаць асобна"
-      ],
-      "kk": [
-        "«Тек көрсеткіштер, сомасыз»: енді есептегіште соманы есептеуді өшіруге болады. Есептегіш тек шығынды есепке алады, ал ақшаны «Жиынтық шығын» тәсілі бар қызмет есептейді. Ресурс сомасы бөлек есептелетін кезде ыңғайлы"
-      ],
-      "ky": [
-        "«Көрсөткүчтөр гана, суммасыз»: эми эсептегичте сумманы эсептөөнү өчүрүүгө болот. Эсептегич чыгымды гана эсепке алат, ал эми акчаны «Жалпы чыгым» ыкмасы бар кызмат эсептейт. Ресурстун суммасы өзүнчө эсептелгенде ыңгайлуу"
-      ],
-      "az": [
-        "«Yalnız göstəricilər, məbləğsiz»: indi sayğacda məbləğin hesablanmasını söndürmək olar. Sayğac yalnız sərfiyyatı nəzərə alır, pulu isə «Ümumi sərfiyyat» üsulu olan xidmət hesablayır. Resursun məbləği ayrıca hesablananda rahatdır"
-      ],
-      "uz": [
-        "«Faqat koʻrsatkichlar, summasiz»: endi hisoblagichda summani hisoblashni oʻchirish mumkin. Hisoblagich faqat sarfni hisobga oladi, pulni esa «Umumiy sarf» usulidagi xizmat hisoblaydi. Resurs summasi alohida hisoblanganda qulay"
-      ],
-      "hy": [
-        "«Միայն ցուցմունքներ, առանց գումարի»՝ այժմ հաշվիչի մոտ կարելի է անջատել գումարի հաշվարկը։ Հաշվիչը հաշվում է միայն ծախսը, իսկ գումարը հաշվում է «Ընդհանուր ծախս» եղանակով ծառայությունը։ Հարմար է, երբ ռեսուրսի գումարը հաշվում են առանձին"
-      ],
-      "ka": [
-        "«მხოლოდ ჩვენებები, თანხის გარეშე»: ახლა მრიცხველზე შეიძლება თანხის დათვლის გამორთვა. მრიცხველი მხოლოდ მოხმარებას ითვალისწინებს, ფულს კი ითვლის მომსახურება მეთოდით «ჯამური მოხმარება». მოსახერხებელია, როცა რესურსის თანხას ცალკე ითვლიან"
-      ]
-    },
+    "new": {},
     "fix": {
       "en": [
-        "Electricity meter with several tariffs: the collapsed card in the journal now shows the reading of each zone (day, night, peak), and the month's sum has moved to the line under the name"
+        "After updating to 1.16.0–1.16.1 the app no longer hangs on the splash screen. If it has already hung, the new version finishes the update by itself and keeps all the data — there is no need to uninstall the app or clear its data",
+        "If the data still cannot be opened, instead of an endless splash screen there is a screen with the error text and the \"Copy error text\" and \"Try again\" buttons",
+        "A bill with nothing charged and nothing paid is no longer shown as paid. The \"Bills\" tab now says \"Not paid\" for it instead of \"Paid\""
       ],
       "ru": [
-        "Счётчик электроэнергии с несколькими тарифами: на свёрнутой карточке в журнале теперь видно показание каждой зоны (день, ночь, пик), а сумма за месяц перенесена в строку под названием"
+        "После обновления до 1.16.0–1.16.1 приложение больше не зависает на заставке. Если оно уже зависло, новая версия сама доведёт обновление до конца и сохранит все данные — удалять приложение или очищать его данные не нужно",
+        "Если данные всё же не удастся открыть, вместо бесконечной заставки появится экран с текстом ошибки и кнопками «Скопировать текст ошибки» и «Попробовать ещё раз»",
+        "Счёт, по которому ещё ничего не начислено и не оплачено, больше не показывается оплаченным. На вкладке «Счета» у него теперь написано «Не оплачен», а не «Оплачено»"
       ],
       "uk": [
-        "Лічильник електроенергії з кількома тарифами: на згорнутій картці в журналі тепер видно показник кожної зони (день, ніч, пік), а суму за місяць перенесено в рядок під назвою"
+        "Після оновлення до 1.16.0–1.16.1 застосунок більше не зависає на заставці. Якщо він уже завис, нова версія сама доведе оновлення до кінця і збереже всі дані — видаляти застосунок чи очищати його дані не потрібно",
+        "Якщо дані все ж не вдасться відкрити, замість нескінченної заставки з'явиться екран з текстом помилки та кнопками «Скопіювати текст помилки» і «Спробувати ще раз»",
+        "Рахунок, за яким ще нічого не нараховано й не оплачено, більше не показується оплаченим. На вкладці «Рахунки» в нього тепер написано «Не оплачений», а не «Оплачено»"
       ],
       "ro": [
-        "Contor de energie electrică cu mai multe tarife: cardul restrâns din jurnal arată acum indicația fiecărei zone (zi, noapte, vârf), iar suma pe lună a trecut pe rândul de sub nume"
+        "După actualizarea la 1.16.0–1.16.1 aplicația nu mai rămâne blocată pe ecranul de pornire. Dacă s-a blocat deja, noua versiune termină singură actualizarea și păstrează toate datele — nu e nevoie să dezinstalați aplicația sau să-i ștergeți datele",
+        "Dacă datele tot nu pot fi deschise, în locul ecranului de pornire nesfârșit apare un ecran cu textul erorii și butoanele „Copiați textul erorii” și „Încercați din nou”",
+        "O factură la care încă nu s-a calculat și nu s-a plătit nimic nu mai apare achitată. În fila „Facturi” scrie acum „Neachitată” în loc de „Achitat”"
       ],
       "be": [
-        "Лічыльнік электраэнергіі з некалькімі тарыфамі: на згорнутай картцы ў журнале цяпер відаць паказанне кожнай зоны (дзень, ноч, пік), а сума за месяц перанесена ў радок пад назвай"
+        "Пасля абнаўлення да 1.16.0–1.16.1 праграма больш не завісае на застаўцы. Калі яна ўжо завісла, новая версія сама давядзе абнаўленне да канца і захавае ўсе даныя — выдаляць праграму ці ачышчаць яе даныя не трэба",
+        "Калі даныя ўсё ж не ўдасца адкрыць, замест бясконцай застаўкі з'явіцца экран з тэкстам памылкі і кнопкамі «Скапіраваць тэкст памылкі» і «Паспрабаваць яшчэ раз»",
+        "Рахунак, па якім яшчэ нічога не налічана і не аплачана, больш не паказваецца аплачаным. На ўкладцы «Рахункі» ў яго цяпер напісана «Не аплачаны», а не «Аплачана»"
       ],
       "kk": [
-        "Бірнеше тарифті электр есептегіші: журналдағы жиналған карточкада енді әр аймақтың көрсеткіші көрінеді (күн, түн, шың), ал айлық сома атауының астындағы жолға ауыстырылды"
+        "1.16.0–1.16.1 нұсқасына жаңартқаннан кейін қолданба енді бастапқы экранда қатып қалмайды. Егер ол қатып қалған болса, жаңа нұсқа жаңартуды өзі аяқтап, барлық деректерді сақтайды — қолданбаны жоюдың немесе оның деректерін тазалаудың қажеті жоқ",
+        "Деректерді бәрібір ашу мүмкін болмаса, шексіз бастапқы экранның орнына қате мәтіні және «Қате мәтінін көшіру», «Қайталап көру» түймелері бар экран шығады",
+        "Әлі ештеңе есептелмеген және төленбеген шот енді төленген болып көрсетілмейді. «Шоттар» қойындысында оған енді «Төленді» емес, «Төленбеген» деп жазылады"
       ],
       "ky": [
-        "Бир нече тарифтүү электр эсептегичи: журналдагы жыйналган карточкада эми ар бир зонанын көрсөткүчү көрүнөт (күн, түн, чоку), ал эми айлык сумма аталышынын астындагы сапка которулду"
+        "1.16.0–1.16.1 версиясына жаңыртуудан кийин колдонмо эми баштапкы экранда катып калбайт. Эгер ал катып калган болсо, жаңы версия жаңыртууну өзү аягына чыгарып, бардык маалыматтарды сактайт — колдонмону өчүрүүнүн же анын маалыматтарын тазалоонун кереги жок",
+        "Маалыматтарды баары бир ачуу мүмкүн болбосо, түгөнбөс баштапкы экрандын ордуна ката тексти жана «Ката текстин көчүрүү», «Кайра аракет кылуу» баскычтары бар экран чыгат",
+        "Азырынча эч нерсе эсептелбеген жана төлөнбөгөн эсеп эми төлөнгөн болуп көрсөтүлбөйт. «Эсептер» өтмөгүндө ага эми «Төлөндү» эмес, «Төлөнгөн эмес» деп жазылат"
       ],
       "az": [
-        "Bir neçə tarifli elektrik sayğacı: jurnaldakı yığılmış kartda indi hər zonanın göstəricisi görünür (gündüz, gecə, pik), ayın məbləği isə adın altındakı sətirə keçib"
+        "1.16.0–1.16.1 versiyasına yenilədikdən sonra tətbiq artıq açılış ekranında donmur. Əgər artıq donubsa, yeni versiya yeniləməni özü sona çatdırır və bütün məlumatları saxlayır — tətbiqi silmək və ya məlumatlarını təmizləmək lazım deyil",
+        "Məlumatları yenə də açmaq mümkün olmasa, bitməyən açılış ekranı əvəzinə xəta mətni və «Xəta mətnini kopyala», «Yenidən cəhd et» düymələri olan ekran açılır",
+        "Hələ heç nə hesablanmamış və ödənilməmiş hesab artıq ödənilmiş kimi göstərilmir. «Hesablar» bölməsində onun üçün indi «Ödənilib» yox, «Ödənilməyib» yazılır"
       ],
       "uz": [
-        "Bir necha tarifli elektr hisoblagichi: jurnaldagi yigʻilgan kartochkada endi har bir zonaning koʻrsatkichi koʻrinadi (kun, tun, choʻqqi), oylik summa esa nomi ostidagi qatorga koʻchirildi"
+        "1.16.0–1.16.1 versiyasiga yangilangandan keyin ilova endi ochilish ekranida qotib qolmaydi. Agar u allaqachon qotib qolgan boʻlsa, yangi versiya yangilashni oʻzi oxiriga yetkazadi va barcha maʼlumotlarni saqlaydi — ilovani oʻchirish yoki uning maʼlumotlarini tozalash shart emas",
+        "Agar maʼlumotlarni baribir ochib boʻlmasa, cheksiz ochilish ekrani oʻrniga xato matni hamda «Xato matnini nusxalash» va «Qayta urinish» tugmalari bor ekran chiqadi",
+        "Hali hech narsa hisoblanmagan va toʻlanmagan hisob endi toʻlangan deb koʻrsatilmaydi. «Hisoblar» boʻlimida unga endi «Toʻlangan» emas, «Toʻlanmagan» deb yoziladi"
       ],
       "hy": [
-        "Մի քանի սակագնով էլեկտրահաշվիչ՝ մատյանի ծալված քարտի վրա այժմ երևում է յուրաքանչյուր գոտու ցուցմունքը (ցերեկ, գիշեր, գագաթ), իսկ ամսվա գումարը տեղափոխվել է անվան տակի տող"
+        "1.16.0–1.16.1 տարբերակին թարմացնելուց հետո հավելվածն այլևս չի կախվում մեկնարկային էկրանին։ Եթե այն արդեն կախվել է, նոր տարբերակն ինքն է ավարտում թարմացումը և պահպանում բոլոր տվյալները․ հավելվածը ջնջել կամ դրա տվյալները մաքրել պետք չէ",
+        "Եթե տվյալներն այնուամենայնիվ չհաջողվի բացել, անվերջ մեկնարկային էկրանի փոխարեն կհայտնվի էկրան՝ սխալի տեքստով և «Պատճենել սխալի տեքստը» ու «Կրկին փորձել» կոճակներով",
+        "Հաշիվը, որով դեռ ոչինչ հաշվարկված և վճարված չէ, այլևս չի ցուցադրվում որպես վճարված։ «Հաշիվներ» ներդիրում դրա մոտ այժմ գրված է «Վճարված չէ», ոչ թե «Վճարված է»"
       ],
       "ka": [
-        "ელექტრომრიცხველი რამდენიმე ტარიფით: ჟურნალში ჩაკეცილ ბარათზე ახლა ჩანს თითოეული ზონის ჩვენება (დღე, ღამე, პიკი), თვის თანხა კი სახელის ქვემოთ ხაზზე გადავიდა"
+        "1.16.0–1.16.1 ვერსიაზე განახლების შემდეგ აპლიკაცია აღარ იყინება გამშვებ ეკრანზე. თუ ის უკვე გაიყინა, ახალი ვერსია თავად დაასრულებს განახლებას და შეინახავს ყველა მონაცემს — აპლიკაციის წაშლა ან მისი მონაცემების გასუფთავება საჭირო არ არის",
+        "თუ მონაცემების გახსნა მაინც ვერ მოხერხდა, დაუსრულებელი გამშვები ეკრანის ნაცვლად გამოჩნდება ეკრანი შეცდომის ტექსტით და ღილაკებით «შეცდომის ტექსტის კოპირება» და «ხელახლა ცდა»",
+        "ანგარიში, რომელზეც ჯერ არაფერია დარიცხული და გადახდილი, აღარ ჩანს გადახდილად. ჩანართში «ანგარიშები» მასზე ახლა წერია «არ არის გადახდილი» და არა «გადახდილია»"
       ]
     }
   },
-  "file": "kommeter-v1_16_1.apk",
-  "size": 169616465,
-  "sha256": "a03b56f8f68c77e2b0e1b556134786242ecbaca5bbb28c0e7e652544da2b9956",
+  "file": "kommeter-v1_16_2.apk",
+  "size": 169092209,
+  "sha256": "0ba8ba5d27de7cafd7ae8908820a4dd8d2172831cd2eb5f0c72c63e905fd9bfa",
   "urls": [
-    "https://github.com/foleksapps/kommeter-releases/releases/download/v1.16.1%2B24/kommeter-v1_16_1.apk"
+    "https://github.com/foleksapps/kommeter-releases/releases/download/v1.16.2%2B25/kommeter-v1_16_2.apk"
   ]
 }
