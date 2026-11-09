@@ -1,0 +1,50 @@
+{
+  "version": "1.16.3",
+  "build": 26,
+  "date": "2026-11-09",
+  "notes": {
+    "new": {
+      "en": [
+        "Journal: the month's sum is now shown on the line under the name of every meter, not only of a multi-tariff one. On the right every meter shows its reading, under the name — its sum. A meter without a number shows only the sum there, a \"Readings only, no amount\" meter shows this label"
+      ],
+      "ru": [
+        "Журнал: сумма за месяц теперь стоит в строке под названием у каждого счётчика, а не только у многотарифного. Справа у всех счётчиков показание, под названием — сумма. У счётчика без номера там только сумма, у счётчика «Только показания, без суммы» — эта надпись"
+      ],
+      "uk": [
+        "Журнал: сума за місяць тепер стоїть у рядку під назвою в кожного лічильника, а не лише в багатотарифного. Праворуч у всіх лічильників показник, під назвою — сума. У лічильника без номера там лише сума, у лічильника «Лише показники, без суми» — цей напис"
+      ],
+      "ro": [
+        "Jurnal: suma pe lună apare acum pe rândul de sub nume la fiecare contor, nu doar la cel cu mai multe tarife. În dreapta toate contoarele arată indicația, sub nume — suma. La un contor fără număr acolo e doar suma, la un contor „Doar indicații, fără sumă” — această mențiune"
+      ],
+      "be": [
+        "Журнал: сума за месяц цяпер стаіць у радку пад назвай у кожнага лічыльніка, а не толькі ў шматтарыфнага. Справа ва ўсіх лічыльнікаў паказанне, пад назвай — сума. У лічыльніка без нумара там толькі сума, у лічыльніка «Толькі паказанні, без сумы» — гэты надпіс"
+      ],
+      "kk": [
+        "Журнал: айлық сома енді көп тарифті есептегіште ғана емес, әр есептегіштің атауының астындағы жолда тұрады. Оң жақта барлық есептегіштің көрсеткіші, атауының астында — сомасы. Нөмірі жоқ есептегіште онда тек сома, «Тек көрсеткіштер, сомасыз» есептегішінде — осы жазу"
+      ],
+      "ky": [
+        "Журнал: айлык сумма эми көп тарифтүү эсептегичте гана эмес, ар бир эсептегичтин аталышынын астындагы сапта турат. Оң жакта бардык эсептегичтердин көрсөткүчү, аталышынын астында — суммасы. Номери жок эсептегичте ал жерде сумма гана, «Көрсөткүчтөр гана, суммасыз» эсептегичинде — ушул жазуу"
+      ],
+      "az": [
+        "Jurnal: ayın məbləği indi yalnız çoxtarifli sayğacda deyil, hər sayğacın adının altındakı sətirdə göstərilir. Sağda bütün sayğacların göstəricisi, adın altında — məbləği. Nömrəsi olmayan sayğacda orada yalnız məbləğ, «Yalnız göstəricilər, məbləğsiz» sayğacında isə bu yazı olur"
+      ],
+      "uz": [
+        "Jurnal: oylik summa endi faqat koʻp tarifli hisoblagichda emas, har bir hisoblagich nomi ostidagi qatorda turadi. Oʻngda barcha hisoblagichlarning koʻrsatkichi, nomi ostida — summasi. Raqami yoʻq hisoblagichda u yerda faqat summa, «Faqat koʻrsatkichlar, summasiz» hisoblagichida esa shu yozuv turadi"
+      ],
+      "hy": [
+        "Մատյան՝ ամսվա գումարն այժմ երևում է ոչ միայն բազմասակագնային, այլ յուրաքանչյուր հաշվիչի անվան տակի տողում։ Աջ կողմում բոլոր հաշվիչների ցուցմունքն է, անվան տակ՝ գումարը։ Առանց համարի հաշվիչի մոտ այնտեղ միայն գումարն է, «Միայն ցուցմունքներ, առանց գումարի» հաշվիչի մոտ՝ այդ գրությունը"
+      ],
+      "ka": [
+        "ჟურნალი: თვის თანხა ახლა ჩანს არა მხოლოდ მრავალტარიფიანი, არამედ ყველა მრიცხველის სახელის ქვემოთ ხაზზე. მარჯვნივ ყველა მრიცხველს ჩვენება აქვს, სახელის ქვემოთ — თანხა. ნომრის გარეშე მრიცხველთან იქ მხოლოდ თანხაა, მრიცხველთან «მხოლოდ ჩვენებები, თანხის გარეშე» — ეს წარწერა"
+      ]
+    },
+    "fix": {}
+  },
+  "file": "KomMeter-Setup-1.16.3.exe",
+  "size": 19263229,
+  "sha256": "ace63538b37e7f5c0ec4b46bdcff91ae99cc5aa89adce7e056f3646479c099d3",
+  "urls": [
+    "https://dl.foleks.com/kommeter/windows/KomMeter-Setup-1.16.3.exe",
+    "https://github.com/foleksapps/kommeter-releases/releases/download/v1.16.3%2B26/KomMeter-Setup-1.16.3.exe"
+  ]
+}
