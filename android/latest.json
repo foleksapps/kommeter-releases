@@ -1,71 +1,49 @@
 {
-  "version": "1.16.2",
-  "build": 25,
-  "date": "2026-11-08",
+  "version": "1.16.3",
+  "build": 26,
+  "date": "2026-11-09",
   "notes": {
-    "new": {},
-    "fix": {
+    "new": {
       "en": [
-        "After updating to 1.16.0–1.16.1 the app no longer hangs on the splash screen. If it has already hung, the new version finishes the update by itself and keeps all the data — there is no need to uninstall the app or clear its data",
-        "If the data still cannot be opened, instead of an endless splash screen there is a screen with the error text and the \"Copy error text\" and \"Try again\" buttons",
-        "A bill with nothing charged and nothing paid is no longer shown as paid. The \"Bills\" tab now says \"Not paid\" for it instead of \"Paid\""
+        "Journal: the month's sum is now shown on the line under the name of every meter, not only of a multi-tariff one. On the right every meter shows its reading, under the name — its sum. A meter without a number shows only the sum there, a \"Readings only, no amount\" meter shows this label"
       ],
       "ru": [
-        "После обновления до 1.16.0–1.16.1 приложение больше не зависает на заставке. Если оно уже зависло, новая версия сама доведёт обновление до конца и сохранит все данные — удалять приложение или очищать его данные не нужно",
-        "Если данные всё же не удастся открыть, вместо бесконечной заставки появится экран с текстом ошибки и кнопками «Скопировать текст ошибки» и «Попробовать ещё раз»",
-        "Счёт, по которому ещё ничего не начислено и не оплачено, больше не показывается оплаченным. На вкладке «Счета» у него теперь написано «Не оплачен», а не «Оплачено»"
+        "Журнал: сумма за месяц теперь стоит в строке под названием у каждого счётчика, а не только у многотарифного. Справа у всех счётчиков показание, под названием — сумма. У счётчика без номера там только сумма, у счётчика «Только показания, без суммы» — эта надпись"
       ],
       "uk": [
-        "Після оновлення до 1.16.0–1.16.1 застосунок більше не зависає на заставці. Якщо він уже завис, нова версія сама доведе оновлення до кінця і збереже всі дані — видаляти застосунок чи очищати його дані не потрібно",
-        "Якщо дані все ж не вдасться відкрити, замість нескінченної заставки з'явиться екран з текстом помилки та кнопками «Скопіювати текст помилки» і «Спробувати ще раз»",
-        "Рахунок, за яким ще нічого не нараховано й не оплачено, більше не показується оплаченим. На вкладці «Рахунки» в нього тепер написано «Не оплачений», а не «Оплачено»"
+        "Журнал: сума за місяць тепер стоїть у рядку під назвою в кожного лічильника, а не лише в багатотарифного. Праворуч у всіх лічильників показник, під назвою — сума. У лічильника без номера там лише сума, у лічильника «Лише показники, без суми» — цей напис"
       ],
       "ro": [
-        "După actualizarea la 1.16.0–1.16.1 aplicația nu mai rămâne blocată pe ecranul de pornire. Dacă s-a blocat deja, noua versiune termină singură actualizarea și păstrează toate datele — nu e nevoie să dezinstalați aplicația sau să-i ștergeți datele",
-        "Dacă datele tot nu pot fi deschise, în locul ecranului de pornire nesfârșit apare un ecran cu textul erorii și butoanele „Copiați textul erorii” și „Încercați din nou”",
-        "O factură la care încă nu s-a calculat și nu s-a plătit nimic nu mai apare achitată. În fila „Facturi” scrie acum „Neachitată” în loc de „Achitat”"
+        "Jurnal: suma pe lună apare acum pe rândul de sub nume la fiecare contor, nu doar la cel cu mai multe tarife. În dreapta toate contoarele arată indicația, sub nume — suma. La un contor fără număr acolo e doar suma, la un contor „Doar indicații, fără sumă” — această mențiune"
       ],
       "be": [
-        "Пасля абнаўлення да 1.16.0–1.16.1 праграма больш не завісае на застаўцы. Калі яна ўжо завісла, новая версія сама давядзе абнаўленне да канца і захавае ўсе даныя — выдаляць праграму ці ачышчаць яе даныя не трэба",
-        "Калі даныя ўсё ж не ўдасца адкрыць, замест бясконцай застаўкі з'явіцца экран з тэкстам памылкі і кнопкамі «Скапіраваць тэкст памылкі» і «Паспрабаваць яшчэ раз»",
-        "Рахунак, па якім яшчэ нічога не налічана і не аплачана, больш не паказваецца аплачаным. На ўкладцы «Рахункі» ў яго цяпер напісана «Не аплачаны», а не «Аплачана»"
+        "Журнал: сума за месяц цяпер стаіць у радку пад назвай у кожнага лічыльніка, а не толькі ў шматтарыфнага. Справа ва ўсіх лічыльнікаў паказанне, пад назвай — сума. У лічыльніка без нумара там толькі сума, у лічыльніка «Толькі паказанні, без сумы» — гэты надпіс"
       ],
       "kk": [
-        "1.16.0–1.16.1 нұсқасына жаңартқаннан кейін қолданба енді бастапқы экранда қатып қалмайды. Егер ол қатып қалған болса, жаңа нұсқа жаңартуды өзі аяқтап, барлық деректерді сақтайды — қолданбаны жоюдың немесе оның деректерін тазалаудың қажеті жоқ",
-        "Деректерді бәрібір ашу мүмкін болмаса, шексіз бастапқы экранның орнына қате мәтіні және «Қате мәтінін көшіру», «Қайталап көру» түймелері бар экран шығады",
-        "Әлі ештеңе есептелмеген және төленбеген шот енді төленген болып көрсетілмейді. «Шоттар» қойындысында оған енді «Төленді» емес, «Төленбеген» деп жазылады"
+        "Журнал: айлық сома енді көп тарифті есептегіште ғана емес, әр есептегіштің атауының астындағы жолда тұрады. Оң жақта барлық есептегіштің көрсеткіші, атауының астында — сомасы. Нөмірі жоқ есептегіште онда тек сома, «Тек көрсеткіштер, сомасыз» есептегішінде — осы жазу"
       ],
       "ky": [
-        "1.16.0–1.16.1 версиясына жаңыртуудан кийин колдонмо эми баштапкы экранда катып калбайт. Эгер ал катып калган болсо, жаңы версия жаңыртууну өзү аягына чыгарып, бардык маалыматтарды сактайт — колдонмону өчүрүүнүн же анын маалыматтарын тазалоонун кереги жок",
-        "Маалыматтарды баары бир ачуу мүмкүн болбосо, түгөнбөс баштапкы экрандын ордуна ката тексти жана «Ката текстин көчүрүү», «Кайра аракет кылуу» баскычтары бар экран чыгат",
-        "Азырынча эч нерсе эсептелбеген жана төлөнбөгөн эсеп эми төлөнгөн болуп көрсөтүлбөйт. «Эсептер» өтмөгүндө ага эми «Төлөндү» эмес, «Төлөнгөн эмес» деп жазылат"
+        "Журнал: айлык сумма эми көп тарифтүү эсептегичте гана эмес, ар бир эсептегичтин аталышынын астындагы сапта турат. Оң жакта бардык эсептегичтердин көрсөткүчү, аталышынын астында — суммасы. Номери жок эсептегичте ал жерде сумма гана, «Көрсөткүчтөр гана, суммасыз» эсептегичинде — ушул жазуу"
       ],
       "az": [
-        "1.16.0–1.16.1 versiyasına yenilədikdən sonra tətbiq artıq açılış ekranında donmur. Əgər artıq donubsa, yeni versiya yeniləməni özü sona çatdırır və bütün məlumatları saxlayır — tətbiqi silmək və ya məlumatlarını təmizləmək lazım deyil",
-        "Məlumatları yenə də açmaq mümkün olmasa, bitməyən açılış ekranı əvəzinə xəta mətni və «Xəta mətnini kopyala», «Yenidən cəhd et» düymələri olan ekran açılır",
-        "Hələ heç nə hesablanmamış və ödənilməmiş hesab artıq ödənilmiş kimi göstərilmir. «Hesablar» bölməsində onun üçün indi «Ödənilib» yox, «Ödənilməyib» yazılır"
+        "Jurnal: ayın məbləği indi yalnız çoxtarifli sayğacda deyil, hər sayğacın adının altındakı sətirdə göstərilir. Sağda bütün sayğacların göstəricisi, adın altında — məbləği. Nömrəsi olmayan sayğacda orada yalnız məbləğ, «Yalnız göstəricilər, məbləğsiz» sayğacında isə bu yazı olur"
       ],
       "uz": [
-        "1.16.0–1.16.1 versiyasiga yangilangandan keyin ilova endi ochilish ekranida qotib qolmaydi. Agar u allaqachon qotib qolgan boʻlsa, yangi versiya yangilashni oʻzi oxiriga yetkazadi va barcha maʼlumotlarni saqlaydi — ilovani oʻchirish yoki uning maʼlumotlarini tozalash shart emas",
-        "Agar maʼlumotlarni baribir ochib boʻlmasa, cheksiz ochilish ekrani oʻrniga xato matni hamda «Xato matnini nusxalash» va «Qayta urinish» tugmalari bor ekran chiqadi",
-        "Hali hech narsa hisoblanmagan va toʻlanmagan hisob endi toʻlangan deb koʻrsatilmaydi. «Hisoblar» boʻlimida unga endi «Toʻlangan» emas, «Toʻlanmagan» deb yoziladi"
+        "Jurnal: oylik summa endi faqat koʻp tarifli hisoblagichda emas, har bir hisoblagich nomi ostidagi qatorda turadi. Oʻngda barcha hisoblagichlarning koʻrsatkichi, nomi ostida — summasi. Raqami yoʻq hisoblagichda u yerda faqat summa, «Faqat koʻrsatkichlar, summasiz» hisoblagichida esa shu yozuv turadi"
       ],
       "hy": [
-        "1.16.0–1.16.1 տարբերակին թարմացնելուց հետո հավելվածն այլևս չի կախվում մեկնարկային էկրանին։ Եթե այն արդեն կախվել է, նոր տարբերակն ինքն է ավարտում թարմացումը և պահպանում բոլոր տվյալները․ հավելվածը ջնջել կամ դրա տվյալները մաքրել պետք չէ",
-        "Եթե տվյալներն այնուամենայնիվ չհաջողվի բացել, անվերջ մեկնարկային էկրանի փոխարեն կհայտնվի էկրան՝ սխալի տեքստով և «Պատճենել սխալի տեքստը» ու «Կրկին փորձել» կոճակներով",
-        "Հաշիվը, որով դեռ ոչինչ հաշվարկված և վճարված չէ, այլևս չի ցուցադրվում որպես վճարված։ «Հաշիվներ» ներդիրում դրա մոտ այժմ գրված է «Վճարված չէ», ոչ թե «Վճարված է»"
+        "Մատյան՝ ամսվա գումարն այժմ երևում է ոչ միայն բազմասակագնային, այլ յուրաքանչյուր հաշվիչի անվան տակի տողում։ Աջ կողմում բոլոր հաշվիչների ցուցմունքն է, անվան տակ՝ գումարը։ Առանց համարի հաշվիչի մոտ այնտեղ միայն գումարն է, «Միայն ցուցմունքներ, առանց գումարի» հաշվիչի մոտ՝ այդ գրությունը"
       ],
       "ka": [
-        "1.16.0–1.16.1 ვერსიაზე განახლების შემდეგ აპლიკაცია აღარ იყინება გამშვებ ეკრანზე. თუ ის უკვე გაიყინა, ახალი ვერსია თავად დაასრულებს განახლებას და შეინახავს ყველა მონაცემს — აპლიკაციის წაშლა ან მისი მონაცემების გასუფთავება საჭირო არ არის",
-        "თუ მონაცემების გახსნა მაინც ვერ მოხერხდა, დაუსრულებელი გამშვები ეკრანის ნაცვლად გამოჩნდება ეკრანი შეცდომის ტექსტით და ღილაკებით «შეცდომის ტექსტის კოპირება» და «ხელახლა ცდა»",
-        "ანგარიში, რომელზეც ჯერ არაფერია დარიცხული და გადახდილი, აღარ ჩანს გადახდილად. ჩანართში «ანგარიშები» მასზე ახლა წერია «არ არის გადახდილი» და არა «გადახდილია»"
+        "ჟურნალი: თვის თანხა ახლა ჩანს არა მხოლოდ მრავალტარიფიანი, არამედ ყველა მრიცხველის სახელის ქვემოთ ხაზზე. მარჯვნივ ყველა მრიცხველს ჩვენება აქვს, სახელის ქვემოთ — თანხა. ნომრის გარეშე მრიცხველთან იქ მხოლოდ თანხაა, მრიცხველთან «მხოლოდ ჩვენებები, თანხის გარეშე» — ეს წარწერა"
       ]
-    }
+    },
+    "fix": {}
   },
-  "file": "kommeter-v1_16_2.apk",
-  "size": 169092209,
-  "sha256": "0ba8ba5d27de7cafd7ae8908820a4dd8d2172831cd2eb5f0c72c63e905fd9bfa",
+  "file": "kommeter-v1_16_3.apk",
+  "size": 169239665,
+  "sha256": "4fc996f46f2c980bca652f31fe8a35b8ddefc144738346f1666e3aca83be0d6f",
   "urls": [
-    "https://github.com/foleksapps/kommeter-releases/releases/download/v1.16.2%2B25/kommeter-v1_16_2.apk"
+    "https://github.com/foleksapps/kommeter-releases/releases/download/v1.16.3%2B26/kommeter-v1_16_3.apk"
   ]
 }
