@@ -1,50 +1,161 @@
 {
-  "version": "1.16.3",
-  "build": 26,
-  "date": "2026-11-09",
+  "version": "1.17.0",
+  "build": 27,
+  "date": "2026-11-16",
   "notes": {
     "new": {
       "en": [
-        "Journal: the month's sum is now shown on the line under the name of every meter, not only of a multi-tariff one. On the right every meter shows its reading, under the name — its sum. A meter without a number shows only the sum there, a \"Readings only, no amount\" meter shows this label"
+        "Journal: under the name of a meter its description is now shown, for example the personal account number. If the serial number is set, it follows",
+        "Journal and the list of services: every service now has a line with the provider, the calculation method and the tariff. The description you wrote yourself is on the line below",
+        "\"Analytics → Summary by address\": in \"From month\" you can now choose \"Last month of the journal\". The summary then shows a single, the newest month and moves to the next one by itself when it appears",
+        "Tariff chart: the \"Combined history\" switch has appeared, as in the consumption chart — the old and the new meter are shown as one line after a replacement",
+        "\"Combined history\" in the consumption and tariff charts is now on from the start",
+        "\"Specify the replaced meter…\" now also offers meters from the archive — so the whole old history gets into the charts",
+        "\"About\": a story about the version for computers with Windows and Linux"
       ],
       "ru": [
-        "Журнал: сумма за месяц теперь стоит в строке под названием у каждого счётчика, а не только у многотарифного. Справа у всех счётчиков показание, под названием — сумма. У счётчика без номера там только сумма, у счётчика «Только показания, без суммы» — эта надпись"
+        "Журнал: под названием счётчика теперь показано его описание, например номер лицевого счёта. Если указан заводской номер, он идёт следом",
+        "Журнал и список услуг: у каждой услуги появилась строка с поставщиком, способом расчёта и тарифом. Описание, которое вы написали сами, стоит строкой ниже",
+        "«Аналитика → Сводка по адресам»: в «С месяца» можно выбрать «Последний месяц журнала». Тогда сводка показывает один, самый новый месяц и сама переходит на следующий, когда он появится",
+        "График тарифов: появился переключатель «Объединённая история», как в графике расхода, — старый и новый счётчик после замены видны одной линией",
+        "«Объединённая история» в графиках расхода и тарифов теперь включена сразу",
+        "«Указать заменённый счётчик…» теперь предлагает и счётчики из архива — так в графики попадает вся старая история",
+        "«О приложении»: рассказ о версии для компьютера с Windows и Linux"
       ],
       "uk": [
-        "Журнал: сума за місяць тепер стоїть у рядку під назвою в кожного лічильника, а не лише в багатотарифного. Праворуч у всіх лічильників показник, під назвою — сума. У лічильника без номера там лише сума, у лічильника «Лише показники, без суми» — цей напис"
+        "Журнал: під назвою лічильника тепер показано його опис, наприклад номер особового рахунку. Якщо вказано заводський номер, він іде слідом",
+        "Журнал і список послуг: у кожної послуги з'явився рядок із постачальником, способом розрахунку й тарифом. Опис, який ви написали самі, стоїть рядком нижче",
+        "«Аналітика → Зведення за адресами»: у «З місяця» можна вибрати «Останній місяць журналу». Тоді зведення показує один, найновіший місяць і сам переходить на наступний, коли він з'явиться",
+        "Графік тарифів: з'явився перемикач «Об'єднана історія», як у графіку витрати, — старий і новий лічильник після заміни видно однією лінією",
+        "«Об'єднана історія» у графіках витрати й тарифів тепер увімкнена одразу",
+        "«Вказати замінений лічильник…» тепер пропонує й лічильники з архіву — так у графіки потрапляє вся стара історія",
+        "«Про застосунок»: розповідь про версію для комп'ютера з Windows і Linux"
       ],
       "ro": [
-        "Jurnal: suma pe lună apare acum pe rândul de sub nume la fiecare contor, nu doar la cel cu mai multe tarife. În dreapta toate contoarele arată indicația, sub nume — suma. La un contor fără număr acolo e doar suma, la un contor „Doar indicații, fără sumă” — această mențiune"
+        "Jurnal: sub numele contorului apare acum descrierea lui, de exemplu numărul contului personal. Dacă e indicat numărul de serie, acesta urmează după ea",
+        "Jurnalul și lista serviciilor: fiecare serviciu are acum un rând cu furnizorul, modul de calcul și tariful. Descrierea scrisă de dumneavoastră e pe rândul de dedesubt",
+        "„Analiză → Rezumat pe adrese”: la „Din luna” se poate alege acum „Ultima lună din jurnal”. Rezumatul arată atunci o singură lună, cea mai nouă, și trece singur la următoarea când aceasta apare",
+        "Graficul tarifelor: a apărut comutatorul „Istoric combinat”, ca la graficul consumului — contorul vechi și cel nou după înlocuire se văd ca o singură linie",
+        "„Istoric combinat” în graficele consumului și tarifelor e acum pornit de la început",
+        "„Indicați contorul înlocuit…” propune acum și contoare din arhivă — astfel tot istoricul vechi ajunge în grafice",
+        "„Despre aplicație”: o prezentare a versiunii pentru calculator cu Windows și Linux"
       ],
       "be": [
-        "Журнал: сума за месяц цяпер стаіць у радку пад назвай у кожнага лічыльніка, а не толькі ў шматтарыфнага. Справа ва ўсіх лічыльнікаў паказанне, пад назвай — сума. У лічыльніка без нумара там толькі сума, у лічыльніка «Толькі паказанні, без сумы» — гэты надпіс"
+        "Журнал: пад назвай лічыльніка цяпер паказана яго апісанне, напрыклад нумар асабовага рахунку. Калі пазначаны завадскі нумар, ён ідзе следам",
+        "Журнал і спіс паслуг: у кожнай паслугі з'явіўся радок з пастаўшчыком, спосабам разліку і тарыфам. Апісанне, якое вы напісалі самі, стаіць радком ніжэй",
+        "«Аналітыка → Зводка па адрасах»: у «З месяца» можна выбраць «Апошні месяц журнала». Тады зводка паказвае адзін, самы новы месяц і сама пераходзіць на наступны, калі ён з'явіцца",
+        "Графік тарыфаў: з'явіўся пераключальнік «Аб'яднаная гісторыя», як у графіку расходу, — стары і новы лічыльнік пасля замены відаць адной лініяй",
+        "«Аб'яднаная гісторыя» ў графіках расходу і тарыфаў цяпер уключана адразу",
+        "«Пазначыць заменены лічыльнік…» цяпер прапануе і лічыльнікі з архіва — так у графікі трапляе ўся старая гісторыя",
+        "«Пра праграму»: аповед пра версію для камп'ютара з Windows і Linux"
       ],
       "kk": [
-        "Журнал: айлық сома енді көп тарифті есептегіште ғана емес, әр есептегіштің атауының астындағы жолда тұрады. Оң жақта барлық есептегіштің көрсеткіші, атауының астында — сомасы. Нөмірі жоқ есептегіште онда тек сома, «Тек көрсеткіштер, сомасыз» есептегішінде — осы жазу"
+        "Журнал: есептегіштің атауының астында енді оның сипаттамасы көрсетіледі, мысалы, дербес шот нөмірі. Зауыттық нөмірі көрсетілсе, ол артынан келеді",
+        "Журнал және қызметтер тізімі: әр қызметте жеткізуші, есептеу тәсілі және тариф жазылған жол пайда болды. Өзіңіз жазған сипаттама бір жол төменде тұрады",
+        "«Талдау → Мекенжайлар бойынша жиынтық»: «Бастапқы ай» ішінде енді «Журналдың соңғы айы» таңдауға болады. Сонда жиынтық бір ғана, ең жаңа айды көрсетеді және жаңа ай пайда болғанда соған өзі ауысады",
+        "Тарифтер графигі: шығын графигіндегідей «Біріктірілген тарих» қосқышы пайда болды — ауыстырудан кейін ескі және жаңа есептегіш бір сызықпен көрінеді",
+        "Шығын және тарифтер графиктерінде «Біріктірілген тарих» енді бірден қосулы",
+        "«Ауыстырылған есептегішті көрсету…» енді мұрағаттағы есептегіштерді де ұсынады — осылайша бүкіл ескі тарих графиктерге түседі",
+        "«Қолданба туралы»: Windows және Linux жүйелі компьютерге арналған нұсқа туралы"
       ],
       "ky": [
-        "Журнал: айлык сумма эми көп тарифтүү эсептегичте гана эмес, ар бир эсептегичтин аталышынын астындагы сапта турат. Оң жакта бардык эсептегичтердин көрсөткүчү, аталышынын астында — суммасы. Номери жок эсептегичте ал жерде сумма гана, «Көрсөткүчтөр гана, суммасыз» эсептегичинде — ушул жазуу"
+        "Журнал: эсептегичтин аталышынын астында эми анын сыпаттамасы көрсөтүлөт, мисалы, жеке эсептин номери. Заводдук номери көрсөтүлсө, ал андан кийин турат",
+        "Журнал жана кызматтардын тизмеси: ар бир кызматта жеткирүүчү, эсептөө ыкмасы жана тариф жазылган сап пайда болду. Өзүңүз жазган сыпаттама бир сап төмөн турат",
+        "«Талдоо → Даректер боюнча жыйынтык»: «Айдан» ичинен эми «Журналдын акыркы айы» тандоого болот. Анда жыйынтык бир гана, эң жаңы айды көрсөтөт жана жаңы ай пайда болгондо ага өзү өтөт",
+        "Тарифтер графиги: керектөө графигиндегидей «Бириктирилген тарых» которгучу пайда болду — алмаштыруудан кийин эски жана жаңы эсептегич бир сызык менен көрүнөт",
+        "Керектөө жана тарифтер графиктеринде «Бириктирилген тарых» эми дароо күйгүзүлгөн",
+        "«Алмаштырылган эсептегичти көрсөтүү…» эми архивдеги эсептегичтерди да сунуштайт — ошентип бүт эски тарых графиктерге түшөт",
+        "«Колдонмо жөнүндө»: Windows жана Linux системалуу компьютер үчүн версия тууралуу"
       ],
       "az": [
-        "Jurnal: ayın məbləği indi yalnız çoxtarifli sayğacda deyil, hər sayğacın adının altındakı sətirdə göstərilir. Sağda bütün sayğacların göstəricisi, adın altında — məbləği. Nömrəsi olmayan sayğacda orada yalnız məbləğ, «Yalnız göstəricilər, məbləğsiz» sayğacında isə bu yazı olur"
+        "Jurnal: sayğacın adının altında indi onun təsviri göstərilir, məsələn, şəxsi hesab nömrəsi. Zavod nömrəsi göstərilibsə, o, ardınca gəlir",
+        "Jurnal və xidmətlər siyahısı: hər xidmətdə təchizatçı, hesablama üsulu və tarif yazılmış sətir əlavə olundu. Özünüzün yazdığınız təsvir bir sətir aşağıda durur",
+        "«Analitika → Ünvanlar üzrə xülasə»: «Aydan» bölməsində indi «Jurnalın son ayı» seçmək olar. Onda xülasə yalnız bir, ən yeni ayı göstərir və yeni ay yarananda özü ona keçir",
+        "Tariflər qrafiki: sərfiyyat qrafikində olduğu kimi «Birləşdirilmiş tarixçə» açarı əlavə olundu — dəyişdirmədən sonra köhnə və yeni sayğac bir xətt kimi görünür",
+        "Sərfiyyat və tariflər qrafiklərində «Birləşdirilmiş tarixçə» indi əvvəldən açıqdır",
+        "«Dəyişdirilmiş sayğacı göstər…» indi arxivdəki sayğacları da təklif edir — beləliklə bütün köhnə tarixçə qrafiklərə düşür",
+        "«Tətbiq haqqında»: Windows və Linux əməliyyat sistemli kompüter üçün versiya haqqında məlumat"
       ],
       "uz": [
-        "Jurnal: oylik summa endi faqat koʻp tarifli hisoblagichda emas, har bir hisoblagich nomi ostidagi qatorda turadi. Oʻngda barcha hisoblagichlarning koʻrsatkichi, nomi ostida — summasi. Raqami yoʻq hisoblagichda u yerda faqat summa, «Faqat koʻrsatkichlar, summasiz» hisoblagichida esa shu yozuv turadi"
+        "Jurnal: hisoblagich nomi ostida endi uning tavsifi koʻrsatiladi, masalan, shaxsiy hisob raqami. Zavod raqami koʻrsatilgan boʻlsa, u ketidan keladi",
+        "Jurnal va xizmatlar roʻyxati: har bir xizmatda yetkazib beruvchi, hisoblash usuli va tarif yozilgan qator paydo boʻldi. Oʻzingiz yozgan tavsif bir qator pastda turadi",
+        "«Tahlil → Manzillar boʻyicha xulosa»: «Oydan» boʻlimida endi «Jurnalning oxirgi oyi»ni tanlash mumkin. Shunda xulosa bitta, eng yangi oyni koʻrsatadi va yangi oy paydo boʻlganda unga oʻzi oʻtadi",
+        "Tariflar grafigi: sarf grafigidagidek «Birlashtirilgan tarix» almashtirgichi paydo boʻldi — almashtirishdan keyin eski va yangi hisoblagich bitta chiziq boʻlib koʻrinadi",
+        "Sarf va tariflar grafiklarida «Birlashtirilgan tarix» endi boshidanoq yoqilgan",
+        "«Almashtirilgan hisoblagichni koʻrsatish…» endi arxivdagi hisoblagichlarni ham taklif qiladi — shu tariqa butun eski tarix grafiklarga tushadi",
+        "«Ilova haqida»: Windows va Linux tizimli kompyuter uchun versiya haqida"
       ],
       "hy": [
-        "Մատյան՝ ամսվա գումարն այժմ երևում է ոչ միայն բազմասակագնային, այլ յուրաքանչյուր հաշվիչի անվան տակի տողում։ Աջ կողմում բոլոր հաշվիչների ցուցմունքն է, անվան տակ՝ գումարը։ Առանց համարի հաշվիչի մոտ այնտեղ միայն գումարն է, «Միայն ցուցմունքներ, առանց գումարի» հաշվիչի մոտ՝ այդ գրությունը"
+        "Մատյան՝ հաշվիչի անվան տակ այժմ երևում է նրա նկարագրությունը, օրինակ՝ անձնական հաշվի համարը։ Եթե գործարանային համարը նշված է, այն հաջորդում է դրան",
+        "Մատյան և ծառայությունների ցանկ՝ յուրաքանչյուր ծառայության մոտ հայտնվել է տող մատակարարով, հաշվարկի եղանակով և սակագնով։ Ձեր գրած նկարագրությունը մեկ տող ներքևում է",
+        "«Վերլուծություն → Ամփոփում ըստ հասցեների»՝ «Սկզբի ամիս»-ում այժմ կարելի է ընտրել «Մատյանի վերջին ամիսը»։ Այդ դեպքում ամփոփումը ցույց է տալիս մեկ՝ ամենանոր ամիսը և ինքն անցնում է հաջորդին, երբ այն հայտնվի",
+        "Սակագների գրաֆիկ՝ հայտնվել է «Միավորված պատմություն» փոխանջատիչը, ինչպես սպառման գրաֆիկում, — փոխարինումից հետո հին և նոր հաշվիչները երևում են մեկ գծով",
+        "«Միավորված պատմությունը» սպառման և սակագների գրաֆիկներում այժմ միացված է սկզբից",
+        "«Նշել փոխարինված հաշվիչը…»-ն այժմ առաջարկում է նաև արխիվի հաշվիչները — այդպես ամբողջ հին պատմությունը հայտնվում է գրաֆիկներում",
+        "«Հավելվածի մասին»՝ պատմություն Windows և Linux համակարգով համակարգչի տարբերակի մասին"
       ],
       "ka": [
-        "ჟურნალი: თვის თანხა ახლა ჩანს არა მხოლოდ მრავალტარიფიანი, არამედ ყველა მრიცხველის სახელის ქვემოთ ხაზზე. მარჯვნივ ყველა მრიცხველს ჩვენება აქვს, სახელის ქვემოთ — თანხა. ნომრის გარეშე მრიცხველთან იქ მხოლოდ თანხაა, მრიცხველთან «მხოლოდ ჩვენებები, თანხის გარეშე» — ეს წარწერა"
+        "ჟურნალი: მრიცხველის სახელის ქვემოთ ახლა ჩანს მისი აღწერა, მაგალითად, პირადი ანგარიშის ნომერი. თუ ქარხნული ნომერია მითითებული, ის მას მოსდევს",
+        "ჟურნალი და მომსახურებების სია: ყველა მომსახურებას გაუჩნდა ხაზი მომწოდებლით, გაანგარიშების წესითა და ტარიფით. თქვენ მიერ დაწერილი აღწერა ერთი ხაზით ქვემოთაა",
+        "„ანალიტიკა → შეჯამება მისამართების მიხედვით“: „თვიდან“-ში ახლა შეიძლება აირჩიოთ „ჟურნალის ბოლო თვე“. მაშინ შეჯამება აჩვენებს ერთ, უახლეს თვეს და ახალი თვის გაჩენისას თავად გადადის მასზე",
+        "ტარიფების გრაფიკი: გაჩნდა გადამრთველი „გაერთიანებული ისტორია“, როგორც მოხმარების გრაფიკში, — შეცვლის შემდეგ ძველი და ახალი მრიცხველი ერთ ხაზად ჩანს",
+        "„გაერთიანებული ისტორია“ მოხმარებისა და ტარიფების გრაფიკებში ახლა თავიდანვე ჩართულია",
+        "„შეცვლილი მრიცხველის მითითება…“ ახლა არქივის მრიცხველებსაც გთავაზობთ — ასე მთელი ძველი ისტორია გრაფიკებში ხვდება",
+        "„აპლიკაციის შესახებ“: მოთხრობა Windows-ისა და Linux-ის მქონე კომპიუტერის ვერსიაზე"
       ]
     },
-    "fix": {}
+    "fix": {
+      "en": [
+        "On a computer: after marking a bill \"Paid\" on the \"Bills\" tab the journal no longer jumps to the beginning or switches to another tab",
+        "On a computer: an open meter card no longer collapses after a reading is saved"
+      ],
+      "ru": [
+        "На компьютере: после отметки «Оплачено» на вкладке «Счета» журнал больше не перескакивает в начало и не уходит на другую вкладку",
+        "На компьютере: открытая карточка счётчика больше не сворачивается после сохранения показания"
+      ],
+      "uk": [
+        "На комп'ютері: після позначки «Сплачено» на вкладці «Рахунки» журнал більше не перескакує на початок і не переходить на іншу вкладку",
+        "На комп'ютері: відкрита картка лічильника більше не згортається після збереження показника"
+      ],
+      "ro": [
+        "Pe calculator: după marcarea unei facturi „Plătit” în fila „Facturi”, jurnalul nu mai sare la început și nu mai trece pe altă filă",
+        "Pe calculator: fișa deschisă a unui contor nu se mai închide după salvarea indicației"
+      ],
+      "be": [
+        "На камп'ютары: пасля адзнакі «Аплачана» на ўкладцы «Рахункі» журнал больш не пераскоквае ў пачатак і не пераходзіць на іншую ўкладку",
+        "На камп'ютары: адкрытая картка лічыльніка больш не згортваецца пасля захавання паказання"
+      ],
+      "kk": [
+        "Компьютерде: «Шоттар» қойындысында «Төленді» деп белгілегеннен кейін журнал енді басына секірмейді және басқа қойындыға ауыспайды",
+        "Компьютерде: есептегіштің ашық карточкасы көрсеткішті сақтағаннан кейін енді жабылмайды"
+      ],
+      "ky": [
+        "Компьютерде: «Эсептер» өтмөгүндө «Төлөндү» деп белгилегенден кийин журнал эми башына секирбейт жана башка өтмөккө өтпөйт",
+        "Компьютерде: эсептегичтин ачык карточкасы көрсөткүчтү сактагандан кийин эми жабылбайт"
+      ],
+      "az": [
+        "Kompüterdə: «Hesablar» bölməsində «Ödənilib» qeyd edildikdən sonra jurnal artıq əvvələ sıçramır və başqa bölməyə keçmir",
+        "Kompüterdə: sayğacın açıq kartı göstərici saxlanıldıqdan sonra artıq bağlanmır"
+      ],
+      "uz": [
+        "Kompyuterda: «Hisoblar» varagʻida «Toʻlandi» deb belgilangandan keyin jurnal endi boshiga sakramaydi va boshqa varaqqa oʻtmaydi",
+        "Kompyuterda: hisoblagichning ochiq kartochkasi koʻrsatkich saqlangandan keyin endi yopilmaydi"
+      ],
+      "hy": [
+        "Համակարգչում՝ «Հաշիվներ» ներդիրում «Վճարված» նշելուց հետո մատյանն այլևս չի ցատկում սկիզբ և չի անցնում այլ ներդիր",
+        "Համակարգչում՝ հաշվիչի բաց քարտն այլևս չի փակվում ցուցմունքը պահպանելուց հետո"
+      ],
+      "ka": [
+        "კომპიუტერზე: ჩანართზე „ანგარიშები“ „გადახდილის“ მონიშვნის შემდეგ ჟურნალი აღარ ხტება დასაწყისში და აღარ გადადის სხვა ჩანართზე",
+        "კომპიუტერზე: მრიცხველის გახსნილი ბარათი ჩვენების შენახვის შემდეგ აღარ იხურება"
+      ]
+    }
   },
-  "file": "KomMeter-Setup-1.16.3.exe",
-  "size": 19263229,
-  "sha256": "ace63538b37e7f5c0ec4b46bdcff91ae99cc5aa89adce7e056f3646479c099d3",
+  "file": "KomMeter-Setup-1.17.0.exe",
+  "size": 19269824,
+  "sha256": "e15ee1a9ac0566ab7e6a4656ac27c1095dac2f35714f8263a2954cf6ae34033c",
   "urls": [
-    "https://dl.foleks.com/kommeter/windows/KomMeter-Setup-1.16.3.exe",
-    "https://github.com/foleksapps/kommeter-releases/releases/download/v1.16.3%2B26/KomMeter-Setup-1.16.3.exe"
+    "https://dl.foleks.com/kommeter/windows/KomMeter-Setup-1.17.0.exe",
+    "https://github.com/foleksapps/kommeter-releases/releases/download/v1.17.0%2B27/KomMeter-Setup-1.17.0.exe"
   ]
 }
